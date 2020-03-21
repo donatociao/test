@@ -1,0 +1,102 @@
+/*--------------------------------------------------------------
+# Nav
+--------------------------------------------------------------*/
+/* Navbar */
+#contact {
+  border-radius: 40px;
+  margin-left: 30px;
+}
+
+.nav-item {
+  padding: 10px 10px;
+}
+
+.navbar-toggler-icon {
+  color: #413E66 !important;
+  border-radius: 30%;
+}
+
+.nav-link {
+  color: #413E66;
+  transition: 0.3s;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-item:active>.nav-link,
+.nav-item:hover>.nav-link {
+  color: #fbd800;
+  text-decoration: none;
+}
+
+/* animazione contattaci */
+#contact {
+  border-radius: 40px;
+  margin-left: 30px;
+  --c: #FCE66D;
+  color: var(--c);
+  font-size: 18px;
+  width: 12em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+#contact span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 100%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.4s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+#contact:hover a {
+  color: #413E66;
+}
+
+#contact:hover span {
+  transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+  --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+  --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+  --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+  --n: 4;
+}
+
+.nav-item .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #413E66;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}

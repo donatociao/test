@@ -1,0 +1,48 @@
+.form-contact {
+  font-size: 22px;
+  color: #413E66;
+}
+
+.form-control {
+  background-color: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom:  1px solid #FCE66D;
+}
+
+#form {
+  background-color: white;
+  margin-top: 100px;
+}
+
+.bg-prelibato {
+  background-color: #FCE66D;
+}
+
+#cont-sx h1,
+#cont-dx h1  {
+    font-size: 32px;
+    color: #413E66;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+#cont-sx h2,
+#cont-dx h2 {
+    font-size: 22px;
+    color: #413E66;
+    font-family: Montserrat;
+}
+
+#chisiamo {
+  background-image: linear-gradient(120deg, #FCE66D 0%, #FBD800 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 48%;
+  transition: background-size 0.25s ease-in;
+}
+
+#chisiamo:hover {
+    background-size: 100% 88%;
+}

@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# waves
+--------------------------------------------------------------*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+#wave1 {
+  -webkit-box-shadow: 75px -61px 68px -68px rgba(107, 107, 107, 1);
+  -moz-box-shadow: 75px -61px 68px -68px rgba(107, 107, 107, 1);
+  box-shadow: 75px -61px 68px -68px rgba(107, 107, 107, 1);
+}
+
+#wave2 {
+  -webkit-box-shadow: 75px -61px 68px -68px rgba(107, 107, 107, 1);
+  -moz-box-shadow: 75px -61px 68px -68px rgba(107, 107, 107, 1);
+  box-shadow: 75px -61px 68px -68px rgba(107, 107, 107, 1);
+}
+
+.wave+.wave {
+  z-index: 2;
+}

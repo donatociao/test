@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#logofooter {
+  width: 70%;
+}
+
+#footer {
+  padding: 0 0 30px 0;
+  font-size: 14px;
+  background-color: #FCE66D;
+}
+
+#footer .footer-top {
+  padding: 0px 0 30px 0;
+  // background-color: #f5f8fd;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 34px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  color: #413e66;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #535074;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #413E66;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#form .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #413E66;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #fbd800;
+  color: #fff;
+}
+
+.contattaci {
+  color: #413e66;
+  font-size: 48px;
+  line-height: 1.1em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to bottom, white 0%, white 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 15px 15px;
+  width: 80%;
+}
+
+.footer-links:hover .contattaci {
+@include svg((viewBox: 0 0 20 4)){
+  @include svg('path',(fill: none, stroke: #fbd800, stroke-width: 1, class: squiggle, d: 'M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3',));
+  @include svg('style',(type: text/css, content: '.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}'));}
+  background-position: 0 50%;
+  background-size: auto 20px;
+  background-repeat: repeat-x;
+}
+
+
+#footer .footer-top .footer-links p {
+  font-family: "Montserrat", sans-serif;
+  color: #413e66;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: #535074;
+  font-size: 15px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 4px;
+  color: #8582a8;
+}
+
+#footer .credits a {
+  color: #1bb1dc;
+}
+
+#footer .credits a:hover {
+  color: #0a98c0;
+}

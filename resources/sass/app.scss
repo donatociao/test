@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Arvo';
+  font-display: auto;
+  src: local('Arvo'), url('https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2') format('woff2');
+}
+
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// sassdash
+@import '~sassdash/index';
+
+// sass-svg
+@import '~sass-svg/index';
+
+@import 'general';
+@import 'header';
+@import 'nav';
+@import 'intro';
+@import 'waves';
+@import 'sections';
+@import 'footer';
+@import 'form';
+@import 'portfolio';
+@import 'mediaquery';
