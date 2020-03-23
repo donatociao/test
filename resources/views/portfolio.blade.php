@@ -9,7 +9,7 @@
           <img id="logonav" src="{{ asset('img/logo-prelibato.png') }}" width="150" alt="logo navbar" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon d-flex justify-content-center"><i class="align-self-center fas fa-ellipsis-h"></i></span>
+          <span class="navbar-toggler-icon d-flex justify-content-center"><i class="align-self-center fa fa-ellipsis-h"></i></span>
         </button>
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -28,7 +28,7 @@
               <a class="nav-link" href="http://prelibato.eu/blog">blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">contattaci</a>
+              <a class="nav-link" href="{{route('contattaci')}}">contattaci</a>
             </li>
             <li class="nav-item">
               <div class="social-links">
@@ -43,11 +43,11 @@
 
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
-            <li id="" class="nav-item">
+            <li id="item1" class="nav-item">
               <a class="nav-link" href="http://prelibato.eu/#cosa-facciamo">cosa facciamo</a>
             </li>
-            <li id="" class="nav-item">
-              <a class="nav-link" href="http://prelibato.eu/#lavoriamo">come lavoriamo</a>
+            <li id="item2" class="nav-item">
+              <a class="nav-link" href="http://prelibato.eu/#metodo">come lavoriamo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('portfolio')}}">portfolio</a>
@@ -56,7 +56,7 @@
               <a class="nav-link" href="http://prelibato.eu/blog">blog</a>
             </li>
             <li class="nav-item" id="contact"><span></span><span></span><span></span><span></span>
-              <a class="nav-link" href="#footer">Contattaci</a>
+              <a class="nav-link" href="{{route('contattaci')}}">Contattaci</a>
             </li>
           </ul>
         </div>
