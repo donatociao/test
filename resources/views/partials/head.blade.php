@@ -46,7 +46,8 @@
 
 <!-- Librerie CSS  -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-{{-- <link href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet"> --}}
+<link href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+
 <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
 
 <!-- Stile -->
