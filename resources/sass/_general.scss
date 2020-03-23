@@ -13,6 +13,7 @@ a {
   transition: 0.5s;
 }
 
+
 a:hover,
 a:active,
 a:focus {
@@ -88,6 +89,10 @@ h6 {
   height: 80px;
   -webkit-animation: animate-preloader 1.2s linear infinite;
   animation: animate-preloader 1.2s linear infinite;
+}
+
+.text-blu {
+  color: #413E66;
 }
 
 
