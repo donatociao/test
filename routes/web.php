@@ -21,4 +21,12 @@ Route::get('/portfolio', function () {
 
 Route::get('/contattaci', function () {
     return view('push');
-})->name('contattaci');
+})->name('contatti');
+
+Route::get('/#metodo', function () {
+    return view('push');
+})->name('come');
+
+Route::get('/#cosa-facciamo', function () {
+    return view('push');
+})->name('cosa');

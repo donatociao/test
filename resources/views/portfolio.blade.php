@@ -2,7 +2,7 @@
 
 @section('content')
   <!-- Header -->
-  <header id="header">
+  {{-- <header id="header">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg bg-white fixed-top">
         <a href="{{route('home')}}" class="navbar-brand scrollto">
@@ -16,10 +16,10 @@
           <ul class="navbar-nav ml-auto">
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
             <li class="nav-item">
-              <a class="nav-link" href="http://prelibato.eu/#cosa-facciamo">cosa facciamo</a>
+              <a class="nav-link" href="http://prelibato.eu/home#cosa-facciamo">cosa facciamo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://prelibato.eu/#metodo">come lavoriamo</a>
+              <a class="nav-link" href="http://prelibato.eu/home#metodo">come lavoriamo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('portfolio')}}">portfolio</a>
@@ -44,10 +44,10 @@
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li id="item1" class="nav-item">
-              <a class="nav-link" href="http://prelibato.eu/#cosa-facciamo">cosa facciamo</a>
+              <a class="nav-link" href="http://prelibato.eu/home#cosa-facciamo">cosa facciamo</a>
             </li>
             <li id="item2" class="nav-item">
-              <a class="nav-link" href="http://prelibato.eu/#metodo">come lavoriamo</a>
+              <a class="nav-link" href="http://prelibato.eu/home#metodo">come lavoriamo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{route('portfolio')}}">portfolio</a>
@@ -63,7 +63,8 @@
 
       </nav>
     </div>
-  </header>  <!-- fine Header -->
+  </header>  <!-- fine Header --> --}}
+  @include('partials.header')
   <div class="container">
     <div class="row">
       <div class="col-lg-12" id="cont-sx">

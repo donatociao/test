@@ -12,11 +12,11 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
-          <li class="nav-item">
-            <a class="nav-link" href="http://prelibato.eu/#cosa-facciamo">cosa facciamo</a>
+          <li id="#item1" class="nav-item">
+            <a class="nav-link" href="{{route('home')."#cosa-facciamo"}}">cosa facciamo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://prelibato.eu/#metodo">come lavoriamo</a>
+            <a class="nav-link" href="{{route('home')."#metodo"}}">come lavoriamo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('portfolio')}}">portfolio</a>
@@ -25,7 +25,7 @@
             <a class="nav-link" href="http://prelibato.eu/blog">blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{route('contattaci')}}">contattaci</a>
+            <a class="nav-link" href="{{route('contatti')}}">contattaci</a>
           </li>
           <li class="nav-item">
             <div class="social-links">
@@ -40,11 +40,11 @@
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li id="item1" class="nav-item">
-            <a class="nav-link" href="http://prelibato.eu/#cosa-facciamo">cosa facciamo</a>
+          <li id="#item1" class="nav-item">
+            <a class="nav-link" href="{{route('cosa')}}">cosa facciamo</a>
           </li>
-          <li id="item2" class="nav-item">
-            <a class="nav-link" href="http://prelibato.eu/#metodo">come lavoriamo</a>
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('come')}}">come lavoriamo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('portfolio')}}">portfolio</a>
@@ -52,8 +52,8 @@
           <li class="nav-item">
             <a class="nav-link" href="http://prelibato.eu/blog">blog</a>
           </li>
-          <li class="nav-item" id="contact"><span></span><span></span><span></span><span></span>
-            <a class="nav-link" href="{{route('contattaci')}}">Contattaci</a>
+          <li class="nav-item"><span></span><span></span><span></span><span></span>
+            <a class="nav-link" href="{{route('contatti')}}">Contattaci</a>
           </li>
         </ul>
       </div>
