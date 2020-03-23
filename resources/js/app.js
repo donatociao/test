@@ -234,12 +234,13 @@
         $('#stepuno').addClass('d-none');
     });
 
-
+    //clicca qui stop
     $('#uno').on('click', function() {
       $('#img-uno').removeClass('blob');
       $('#clicca-qui').addClass('d-none');
-
     });
+
+
 
     //animazione esploriamo
     TweenLite.set(stepdue, {
@@ -328,6 +329,8 @@
         $('#stepcinque').addClass('d-none');
     });
 
+
+    //footer
     $('#footer').hover(function() {
         $('#social-bar').addClass('remove-bar');
     });

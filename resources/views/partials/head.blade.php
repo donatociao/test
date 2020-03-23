@@ -11,13 +11,12 @@
 <title>Prelibato | Design e Innovazione a misura d'uomo.</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
-<meta name="description" content="Coltiviamo idee e alimentiamo il territorio sviluppando strategie, progetti e servizi a misura d'uomo.">
+<meta name="description" content="Prelibato è un'agenzia di marketing e comunicazione a Eboli">
 <!-- Open Graph -->
-<meta property="og:image" content="https://www.prelibato.eu/img/share.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Prelibato - Design & Innovazione">
 <meta property="og:image" content="https://www.prelibato.eu/img/share.png">
-<meta property="og:description" content="Coltiviamo idee e alimentiamo il territorio sviluppando strategie, progetti e servizi a misura d'uomo.">
+<meta property="og:description" content="Agenzia di marketing e comunicazione a Eboli">
 <meta property="og:locale" content="it_IT">
 
 <!-- Favicons -->
@@ -46,8 +45,8 @@
 <link defer href="{{asset('lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
 <!-- Librerie CSS  -->
-{{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet"> --}}
-<link href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+{{-- <link href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet"> --}}
 <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
 
 <!-- Stile -->
@@ -57,17 +56,36 @@
 <!-- DATI STRUTTURATI -->
 <script type="application/ld+json">
 {
-"@context": "http://schema.org",
-"@type": "Organization",
-"name": "Prelibato srl",
-"image": "https://www.prelibato.eu/img/logo-prelibato.png",
-"description": "Comunicazione, design e innovazione",
-"url": "https://www.prelibato.eu/",
-"telephone": "+393270151051",
-"email":"info@prelibato.eu",
-"sameAs": "https://www.facebook.com/prelibato1/"
-}
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Prelibato",
+  "image": "https://www.prelibato.eu/img/logo-prelibato.png",
+  "url": "https://www.prelibato.eu/",
+  "description": "Agenzia di marketing e comunicazione a Eboli",
+  "telephone": "+393270151051",
+  "email":"info@prelibato.eu",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via XXIV Maggio, 9",
+    "addressLocality": "Eboli",
+    "postalCode": "84025",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.6158294295374,
+    "longitude": 15.055656931257
+  },
+  "brand": "Prelibato srl"
+  "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+393270151051",
+      },
+      "sameAs": "https://www.facebook.com/prelibato1/"
+      "slogan": "Coltiviamo idee."
+    }
 </script>
+
 <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)

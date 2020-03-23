@@ -298,7 +298,8 @@
       ease: Power1.easeInOut
     });
     $('#stepuno').addClass('d-none');
-  });
+  }); //clicca qui stop
+
   $('#uno').on('click', function () {
     $('#img-uno').removeClass('blob');
     $('#clicca-qui').addClass('d-none');
@@ -378,7 +379,8 @@
       ease: Power1.easeInOut
     });
     $('#stepcinque').addClass('d-none');
-  });
+  }); //footer
+
   $('#footer').hover(function () {
     $('#social-bar').addClass('remove-bar');
   });

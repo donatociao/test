@@ -10582,6 +10582,10 @@ body {
   color: #413E66;
 }
 
+.spiego {
+  color: #413E66;
+}
+
 @-webkit-keyframes pulse {
   0% {
     transform: scale(0.9);
@@ -11230,6 +11234,7 @@ body {
     z-index: 996;
     border-radius: 25px;
     box-shadow: 10px 4px 28px -9px rgba(0, 0, 0, 0.4);
+    display: none !important;
   }
 
   #flow-content h4 {
