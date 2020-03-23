@@ -30,3 +30,7 @@ Route::get('/#metodo', function () {
 Route::get('/#cosa-facciamo', function () {
     return view('push');
 })->name('cosa');
+
+Route::get('/privacy', function () {
+    return view('privacy');
+})->name('privacy');

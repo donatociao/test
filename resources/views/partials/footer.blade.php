@@ -34,7 +34,7 @@
 </div>
 <div class="container">
   <div class="copyright">
-      &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati.
+      &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a href="{{route('privacy')}}">Privacy policy.</a>
   </div>
 </div>
 </footer><!-- fine footer -->
