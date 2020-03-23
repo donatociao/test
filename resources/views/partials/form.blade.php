@@ -49,7 +49,7 @@
                 </div>
                 <div class="form-group form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Accetto l'informativa privacy</label>
+                  <label class="form-check-label" for="exampleCheck1">Accetto l'informativa sulla <a href="{{route('privacy')}}">Privacy.</a></label>
                 </div>
                 <button type="submit" class="btn bg-white">Invia</button>
               </form>

@@ -4,7 +4,7 @@
   @include('partials.header')
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 privacy">
         <h2>Privacy Policy</h2>
         <p><strong>Informativa ai sensi dell'art. 13 del Codice della Privacy</strong></p>
         <p><b>Ai sensi dell'articolo 13 del codice della D.Lgs. 196/2003, vi rendiamo le seguenti informazioni.</b></p>

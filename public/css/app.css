@@ -9954,7 +9954,7 @@ h3 {
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #444;
+  color: #413E66;
   font-family: "Montserrat", sans-serif;
   -webkit-animation: animate 2s infinite ease-in-out;
           animation: animate 2s infinite ease-in-out;
@@ -10011,6 +10011,10 @@ h6 {
 .back-to-top i {
   padding-top: 12px;
   color: #fff;
+}
+
+.privacy {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Prelaoder */
@@ -10801,6 +10805,10 @@ body {
 
 .bg-prelibato {
   background-color: #FCE66D;
+}
+
+.form-check-label {
+  color: #413E66 !important;
 }
 
 #cont-sx h1,
