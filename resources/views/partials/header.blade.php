@@ -12,7 +12,7 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
-          <li id="#item1" class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="{{route('home')."#cosa-facciamo"}}">cosa facciamo</a>
           </li>
           <li class="nav-item">
@@ -40,7 +40,7 @@
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li id="#item1" class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="{{route('cosa')}}">cosa facciamo</a>
           </li>
           <li class="nav-item">
@@ -52,7 +52,7 @@
           <li class="nav-item">
             <a class="nav-link" href="http://prelibato.eu/blog">blog</a>
           </li>
-          <li class="nav-item"><span></span><span></span><span></span><span></span>
+          <li id="contact" class="nav-item"><span></span><span></span><span></span><span></span>
             <a class="nav-link" href="{{route('contatti')}}">Contattaci</a>
           </li>
         </ul>
