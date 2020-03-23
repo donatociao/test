@@ -1,10 +1,13 @@
   <!-- Footer -->
-
-<footer id="form" class="section-bg">
+<svg id="svganime" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.06 18.1">
+  <style>.cls-1{fill:#fce76d;}</style>
+  <path id="footerwave" class="cls-1" d="M391.06,0c-48.88,0-48.88,11.34-97.77,11.34S244.41,0,195.52,0,146.64,11.34,97.76,11.34,48.88,0,0,0V18.1H391.06Z"/>
+</svg>
+<footer id="footer" class="section-bg">
   <div class="footer-top">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-5">
           {{-- <h3 class="cta-title mt-3">Cerchiamo sempre nuove sfide.</h3>
           <p class="cta-text"><b>Lavoriamo con le persone, per le persone.</b><br>Siamo pronti a rendere le cose più semplici, più utili, più belle e più divertenti. </p> --}}
           <div class="footer-links mb-5">
@@ -26,7 +29,7 @@
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v6.0&appId=671623543590916&autoLogAppEvents=1"></script>
             <div class="fb-like mt-5" data-href="https://facebook.com/prelibato1" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>          </div>
         </div>
-        <div class="offset-lg-2 col-lg-6">
+        <div class="offset-lg-1 col-lg-6">
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
@@ -48,7 +51,7 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Accetto l'informativa privacy</label>
                 </div>
-                <button type="submit" class="btn bg-prelibato">Invia</button>
+                <button type="submit" class="btn bg-white">Invia</button>
               </form>
             </div>
           </div>
@@ -64,10 +67,7 @@
     </div>
   </div>
 </div>
-<svg id="svganime" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.06 18.1">
-  <style>.cls-1{fill:#fce76d;}</style>
-  <path id="footerwave" class="cls-1" d="M391.06,0c-48.88,0-48.88,11.34-97.77,11.34S244.41,0,195.52,0,146.64,11.34,97.76,11.34,48.88,0,0,0V18.1H391.06Z"/>
-</svg>
+
 <div class="bg-prelibato text-center">
   <div class="copyright pb-3">
     &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a href="{{route('privacy')}}">Privacy policy.</a>

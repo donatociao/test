@@ -108,8 +108,5 @@ src="https://www.facebook.com/tr?id=1865326346860624&ev=PageView&noscript=1"
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7355049.js"></script>
 <!-- End of HubSpot Embed Code --> --}}
 
-<!-- ManyChat -->
-<script src="//widget.manychat.com/1738620853111453.js" async="async"></script>
-
 <!--ihavecookies-->
 {{-- <script type="text/javascript" src="jquery.ihavecookies.min.js"></script> --}}
