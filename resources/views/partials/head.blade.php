@@ -100,7 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        link: "http://prelibato.eu/privacy",
        moreInfoLabel: "Leggi policy.",
        acceptBtnLabel: "Accetto",
-       advancedBtnLabel: "Impostazioni",
+       advancedBtnLabel: "Scegli",
        fixedCookieTypeLabel: "Necessari",
        fixedCookieTypeDesc: "Questi sono i cookies necessari al corretto funzionamento del sito.",
        cookieTypesTitle: "Seleziona i cookie da accettare"
