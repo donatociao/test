@@ -9954,7 +9954,8 @@ h3 {
   position: absolute;
   right: 30px;
   bottom: 30px;
-  max-width: 375px;
+  max-width: 95vw;
+  max-height: 70px;
   background-color: #fbd800;
   padding: 20px;
   border-radius: 5px;
@@ -10015,7 +10016,7 @@ h3 {
 button#ihavecookiesBtn {
   border: none;
   background: white;
-  color: white;
+  color: #403E65;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   padding: 7px;
