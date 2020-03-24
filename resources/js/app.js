@@ -353,10 +353,16 @@
         $('#navbarSupportedContent').toggle();
     });
 
-    // //ihavecookies
-    // $('body').ihavecookies();
-    //
-    //
+    // Cookies
+    var options = {
+        title: "Cookies & Privacy",
+        message: "Il nostro sito utilizza i cookie per migliorare la tua esperienza di navigazione. Acconsenti all’uso dei cookie.",
+        link: "http://prelibato.eu/privacy",
+        moreInfoLabel: "Leggi la Privacy Policy.",
+        acceptBtnLabel: "Accetto"
+    }
+
+    $('body').ihavecookies(options);
 
 
 })(jQuery);

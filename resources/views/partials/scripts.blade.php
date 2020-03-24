@@ -16,5 +16,8 @@ crossorigin="anonymous"></script>
 <script src="{{asset('lib/jquery.waypoints.min.js')}}"></script>
 <script src="{{asset('js/tweenmax.min.js')}}"></script>
 
+<!--ihavecookies-->
+<script type="text/javascript" src="jquery.ihavecookies.min.js"></script>
+
 <!-- main js -->
 <script src="{{asset('js/app.js')}}"></script>
