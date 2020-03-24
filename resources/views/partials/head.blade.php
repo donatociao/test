@@ -96,11 +96,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        title: "Cookies & Privacy",
        delay: 600,
        expires: 1,
-       message: "Il nostro sito utilizza i cookie per migliorare la tua esperienza di navigazione. Acconsenti all’uso dei cookie.",
+       message: "Questo sito utilizza i cookie per migliorare l'esperienza di navigazione. Acconsenti all’uso.",
        link: "http://prelibato.eu/privacy",
-       moreInfoLabel: "Leggi la Privacy Policy.",
+       moreInfoLabel: "Leggi policy.",
        acceptBtnLabel: "Accetto",
-       advancedBtnLabel: "Imposta cookies"
+       advancedBtnLabel: "Impostazioni",
+       fixedCookieTypeLabel: "Necessari",
+       fixedCookieTypeDesc: "Questi sono i cookies necessari al corretto funzionamento del sito.",
+       cookieTypesTitle: "Seleziona i cookie da accettare"
    };
 
    $('body').ihavecookies(options);
