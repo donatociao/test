@@ -99,7 +99,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        message: "Il nostro sito utilizza i cookie per migliorare la tua esperienza di navigazione. Acconsenti all’uso dei cookie.",
        link: "http://prelibato.eu/privacy",
        moreInfoLabel: "Leggi la Privacy Policy.",
-       acceptBtnLabel: "Accetto"
+       acceptBtnLabel: "Accetto",
+       advancedBtnLabel: "Imposta cookies"
    };
 
    $('body').ihavecookies(options);
