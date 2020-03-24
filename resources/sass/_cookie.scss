@@ -1,26 +1,26 @@
 /* Cookie Dialog */
 #gdpr-cookie-message {
-    position: fixed;
+    position: absolute;
     right: 30px;
     bottom: 30px;
     max-width: 375px;
-    background-color: var(--purple);
+    background-color: #fbd800;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 6px 6px rgba(0,0,0,0.25);
     margin-left: 30px;
-    font-family: system-ui;
+    font-family: 'Montserrat', sans-serif;
 }
 #gdpr-cookie-message h4 {
-    color: var(--red);
-    font-family: 'Quicksand', sans-serif;
+    color: #403E65;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 #gdpr-cookie-message h5 {
-    color: var(--red);
-    font-family: 'Quicksand', sans-serif;
+    color: #403E65;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -48,15 +48,15 @@
 }
 #gdpr-cookie-message a:hover {
     color: white;
-    border-bottom-color: var(--red);
+    border-bottom-color: white;
     transition: all 0.3s ease-in;
 }
 #gdpr-cookie-message button,
 button#ihavecookiesBtn {
     border: none;
-    background: var(--red);
+    background: white;
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     padding: 7px;
     border-radius: 3px;
@@ -66,12 +66,12 @@ button#ihavecookiesBtn {
 }
 #gdpr-cookie-message button:hover {
     background: white;
-    color: var(--red);
+    color: #403E65;
     transition: all 0.3s ease-in;
 }
 button#gdpr-cookie-advanced {
     background: white;
-    color: var(--red);
+    color: #403E65;
 }
 #gdpr-cookie-message button:disabled {
     opacity: 0.3;
