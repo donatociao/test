@@ -1,2 +1,17 @@
+# prelibato.eu - Coltiviamo idee.
+
 User-agent: *
-Disallow:
+Disallow: /blog/wp-admin/
+Disallow: /blog/author/preliblog_20/
+Disallow: /blog/feed/
+Disallow: /blog/category/uncategorized/
+Disallow: /privacy/
+Allow: /
+Allow: /contattaci/
+Allow: /portfolio/
+Allow: /blog/
+Allow: /blog/come-gestire-la-comunicazione-aziendale-ai-tempi-del-coronavirus/
+
+Sitemap: https://prelibato.eu/sitemap.xml
+
+# prelibato.eu - Coltiviamo idee.
