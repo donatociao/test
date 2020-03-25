@@ -39,7 +39,7 @@
     margin-bottom: 0;
     width: 20%;
     float: right;
-    display: flex;
+    text-align: center;
 }
 #gdpr-cookie-message p:first-of-type {
     margin-top: 5px;
@@ -83,11 +83,11 @@ button#gdpr-cookie-advanced {
     background: white;
     color: #403E65;
     margin-left: 5px;
+    margin-top: 10px;
 }
 
 button#gdpr-cookie-accept {
     margin-left: 5px;
-
 }
 
 #gdpr-cookie-message button:disabled {

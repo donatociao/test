@@ -168,6 +168,21 @@ only screen and (min-resolution: 1.25dppx) {
     background-color: white;
   }
 }
+/*
+  ##Device = Ipad pro 10.5
+  /* Portrait */
+@media only screen
+and (min-device-width: 834px)
+and (max-device-width: 834px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  #wave1,
+  #wave2,
+  #wave3 {
+    display: none;
+  }
+}
 
 /*
   ##Device = Tablets, Ipads (landscape)
@@ -199,6 +214,11 @@ only screen and (min-resolution: 1.25dppx) {
     background-color: #fbd800;
     width: 100vw;
     height: 100vh;
+  }
+
+  #gdpr-cookie-message {
+    right: 20px;
+    max-height: 300px;
   }
 
   .close {
@@ -243,6 +263,15 @@ only screen and (min-resolution: 1.25dppx) {
     background-color: #fbd800;
     width: 120vw;
     height: 120vh;
+  }
+
+  #gdpr-cookie-message {
+    right: 20px;
+    max-height: 300px;
+  }
+
+  #gdpr-cookie-message p:last-child {
+      float: right;
   }
 
   .close {
@@ -301,6 +330,19 @@ only screen and (min-resolution: 1.25dppx) {
   .back-to-top {
     display: none !important;
   }
+
+  .callbell-container_logo {
+    z-index: 9999998;
+  }
+
+  #gdpr-cookie-message {
+    right: 0px;
+  }
+
+  button#gdpr-cookie-advanced {
+      margin-top: 10px;
+  }
+
 
   #cosa-facciamo,
   #metodo {
