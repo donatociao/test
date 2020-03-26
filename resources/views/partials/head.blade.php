@@ -58,9 +58,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {
   "@context": "http://schema.org",
   "@type": "LocalBusiness",
-  "name": "Prelibato",
+  "name": "Prelibato srl",
+  "brand": "Prelibato",
+  "slogan": "Coltiviamo idee.",
   "image": "https://www.prelibato.eu/img/logo-prelibato.png",
   "url": "https://www.prelibato.eu/",
+  "sameAs": "https://www.facebook.com/prelibato1/",
   "description": "Agenzia di marketing e comunicazione a Eboli",
   "telephone": "+393270151051",
   "email":"info@prelibato.eu",
@@ -70,15 +73,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "addressLocality": "Eboli",
     "postalCode": "84025",
     "addressCountry": "IT",
-  },
-  "geo": {
+    "geo": {
     "@type": "GeoCoordinates",
     "latitude": 40.6158294295374,
-    "longitude": 15.055656931257,
+    "longitude": 15.055656931257
   },
-  "brand": "Prelibato srl",
-  "sameAs": "https://www.facebook.com/prelibato1/",
-  "slogan": "Coltiviamo idee.",
 }
 </script>
 
