@@ -69,16 +69,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "streetAddress": "Via XXIV Maggio, 9",
     "addressLocality": "Eboli",
     "postalCode": "84025",
-    "addressCountry": "IT"
+    "addressCountry": "IT",
   },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 40.6158294295374,
-    "longitude": 15.055656931257
+    "longitude": 15.055656931257,
   },
   "brand": "Prelibato srl",
-  "sameAs": "https://www.facebook.com/prelibato1/"
-  "slogan": "Coltiviamo idee."
+  "sameAs": "https://www.facebook.com/prelibato1/",
+  "slogan": "Coltiviamo idee.",
 }
 </script>
 
