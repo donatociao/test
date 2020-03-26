@@ -55,13 +55,6 @@
               </form>
             </div>
           </div>
-          {{-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-            <script>
-              hbspt.forms.create({
-	            portalId: "7355049",
-	            formId: "15b1228d-bccc-41ba-8c6e-2cf57fe65e7c"
-            });
-          </script> --}}
         </div>
       </div>
     </div>

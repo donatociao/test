@@ -76,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "latitude": 40.6158294295374,
     "longitude": 15.055656931257
   },
-  "brand": "Prelibato srl"
+  "brand": "Prelibato srl",
   "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+393270151051",
