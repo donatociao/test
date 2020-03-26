@@ -77,13 +77,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "longitude": 15.055656931257
   },
   "brand": "Prelibato srl",
-  "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+393270151051",
-      },
-      "sameAs": "https://www.facebook.com/prelibato1/"
-      "slogan": "Coltiviamo idee."
-    }
+  "telephone": "+393270151051",
+  "sameAs": "https://www.facebook.com/prelibato1/"
+  "slogan": "Coltiviamo idee."
+}
 </script>
 
 <script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
