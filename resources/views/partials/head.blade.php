@@ -77,7 +77,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "longitude": 15.055656931257
   },
   "brand": "Prelibato srl",
-  "telephone": "+393270151051",
   "sameAs": "https://www.facebook.com/prelibato1/"
   "slogan": "Coltiviamo idee."
 }
