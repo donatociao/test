@@ -54,30 +54,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- DATI STRUTTURATI -->
-<script type="application/ld+json">
+<script type='application/ld+json'>
 {
-  "@context": "http://schema.org",
+  "@context": "http://www.schema.org",
   "@type": "LocalBusiness",
-  "name": "Prelibato srl",
-  "brand": "Prelibato",
-  "slogan": "Coltiviamo idee.",
-  "image": "https://www.prelibato.eu/img/logo-prelibato.png",
-  "url": "https://www.prelibato.eu/",
-  "sameAs": "https://www.facebook.com/prelibato1/",
-  "description": "Agenzia di marketing e comunicazione a Eboli",
+  "name": "Prelibato - Agenzia di marketing e comunicazione",
+  "description": "Grafica, siti web, marketing e comunicazione a Eboli",
+  "url": "https://prelibato.eu",
+  "sameAs": [
+    "https://www.facebook.com/prelibato1/"
+  ],
+  "logo": "https://www.prelibato.eu/logo.png",
+  "image": "https://www.prelibato.eu/logo.png",
   "telephone": "+393270151051",
-  "email":"info@prelibato.eu",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Via XXIV Maggio, 9",
+    "streetAddress": "Via XXIV Maggio 9",
     "addressLocality": "Eboli",
+    "addressRegion": "Salerno",
     "postalCode": "84025",
-    "addressCountry": "IT",
-    "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 40.6158294295374,
-    "longitude": 15.055656931257
+    "addressCountry": "IT"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.6158294295374",
+    "longitude": "15.055656931257"
+  },
+  "openingHours": "Mo, Tu, We, Th, Fr 09:00-19:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@prelibato.eu",
+    "telephone": "+393270151051"
+  }
 }
 </script>
 
