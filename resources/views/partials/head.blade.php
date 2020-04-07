@@ -42,6 +42,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Google Fonts -->
 <link defer href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
+<!-- Bootstrap -->
+<link defer href="{{asset('lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
 <!-- Librerie CSS  -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 <link defer href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
