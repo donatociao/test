@@ -25,14 +25,6 @@
         return false;
     });
 
-    //NAV ANIMATIONS
-    // $("#logonav").click(function(event) {
-    //     event.preventDefault();
-    //     $('html, body').animate({
-    //         scrollTop: $('#intro').offset().top
-    //     }, 800);
-    // });
-
     // Initiate the wowjs animation library
     new WOW().init();
 

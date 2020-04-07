@@ -116,14 +116,7 @@
       scrollTop: 0
     }, 2500, 'easeInOutBack');
     return false;
-  }); //NAV ANIMATIONS
-  // $("#logonav").click(function(event) {
-  //     event.preventDefault();
-  //     $('html, body').animate({
-  //         scrollTop: $('#intro').offset().top
-  //     }, 800);
-  // });
-  // Initiate the wowjs animation library
+  }); // Initiate the wowjs animation library
 
   new WOW().init();
   var wave1 = $('#wave1').wavify({
