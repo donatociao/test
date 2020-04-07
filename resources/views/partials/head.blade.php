@@ -9,12 +9,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta charset="utf-8">
 <title>Prelibato | Agenzia di Marketing e Comunicazione a Eboli.</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
-<meta name="description" content="Prelibato è un'agenzia di marketing e comunicazione a Eboli. Grafica, siti web, marketing e comunicazione per aziende agricole, agroalimentari e ristoranti.">
+<meta lang=”it” content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
+<meta name="description" lang=”it” content="Prelibato è un'agenzia di marketing e comunicazione a Eboli. Grafica, siti web, marketing e comunicazione per aziende agricole, agroalimentari e ristoranti.">
+<meta http-equiv=”content-language” content=”it”>
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Prelibato - Design & Innovazione">
 <meta property="og:image" content="https://www.prelibato.eu/img/share.png">
+<meta property="og:url" content="https://www.prelibato.eu/">
 <meta property="og:description" content="Agenzia di marketing e comunicazione a Eboli">
 <meta property="og:locale" content="it_IT">
 
