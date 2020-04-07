@@ -49,7 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
 
 <!-- Stile -->
-<link href="{{asset('css/app.css')}}" rel="stylesheet">
+<link href="{{asset('css/app.min.css')}}" rel="stylesheet">
 
 
 <!-- DATI STRUTTURATI -->
