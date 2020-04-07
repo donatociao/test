@@ -3761,8 +3761,7 @@ body{overflow-x:hidden;}
 
 .cinque{-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-delay:1.7s;animation-delay:1.7s;-webkit-animation-iteration-count:1;animation-iteration-count:1;}
 
-#lavoriamo{/* padding-top:20px;*/
- padding-bottom:150px;}
+#lavoriamo{padding-bottom:150px;}
 
 #stepuno,#stepdue,#steptre,#stepquattro,#stepcinque{position:absolute;background-color:#F8D714;width:600px;height:300px;opacity:1;z-index:996;border-radius:25px;box-shadow:10px 4px 28px -9px rgba(0,0,0,0.4);}
 

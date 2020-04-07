@@ -10,8 +10,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
-
 :root {
   --blue: #3490dc;
   --indigo: #6574cd;
@@ -10615,7 +10613,6 @@ body {
 }
 
 #lavoriamo {
-  /* padding-top: 20px; */
   padding-bottom: 150px;
 }
 

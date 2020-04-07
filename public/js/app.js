@@ -116,7 +116,13 @@
       scrollTop: 0
     }, 2500, 'easeInOutBack');
     return false;
-  });
+  }); //NAV ANIMATIONS
+  // $("#logonav").click(function(event) {
+  //     event.preventDefault();
+  //     $('html, body').animate({
+  //         scrollTop: $('#intro').offset().top
+  //     }, 800);
+  // });
   // Initiate the wowjs animation library
 
   new WOW().init();
@@ -198,8 +204,7 @@
     });
   }, {
     offset: '100%'
-  });
-  // COME LAVORIAMO animation
+  }); // COME LAVORIAMO animation
 
   $('#metodo').waypoint(function () {
     var textWrapper = document.querySelector('.ml2 .letters');
