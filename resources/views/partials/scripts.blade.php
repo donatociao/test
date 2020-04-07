@@ -14,4 +14,4 @@
 <script src="{{asset('js/tweenmax.min.js')}}"></script>
 
 <!-- main js -->
-<script src="{{asset('js/app.min.js')}}"></script>
+<script src="{{asset('js/app.js')}}"></script>
