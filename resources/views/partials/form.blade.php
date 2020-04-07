@@ -15,7 +15,7 @@
             <p class="form-contact">
               <b>Prelibato srl</b><br>Via XXIV Maggio, 9<br>
               <span>84025 Eboli, SA - Italia<span><br><br>
-              <b><i class="fa fa-phone"></i></b> <a href="callto:+393270151051"></a>+39 327 01 51 051<br>
+              <b><i class="fa fa-phone"></i></b> <a href="callto:+393270151051">+39 327 01 51 051</a><br>
               <b><i class="fa fa-phone"></i></b> +39 327 46 43 216<br>
               <b><i class="fa fa-envelope-o"></i></b> info@prelibato.eu<br>
             </p>
