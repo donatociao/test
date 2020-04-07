@@ -123,6 +123,25 @@
   //         scrollTop: $('#intro').offset().top
   //     }, 800);
   // });
+  // $("#item1").click(function(event) {
+  //     event.preventDefault();
+  //     $('html, body').animate({
+  //         scrollTop: $("#cosa-facciamo").offset().top
+  //     }, 800);
+  // });
+  //
+  // $("#item2").click(function(event) {
+  //     event.preventDefault();
+  //     $('html, body').animate({
+  //         scrollTop: $("#lavoriamo").offset().top
+  //     }, 800);
+  // });
+  // $("#contact").click(function(event) {
+  //     event.preventDefault();
+  //     $('html, body').animate({
+  //         scrollTop: $("#footer").offset().top
+  //     }, 800);
+  // });
   // Initiate the wowjs animation library
 
   new WOW().init();

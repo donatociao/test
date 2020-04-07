@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat&display=swap);@charset "UTF-8";@font-face{font-family:"Arvo";font-display:swap;src:local("Arvo"),url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");}
+@import url(http://fonts.googleapis.com/css?family=Montserrat);@charset "UTF-8";@font-face{font-family:"Arvo";font-display:auto;src:local("Arvo"),url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");}
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -3761,7 +3761,8 @@ body{overflow-x:hidden;}
 
 .cinque{-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-delay:1.7s;animation-delay:1.7s;-webkit-animation-iteration-count:1;animation-iteration-count:1;}
 
-#lavoriamo{padding-bottom:150px;}
+#lavoriamo{/* padding-top:20px;*/
+ padding-bottom:150px;}
 
 #stepuno,#stepdue,#steptre,#stepquattro,#stepcinque{position:absolute;background-color:#F8D714;width:600px;height:300px;opacity:1;z-index:996;border-radius:25px;box-shadow:10px 4px 28px -9px rgba(0,0,0,0.4);}
 
