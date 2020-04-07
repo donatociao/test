@@ -14,10 +14,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta http-equiv=”content-language” content=”it”>
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Prelibato - Design & Innovazione">
+<meta property="og:title" content="Prelibato - Coltiviamo idee.">
 <meta property="og:image" content="https://www.prelibato.eu/img/share.png">
 <meta property="og:url" content="https://www.prelibato.eu/">
-<meta property="og:description" content="Agenzia di marketing e comunicazione a Eboli">
+<meta property="og:description" content="Agenzia di marketing e comunicazione a misura d'uomo.">
 <meta property="og:locale" content="it_IT">
 
 <!-- Favicons -->
