@@ -64,7 +64,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "description": "Grafica, siti web, marketing e comunicazione a Eboli",
   "url": "https://prelibato.eu",
   "sameAs": [
-    "https://www.facebook.com/prelibato1/"
+    "https://www.facebook.com/prelibato1/",
+    "https://www.linkedin.com/company/29363632/admin/",
+    "https://www.instagram.com/_prelibato_/"
   ],
   "logo": "https://www.prelibato.eu/logo.png",
   "image": "https://www.prelibato.eu/logo.png",
