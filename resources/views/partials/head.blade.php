@@ -43,10 +43,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link defer href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
 <!-- Librerie CSS  -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-<link defer href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" rel="stylesheet">
+{{-- <link defer href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet"> --}}
 
-<link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 
 <!-- Stile -->
 <link href="{{asset('css/app.min.css')}}" rel="stylesheet">
@@ -90,7 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 </script>
 
-<script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="{{asset('lib/jquery.ihavecookies.min.js')}}"></script>
 
  <script type="text/javascript">
