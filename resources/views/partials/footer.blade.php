@@ -22,10 +22,10 @@
             </p>
           </div>
           <div class="social-links">
-            <a target="_blank" rel="noopener noreferrer" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a target="_blank" rel="noopener noreferrer" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
+            <a target="_blank" title="Seguici su Facebook!" rel="noopener noreferrer" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" title="Seguici su Instagram!" rel="noopener noreferrer" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" title="Seguici su LinkedIn!" rel="noopener noreferrer" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" title="Hai bisogno di aiuto? Scrivici una mail!" rel="noopener noreferrer" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
 </div>
 <div class="container">
   <div class="copyright">
-      &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a href="{{route('privacy')}}">Privacy policy.</a>
+      &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy policy.</a>
   </div>
 </div>
 </footer><!-- fine footer -->

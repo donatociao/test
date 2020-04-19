@@ -8,13 +8,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <meta charset="utf-8">
 @if(Route::current()->getName() == 'home')
-  <title>Prelibato | Agenzia di Marketing e Comunicazione food a Eboli </title>
+  <title>Prelibato | Food Marketing e Comunicazione Agroalimentare a Eboli</title>
 @elseif (Route::current()->getName() == 'portfolio')
-  <title>Prelibato | Portfolio | Agenzia di Marketing e Comunicazione a Eboli</title>
+  <title>Prelibato | Portfolio | Food Marketing e Comunicazione Agroalimentare a Eboli</title>
 @elseif (Route::current()->getName() == 'contatti')
-  <title>Prelibato | Contatti | Agenzia di Marketing e Comunicazione a Eboli</title>
+  <title>Prelibato | Contatti | Food Marketing e Comunicazione Agroalimentare a Eboli</title>
 @elseif (Route::current()->getName() == 'privacy')
-  <title>Prelibato | Privacy | Agenzia di Marketing e Comunicazione a Eboli</title>
+  <title>Prelibato | Privacy | Food Marketing e Comunicazione Agroalimentare a Eboli</title>
 @endif
 <meta name="description" lang=”it” content="Agenzia di marketing e comunicazione a Eboli specializzata in food marketing. Grafica, comunicazione, siti web e digital marketing per aziende agroalimentari">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -23,9 +23,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Prelibato - Coltiviamo idee.">
+<meta property="og:site_name" content="Prelibato - Coltiviamo idee.">
 <meta property="og:image" content="https://www.prelibato.eu/img/share.png">
 <meta property="og:url" content="https://www.prelibato.eu/">
-<meta property="og:description" content="Agenzia di marketing e comunicazione a misura d'uomo.">
+<meta property="og:description" content="Agenzia di Food Marketing e Comunicazione Agroalimentare">
 <meta property="og:locale" content="it_IT">
 
 <!-- Favicons -->
@@ -69,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "url": "https://prelibato.eu",
   "sameAs": [
     "https://www.facebook.com/prelibato1/",
-    "https://www.linkedin.com/company/29363632/admin/",
+    "https://www.linkedin.com/company/29363632/",
     "https://www.instagram.com/_prelibato_/"
   ],
   "logo": "https://www.prelibato.eu/logo.png",
@@ -96,28 +97,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
-
-<script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('lib/jquery.ihavecookies.min.js')}}"></script>
-
- <script type="text/javascript">
-  $(document).ready(function(){
-   // Cookies
-   var options = {
-       title: "Cookies & Privacy",
-       delay: 600,
-       expires: 30,
-       message: "Questo sito utilizza i cookie per migliorare l'esperienza di navigazione. Acconsenti all’uso.",
-       link: "http://prelibato.eu/privacy",
-       moreInfoLabel: "Leggi policy.",
-       acceptBtnLabel: "Accetto",
-       advancedBtnLabel: "Info",
-       fixedCookieTypeLabel: "Necessari",
-       fixedCookieTypeDesc: "Questi sono i cookies necessari al corretto funzionamento del sito.",
-       cookieTypesTitle: "Seleziona i cookie da accettare"
-   };
-
-   $('body').ihavecookies(options);
-    console.log("Ok cookie");
-  });
- </script>

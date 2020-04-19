@@ -3,11 +3,11 @@
 @section('content')
   @include('partials.header')
   <div class="container">
-    <h1 id="cosa-facciamo" class="ml1">
+    <h3 id="cosa-facciamo" class="ml1">
       <span class="text-wrapper">
          <span class="letters">contattaci</span>
       </span>
-    </h1>
+    </h3>
     </div>
     <header class="section-header">
       <h3></h3>
@@ -17,7 +17,7 @@
     <div class="container mt-5">
       <div class="row mt-5">
         <div id="cont-sx" class="col-lg-6 mt-5">
-          <h1 id="chisiamo"><strong>Prelibato</strong> è un'agenzia di marketing e comunicazione agrifood.</h1>
+          <h1 id="chisiamo"><strong>Prelibato</strong> è un'agenzia di food marketing e comunicazione agroalimentare.</h1>
           <h2>Un team esperto in food marketing.</h2>
           <h2>Siamo creativi e fortemente orientati al risultato. Ci piace lavorare fianco a fianco con i clienti per comprendere a fondo desideri, bisogni e obiettivi.</b></h2>
           <h1>Logo e branding.</h1>

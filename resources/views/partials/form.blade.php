@@ -8,8 +8,6 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
-          {{-- <h3 class="cta-title mt-3">Cerchiamo sempre nuove sfide.</h3>
-          <p class="cta-text"><b>Lavoriamo con le persone, per le persone.</b><br>Siamo pronti a rendere le cose più semplici, più utili, più belle e più divertenti. </p> --}}
           <div class="footer-links mb-5">
             <h3 class="contattaci">Prendiamo un caffè?</h3>
             <p class="form-contact">
@@ -20,10 +18,10 @@
               <b><i class="fa fa-envelope-o"></i></b> info@prelibato.eu<br>
             </p>
             <div class="social-links">
-              <a target="_blank" rel="noopener noreferrer" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
-              <a target="_blank" rel="noopener noreferrer" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
+              <a target="_blank" rel="noopener noreferrer" title="Visita la pagina Facebook" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" rel="noopener noreferrer" title="Seguici su Instagram" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a target="_blank" rel="noopener noreferrer" title="Seguici su LinkedIn" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a target="_blank" rel="noopener noreferrer" title="Scrivici una mail" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
             </div>
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v6.0&appId=671623543590916&autoLogAppEvents=1"></script>
@@ -49,7 +47,7 @@
                 </div>
                 <div class="form-group form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Accetto l'informativa sulla <a href="{{route('privacy')}}">Privacy.</a></label>
+                  <label class="form-check-label" for="exampleCheck1">Accetto l'informativa sulla <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy.</a></label>
                 </div>
                 <button type="submit" class="btn text-blu bg-white">Invia</button>
               </form>
@@ -63,7 +61,7 @@
 
 <div class="bg-prelibato text-center">
   <div class="copyright pb-3">
-    &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a href="{{route('privacy')}}">Privacy policy.</a>
+    &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy policy.</a>
   </div>
 </div>
 </footer><!-- fine footer -->
