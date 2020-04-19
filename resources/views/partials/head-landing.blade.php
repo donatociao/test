@@ -89,5 +89,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
-
-<script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
