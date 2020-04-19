@@ -4,12 +4,7 @@
   font-display: auto;
   src: local("Arvo"), url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");
 }
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #3490dc;
   --indigo: #6574cd;
@@ -10321,6 +10316,22 @@ nav ul li span:nth-child(4) {
   font-family: "Montserrat", sans-serif;
 }
 
+#intro .intro-info h1 {
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#underline {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+  background-position: 0 50%;
+  background-size: auto 20px;
+  background-repeat: repeat-x;
+}
+
 .social-bar {
   position: fixed;
   right: 20px;
@@ -10552,6 +10563,15 @@ body {
   text-align: left;
 }
 
+.iniziale {
+  font-size: 120px;
+  font-weight: bold;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+  background-position: 0 50%;
+  background-size: auto 20px;
+  background-repeat: repeat-x;
+}
+
 /* Come lavoriamo
 --------------------------------*/
 #metodo {
@@ -10631,7 +10651,7 @@ body {
   box-shadow: 10px 4px 28px -9px rgba(0, 0, 0, 0.4);
 }
 
-#workflow h1 {
+#workflow h3 {
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
   color: #edecef;
@@ -10951,6 +10971,26 @@ body {
 
 #chisiamo:hover {
   background-size: 100% 88%;
+}
+
+.paragrafo-landing {
+  font-size: 24px;
+}
+
+.cta-btn {
+  background-color: #FF7A59;
+  color: white !important;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+.cta-btn:hover {
+  transform: scale(1.2);
+  transition: 300ms;
+}
+.cta-btn a {
+  color: white;
 }
 
 .portfolio2 {

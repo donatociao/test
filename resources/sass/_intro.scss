@@ -18,6 +18,26 @@
   font-family: "Montserrat", sans-serif;
 }
 
+#intro .intro-info h1 {
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+#underline {
+    @include svg((viewBox: 0 0 20 4)){
+      @include svg('path',(fill: none, stroke: #fbd800, stroke-width: 1, class: squiggle, d: 'M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3',));
+      @include svg('style',(type: text/css, content: '.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}'));}
+      background-position: 0 50%;
+      background-size: auto 20px;
+      background-repeat: repeat-x;
+  }
+
+
 .social-bar {
   position: fixed;
   right: 20px;

@@ -6,10 +6,12 @@ Disallow: /blog/author/preliblog_20/
 Disallow: /blog/feed/
 Disallow: /blog/category/uncategorized/
 Disallow: /privacy/
+Disallow: /portfolio/hello-world/
 Allow: /
 Allow: /contattaci/
 Allow: /portfolio/
 Allow: /blog/
+Allow: /blog/aprire-un-ecommmerce/
 Allow: /blog/come-gestire-la-comunicazione-aziendale-ai-tempi-del-coronavirus/
 
 Sitemap: https://prelibato.eu/sitemap.xml

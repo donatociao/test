@@ -13,7 +13,7 @@
     <div class="row st-row">
       <div class="offset-lg-1 offset-md-1 offset-sm-1 col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
         <div class="box" id="boxuno">
-          <h1 class="title">VISUAL</h1>
+          <h3 class="title">VISUAL</h3>
           <ul>
             <li>Logo & Branding</li>
             <li>UI / UX Design</li>
@@ -26,7 +26,7 @@
       </div>
       <div class="offset-lg-1 offset-md-1 offset-sm-1  col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
         <div class="box">
-          <h1 class="title">WEB</h1>
+          <h3 class="title">WEB</h3>
           <ul>
             <li>Siti Web Responsive</li>
             <li>Sviluppo Front / Back-end</li>
@@ -41,7 +41,7 @@
     <div class="row">
       <div class="offset-lg-1 offset-md-1 offset-sm-1 col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
         <div class="box">
-          <h1 class="title">DIGITAL</h1>
+          <h3 class="title">DIGITAL</h3>
           <ul>
             <li>Strategy & Advertising</li>
             <li>Copywriting</li>
@@ -53,7 +53,7 @@
       </div>
       <div class="offset-lg-1 offset-md-1 offset-sm-1  col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
         <div class="box">
-          <h1 class="title">EVENTI</h1>
+          <h3 class="title">EVENTI</h3>
           <ul>
             <li>Progettazione</li>
             <li>Planning & Logistica</li>

@@ -7,18 +7,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <meta charset="utf-8">
-@if(Route::current()->getName() == 'home')
-  <title>Prelibato | Agenzia di Marketing e Comunicazione food a Eboli </title>
-@elseif (Route::current()->getName() == 'portfolio')
-  <title>Prelibato | Portfolio | Agenzia di Marketing e Comunicazione a Eboli</title>
-@elseif (Route::current()->getName() == 'contatti')
-  <title>Prelibato | Contatti | Agenzia di Marketing e Comunicazione a Eboli</title>
-@elseif (Route::current()->getName() == 'privacy')
-  <title>Prelibato | Privacy | Agenzia di Marketing e Comunicazione a Eboli</title>
-@endif
-<meta name="description" lang=”it” content="Agenzia di marketing e comunicazione a Eboli specializzata in food marketing. Grafica, comunicazione, siti web e digital marketing per aziende agroalimentari">
+<title>Prelibato | Agenzia di Marketing e Comunicazione a Eboli.</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta lang=”it” content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
+<meta name="description" lang=”it” content="Prelibato è un'agenzia di marketing e comunicazione a Eboli. Grafica, siti web, marketing digitale e comunicazione per aziende agricole, agroalimentari e ristoranti.">
 <meta http-equiv=”content-language” content=”it”>
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -57,7 +49,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 
 <!-- Stile -->
-<link href="{{asset('css/app.min.css')}}" rel="stylesheet">
+<link href="{{asset('css/app.css')}}" rel="stylesheet">
+
 
 <!-- DATI STRUTTURATI -->
 <script type='application/ld+json'>
@@ -98,26 +91,3 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 <script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('lib/jquery.ihavecookies.min.js')}}"></script>
-
- <script type="text/javascript">
-  $(document).ready(function(){
-   // Cookies
-   var options = {
-       title: "Cookies & Privacy",
-       delay: 600,
-       expires: 30,
-       message: "Questo sito utilizza i cookie per migliorare l'esperienza di navigazione. Acconsenti all’uso.",
-       link: "http://prelibato.eu/privacy",
-       moreInfoLabel: "Leggi policy.",
-       acceptBtnLabel: "Accetto",
-       advancedBtnLabel: "Info",
-       fixedCookieTypeLabel: "Necessari",
-       fixedCookieTypeDesc: "Questi sono i cookies necessari al corretto funzionamento del sito.",
-       cookieTypesTitle: "Seleziona i cookie da accettare"
-   };
-
-   $('body').ihavecookies(options);
-    console.log("Ok cookie");
-  });
- </script>
