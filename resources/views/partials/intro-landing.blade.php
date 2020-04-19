@@ -5,9 +5,9 @@
       <div class="offset-md-1 col-md-6 intro-info">
         <h1 id="buono-intro">Il metodo Buono.</h1>
         <h3 id="underline">EFFICACIA GARANTITA AL 100%</h3>
-        <h3>Portiamo la <strong>trasformazione digitale</strong> nella tua azienda con il nostro programma di <b>consulenza su misura</b></h3>
+        <h3>Fai crescere il tuo business su internet con un programma di <b>consulenza su misura</b></h3>
         {{-- ctA --}}
-          <p class="paragrafo-landing">Vuoi portare l'innovazione nella tua azienda?</p>
+          <p class="paragrafo-landing">Vuoi portare l'<strong>innovazione</strong> nella tua azienda?</p>
           <!-- Calendly link widget begin -->
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>

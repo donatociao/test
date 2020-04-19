@@ -20,7 +20,37 @@
     RewriteRule ^ index.php [L]
 </IfModule>
 
+# Abilita l’Expires ed imposta il default a 0
+ExpiresActive On
+ExpiresDefault A0
+
 # 1 Month for most static assets
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
 Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
+
+# Imposta la cache dei file multimediali ad un anno
+<FilesMatch “.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$”>
+ExpiresDefault A29030400
+Header append Cache-Control “public”
+</FilesMatch>
+
+# Imposta la cache delle immagini a una settimana
+<FilesMatch “.(gif|jpg|jpeg|png|swf)$”>
+ExpiresDefault A604800
+Header append Cache-Control “public”
+</FilesMatch>
+
+# Imposta la cache delle risorse aggiornate di frequente a 2 ore
+<FilesMatch “.(xml|txt|html|js|css)$”>
+ExpiresDefault A7200
+Header append Cache-Control “proxy-revalidate”
+</FilesMatch>
+
+# Forza la disabilitazione della cache per le risorse dinamiche
+<FilesMatch “.(php|cgi|pl|htm)$”>
+ExpiresActive Off
+Header set Cache-Control “private, no-cache, no-store, proxy-revalidate, no-transform”
+Header set Pragma “no-cache”
+
+</FilesMatch>
