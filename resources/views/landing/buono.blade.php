@@ -17,8 +17,9 @@
           <div class="container">
             <div class="row d-flex justify-content-center">
               <div class="text-center col-lg-8 col-md-12">
-                <h1 id="under-claim">Il metodo Buono per fare innovazione.</h1>
-                <h3 class="align-text-center">Analizziamo a fondo la tua azienda ed elaboriamo una strategia di <strong>innovazione e crescita digitale su misura.</strong></h3>
+                <h1 id="under-claim">Tu produci, noi pensiamo alla tua crescita.</h1>
+                <h3 class="align-text-center">Analizziamo a fondo il tuo business ed elaboriamo una strategia di <strong>innovazione e crescita digitale su misura.</strong></h3>
+                <h3></h3>
               </div>
             </div>
           </div>
@@ -27,19 +28,10 @@
         <!--  Cosa facciamo -->
         <section id="services" class="section-bg">
           <div class="container">
-            <h1 id="cosa-facciamo" class="ml1">
-              <span class="text-wrapper">
-                 <span class="letters">come funziona</span>
-              </span>
-            </h1>
-            <header class="section-header">
-              <h3></h3>
-              <p></p>
-            </header>
           <div class="container mt-5">
             <div class="row st-row">
               <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
-                <h1>Il <b>metodo Buono</b> è il nostro sistema di consulenza per l'innovazione del settore agroalimentare e la <strong>digital transformation per il Made in Italy.</strong></h1>
+                <h1>Il <b>metodo Buono</b> è il nostro sistema di consulenza dedicato alla <b>crescita digitale del settore food</b> e delle aziende agricole e agroalimentari. <br> <br><strong class="ondine">La digital transformation Made in Italy.</strong></h1>
                 {{-- ctA --}}
                   <p class="paragrafo-landing">Vuoi portare l'innovazione nella tua azienda?</p>
                   <!-- Calendly link widget begin -->
@@ -49,14 +41,31 @@
                   <!-- Calendly link widget end -->
                 {{-- ctA --}}
               </div>
-              <div class="mt-5 offset-lg-2 offset-md-2 offset-sm-1 col-md-8 col-lg-8 wow zoomIn" data-wow-duration="1.4s">
-                <img class="img-fluid" src="{{ asset('img/grow.png') }}" alt="">
+              <div class="mt-5 offset-lg-2 offset-md-2 offset-sm-1 col-md-8 col-lg-8">
+                <img class="img-fluid" src="{{ asset('img/grow.png') }}" alt="freccia" >
               </div>
-              <div class="mt-3 offset-lg-1 offset-md-1 col-md-10 col-lg-10 wow zoomIn" data-wow-duration="1.4s">
-                <h3>La comprensione profonda della tua azienda è la base da cui partiamo per la progettazione della strategia di <b>crescita del tuo business.</b></h3>
-              </div>
-              <div class="mt-3 offset-lg-1 offset-md-1 col-md-10 col-lg-10 wow zoomIn" data-wow-duration="1.4s">
-                <h3>Analizziamo la tua offerta per identificare il valore che porta ai tuoi clienti e costruiamo il percorso online che lega gli utenti al tuo brand.</h3>
+            </div>
+            <h1 id="cosa-facciamo" class="ml1">
+              <span class="text-wrapper">
+                 <span class="letters">come funziona</span>
+              </span>
+            </h1>
+            <header class="section-header">
+              <h3></h3>
+              <p></p>
+            </header>
+            <div class="row st-row text-center">
+                <div class="mt-2 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn" data-wow-duration="1.4s">
+                  <h1><b>Rendiamo la tua azienda più efficiente</b>, performante, connessa e pronta a competere.</h1>
+                  <h1>Miglioriamo la tua comunicazione online e <b>costruiamo relazioni tra gli utenti e il tuo brand.</b></h1>
+                {{-- ctA --}}
+                  <p class="paragrafo-landing">Inizia subito a crescere online!</p>
+                  <!-- Calendly link widget begin -->
+                  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                  <button type="button" class="btn cta-btn"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CALL!</a></button>
+                  <!-- Calendly link widget end -->
+                {{-- ctA --}}
               </div>
             </div>
             {{-- B --}}
@@ -86,7 +95,7 @@
               </div>
               <div class="col-md-8 col-lg-8">
                 <h1 class="font-weight-bold">Unique Selling Proposition</h1>
-                <p>In questa fase <b>miglioriamo la tua comunicazione aziendale</b> per rendere evidenti i vantaggi per cui il cliente dovrebbe acquistare il tuo prodotto</b>. Definiamo con chiarezza la promessa di valore giusta per rappresentare l'unicità della tua offerta commerciale.</p>
+                <p>In questa fase <b>miglioriamo la tua comunicazione aziendale</b> per rendere evidenti i vantaggi per cui il cliente dovrebbe acquistare il tuo prodotto</>. Definiamo con chiarezza la promessa di valore giusta per rappresentare l'unicità della tua offerta commerciale.</p>
                 <h4 class="font-weight-bold">1. Analizziamo la tua offerta</h4>
                 <p>Analizziamo in modo approfondito il tuo prodotto definendo le sue caratteristiche oggettive, i vantaggi e gli svantaggi che apporta ai tuoi clienti.</p>
                 <h4 class="font-weight-bold">2. Definiamo accuratamente il target</h4>
@@ -125,8 +134,7 @@
                 <p>L'obiettivo in questa <b>analizziamo i fattori strategici del tuo business.</b> La creazione di partnership e alleanze strategiche permette di aumentare le possibilità di successo nel mercato con la possibilità di avviare programmi di Open Innovation.</p>
                 <h4 class="font-weight-bold">1. Analizziamo i fattori esterni</h4>
                 <p>Analizziamo i fattori esterni del ciclo produttivo e le caratteristiche dei tuoi fornitori chiave per identificare le opportunità di miglioramento del tuo prodotto.</p>
-
-                <h4 class="font-weight-bold">3. Identifichiamo i partner strategici</h4>
+                <h4 class="font-weight-bold">2. Identifichiamo i partner strategici</h4>
                 <p>Identifichiamo i partner scientifici, tecnologici e commerciali con cui sviluppare alleanze strategiche solide e durature per la crescita della tua azienda. </p>
               </div>
             </div>
@@ -142,7 +150,7 @@
                 <p>In questa fase <b>definiamo la strategia operativa</b> per far crescere la tua azienda. Ti forniamo un'indicazione chiara e trasparente rispetto a tutto quello che faremo per passare all'azione.</p>
                 <h4 class="font-weight-bold">1. Fissiamo gli obiettivi da raggiungere</h4>
                 <p>Definiamo gli obiettivi e identifichiamo tutte le operazioni necessarie per raggiungerli (esempio: restyling del marchio, realizzazione sito web, realizzazione ecommerce, progettazione del packaging, lancio campagne promozionali online etc.)</p>
-                <h4 class="font-weight-bold">2. Definiamo accuratamente gli Indicatori di Performance</h4>
+                <h4 class="font-weight-bold">2. Definiamo gli Indicatori di Performance</h4>
                 <p>Identifichiamo gli indicatori di performance e i dati da monitorare per valutare l'efficacia della nostra azione e il raggiungimento degli obiettivi fissati.</p>
                 <h4 class="font-weight-bold">3. Realizziamo un Piano Operativo</h4>
                 <p>Ti forniamo un piano d'azione chiaro ed esaustivo con la tempistica e le modalità di esecuzione di tutto quello che faremo per far crescere la tua azienda.</p>
@@ -156,7 +164,7 @@
         <div class="container">
           <h1 id="cosa-facciamo" class="ml1">
             <span class="text-wrapper">
-               <span class="letters">cosa miglioriamo</span>
+               <span class="letters">il metodo Buono</span>
             </span>
           </h1>
           <header class="section-header">
@@ -165,11 +173,20 @@
           </header>
           <div class="row st-row">
             <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
-              <h1>Il <b>metodo Buono</b> è la soluzione perfetta per <strong>migliorare i risultati delle aziende agroalimentari </strong> rendendole più efficienti e performanti, connesse e pronte a competere nel mercato digitale. </h1>
+              <h1>Il <b>metodo Buono</b> è la soluzione su misura per far <strong>crescere</strong> la tua azienda agroalimentare</h1>
+              <h2>Un <b>team di esperti</b> dedicato ti seguirà passo passo nella crescita digitale della tua azienda</h2>
+              <ul>
+                <li>migliorare la comunicazione online</li>
+                <li>migliorare la vendita online</li>
+                <li>aggiornare il sito web con le ultime tecnologie</li>
+                <li>ottimizzare la tua presenza sui social</li>
+                <li>migliorare il tuo logo e la tua immagine</li>
+                <li>pianificare la strategia digitale</li>
+              </ul>
             </div>
             <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
             {{-- ctA --}}
-              <p class="paragrafo-landing">Vuoi ricevere informazioni per far crescere la tua azienda?</p>
+              <p class="paragrafo-landing"><b>Inizia subito con noi!</b></p>
               <!-- Calendly link widget begin -->
               <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
               <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
@@ -177,66 +194,53 @@
               <!-- Calendly link widget end -->
             {{-- ctA --}}
             </div>
-            <div class="mt-3 offset-lg-2 offset-md-2 offset-sm-1 col-md-8 col-lg-8 wow zoomIn" data-wow-duration="1.4s">
-              <img class="img-fluid" src="{{ asset('img/grow.png') }}" alt="">
-            </div>
-            <div class="mt-3 offset-lg-1 offset-md-1 col-md-10 col-lg-10 wow zoomIn" data-wow-duration="1.4s">
-              <h3>La comprensione profonda della tua azienda è la base da cui partiamo per la progettazione della strategia di <b>crescita del tuo business.</b></h3>
-            </div>
-            <div class="mt-3 offset-lg-1 offset-md-1 col-md-10 col-lg-10 wow zoomIn" data-wow-duration="1.4s">
-              <h3>Analizziamo la tua offerta per identificare il valore che porta ai tuoi clienti e costruiamo il percorso online che lega gli utenti al tuo brand.</h3>
-            </div>
           </div>
 
           <div class="row st-row">
-            <div class="offset-lg-1 offset-md-1 offset-sm-1 col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
+            <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
               <div class="box" id="boxuno">
-                <h1 class="title"></h1>
-                <ul>
-                  <li>Logo & Branding</li>
-                  <li>UI / UX Design</li>
-                  <li>Packaging</li>
-                  <li>Editoria</li>
-                  <li>Foto & Video</li>
-                  <li>Stand & Interior Design</li>
-                </ul>
+                <div class="media">
+                  <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h3 class="mt-0"><b>Tu produci, noi pensiamo alla tua crescita!</b></h3>
+                    <p>Un team di agronomi ed esperti digitali a tua disposizione per la crescita della tua azienda: digital marketing, food marketing, strategia digitale, analisi dei dati, graphic design e web design.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="offset-lg-1 offset-md-1 offset-sm-1  col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
+            <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
               <div class="box">
-                <h1 class="title">WEB</h1>
-                <ul>
-                  <li>Siti Web Responsive</li>
-                  <li>Sviluppo Front / Back-end</li>
-                  <li>Applicazioni Web</li>
-                  <li>e-Commerce</li>
-                  <li>Landing Pages</li>
-                  <li>CMS</li>
-                </ul>
+                <div class="media">
+                  <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h3 class="mt-0"><b>Il tuo team Digital Agroalimentare dedicato</b></h3>
+                    <p>Stai cercando un Digital Manager per la tua azienda? Analizziamo a fondo il tuo business e definiamo una strategia di crescita digitale su misura per te. </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="offset-lg-1 offset-md-1 offset-sm-1 col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
+            <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
               <div class="box">
-                <h1 class="title">DIGITAL</h1>
-                <ul>
-                  <li>Strategy & Advertising</li>
-                  <li>Copywriting</li>
-                  <li>Social Media Marketing</li>
-                  <li>Email Marketing</li>
-                  <li>SEO & SEM</li>
-                </ul>
+                <div class="media">
+                  <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h3 class="mt-0"><b>Un obiettivo alla volta</b></h3>
+                    <p>Avrai sempre tutto sotto controllo grazie al nostro piano d'azione chiaro ed esaustivo. Definiamo sempre i tempi e le modalità di esecuzione per raggiungere i tuoi obiettivi.</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="offset-lg-1 offset-md-1 offset-sm-1  col-md-5 col-lg-5 wow zoomIn" data-wow-duration="1.4s">
+            <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
               <div class="box">
-                <h1 class="title">EVENTI</h1>
-                <ul>
-                  <li>Progettazione</li>
-                  <li>Planning & Logistica</li>
-                  <li>Promozione online / offline</li>
-                </ul>
+                <div class="media">
+                  <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
+                  <div class="media-body">
+                    <h3 class="mt-0"><b>Il turbo alle tue vendite online</b></h3>
+                    <p>Vuoi iniziare a vendere online? Vuoi migliorare le tue performance? Rendiamo i tuoi prodotti irresistibili per i clienti e mettiamo il turbo alle tue vendite.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

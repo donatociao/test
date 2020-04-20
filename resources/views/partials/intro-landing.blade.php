@@ -3,11 +3,11 @@
   <div class="container d-flex h-100">
     <div class="row align-self-center w-100">
       <div class="offset-md-1 col-md-6 intro-info">
-        <h1 id="buono-intro">Il metodo Buono.</h1>
-        <h3 id="underline">EFFICACIA GARANTITA AL 100%</h3>
-        <h3>Fai crescere il tuo business su internet con un programma di <b>consulenza su misura</b></h3>
+        <h3>Vuoi <b>migliorare la comunicazione online</b> della tua azienda agroalimentare?</h3>
+        <h1 id="buono-intro" class="wow FadeInLeft">Il metodo Buono.</h1>
+        <h3 class="ondine">EFFICACIA GARANTITA AL 100%</h3>
         {{-- ctA --}}
-          <p class="paragrafo-landing">Vuoi portare l'<strong>innovazione</strong> nella tua azienda?</p>
+          <p class="paragrafo-landing">Un <b>team di esperti</b> dedicato per la crescita della tua azienda<strong></strong></p>
           <!-- Calendly link widget begin -->
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
