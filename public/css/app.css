@@ -11181,7 +11181,7 @@ body {
 #wave4,
 #wave5,
 #wave6 {
-    display: none;
+    display: none !important;
   }
 }
 /*
