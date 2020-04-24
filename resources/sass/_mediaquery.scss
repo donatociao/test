@@ -188,17 +188,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 
-/*iPad Pro 9.7"*/
-/* Portrait */
 @media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
   #wave1,
   #wave2,
-
   #wave4,
   #wave5,
   #wave6 {
