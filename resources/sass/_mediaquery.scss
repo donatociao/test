@@ -177,10 +177,11 @@ only screen and (min-resolution: 1.25dppx) {
 and (min-device-width: 834px)
 and (max-device-width: 834px)
 and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
+and (-webkit-min-device-pixel-ratio: 2)
+and (-webkit-min-device-pixel-ratio:0)
+{
   #wave1,
   #wave2,
-
   #wave4,
   #wave5,
   #wave6 {
@@ -191,7 +192,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen
   and (min-device-width: 1024px)
   and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-min-device-pixel-ratio:0) {
 
   #wave1,
   #wave2,
@@ -203,12 +205,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media
+  only screen and (-webkit-min-device-pixel-ratio:0),
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
   only screen and (     -o-min-device-pixel-ratio: 2/1),
   only screen and (        min-device-pixel-ratio: 2),
   only screen and (                min-resolution: 264dpi),
   only screen and (                min-resolution: 2dppx) {
+
     #wave1,
     #wave2,
     #wave4,
