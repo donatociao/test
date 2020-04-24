@@ -11148,12 +11148,10 @@ body {
     font-size: 80px;
   }
 
-  #wave1,
-#wave2,
-#wave4,
+  #wave4,
 #wave5,
 #wave6 {
-    display: none !important;
+    display: none;
   }
 
   [id*=img-] {
@@ -11258,6 +11256,15 @@ body {
   #cosa-facciamo,
 #metodo {
     font-size: 60px;
+  }
+
+  #wave1,
+#wave2,
+#wave3,
+#wave4,
+#wave5,
+#wave6 {
+    display: none !important;
   }
 }
 /*

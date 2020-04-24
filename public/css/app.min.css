@@ -3890,7 +3890,7 @@ body{overflow-x:hidden;}
 */
 @media screen and (min-width:1900px){.container{width:1870px;}
 
- #wave1,#wave2,#wave3,#imgflow{display:none;}
+ #imgflow{display:none;}
 
  #metodo{right:20px;}
 }
@@ -3942,7 +3942,7 @@ body{overflow-x:hidden;}
 
  #cosa-facciamo,#metodo{font-size:80px;}
 
- #wave1,#wave2,#wave4,#wave5,#wave6{display:none !important;}
+ #wave4,#wave5,#wave6{display:none;}
 
  [id*=img-]{z-index:995;width:100%;}
 
@@ -3979,6 +3979,8 @@ body{overflow-x:hidden;}
  .close{width:70px;height:70px;color:white;}
 
  #cosa-facciamo,#metodo{font-size:60px;}
+
+ #wave1,#wave2,#wave3,#wave4,#wave5,#wave6{display:none !important;}
 }
 /*
  ##Device = Low Resolution Tablets,Mobiles (Landscape)
