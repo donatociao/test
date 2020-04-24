@@ -171,6 +171,21 @@ only screen and (min-resolution: 1.25dppx) {
   }
 }
 /*
+  ##Device = Ipad pro 11
+  /* Portrait */
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1194px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #wave1,
+    #wave2,
+    #wave4,
+    #wave5,
+    #wave6 {
+      display: none !important;
+    }
+}
+/*
   ##Device = Ipad pro 10.5
   /* Portrait */
 @media only screen
