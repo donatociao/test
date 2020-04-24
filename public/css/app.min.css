@@ -3942,6 +3942,8 @@ body{overflow-x:hidden;}
 
  #cosa-facciamo,#metodo{font-size:80px;}
 
+ #wave4,#wave5,#wave6{display:none;}
+
  [id*=img-]{z-index:995;width:100%;}
 
  #workflow h3{font-size:28px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;z-index:993;margin:0;}
