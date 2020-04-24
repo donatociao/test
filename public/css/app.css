@@ -11171,6 +11171,13 @@ body {
 /*
   ##Device = Ipad pro 10.5
   /* Portrait */
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #wave1,
+#wave2,
+#wave3 {
+    display: none;
+  }
+}
 /*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
