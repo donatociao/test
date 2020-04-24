@@ -61,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 
 <!-- Stile -->
-<link href="{{asset('css/app.min.css')}}" rel="stylesheet">
+<link href="{{asset('css/app.css')}}" rel="stylesheet">
 
 <!-- DATI STRUTTURATI -->
 <script type='application/ld+json'>
