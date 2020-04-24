@@ -82,14 +82,13 @@ only screen and (min-resolution: 1.25dppx) {
     font-weight: 600;
   }
 
-  #workflow h1 {
+  #workflow h3 {
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
     color: #edecef;
     font-weight: 600;
-    z-index: 993;
+    z-index: 990;
     margin: 0;
-    background-color: white;
   }
 
   #cosa-facciamo,
@@ -158,14 +157,14 @@ only screen and (min-resolution: 1.25dppx) {
     width: 100%;
   }
 
-  #workflow h1 {
+
+  #workflow h3 {
     font-size: 28px;
     font-family: "Montserrat", sans-serif;
     color: #edecef;
     font-weight: 600;
     z-index: 993;
     margin: 0;
-    background-color: white;
   }
 }
 /*
@@ -289,7 +288,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     z-index: 994;
   }
 
-  #workflow h1 {
+  #workflow h3 {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     color: #edecef;

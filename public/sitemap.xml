@@ -2,38 +2,38 @@
 <!-- Coltiviamo idee. Crawl it! -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://prelibato.eu/</loc>
+    <loc>https://prelibato.eu/</loc>
     <lastmod>2020-03-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://prelibato.eu/privacy</loc>
-    <lastmod>2020-03-25</lastmod>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
-    <loc>http://prelibato.eu/blog/</loc>
+    <loc>https://prelibato.eu/blog/</loc>
     <lastmod>2020-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://prelibato.eu/contattaci</loc>
+    <loc>https://prelibato.eu/contattaci</loc>
+    <lastmod>2020-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://prelibato.eu/portfolio</loc>
     <lastmod>2020-03-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://prelibato.eu/portfolio</loc>
+    <loc>https://prelibato.eu/blog/come-gestire-la-comunicazione-aziendale-ai-tempi-del-coronavirus/</loc>
     <lastmod>2020-03-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://prelibato.eu/blog/come-gestire-la-comunicazione-aziendale-ai-tempi-del-coronavirus/</loc>
-    <lastmod>2020-03-25</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://prelibato.eu/blog/aprire-un-ecommmerce/</loc>
+    <loc>https://prelibato.eu/blog/aprire-un-ecommmerce/</loc>
     <lastmod>2020-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://prelibato.eu/blog/riapertura-dei-ristoranti-tra-food-delivery-take-away-e-ux/</loc>
+    <lastmod>2020-04-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

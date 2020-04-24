@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);@charset "UTF-8";@font-face{font-family:"Arvo";font-display:auto;src:local("Arvo"),url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");}
-:root{--blue:#3490dc;--indigo:#6574cd;--purple:#9561e2;--pink:#f66d9b;--red:#e3342f;--orange:#f6993f;--yellow:#ffed4a;--green:#38c172;--teal:#4dc0b5;--cyan:#6cb2eb;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#3490dc;--secondary:#6c757d;--success:#38c172;--info:#6cb2eb;--warning:#ffed4a;--danger:#e3342f;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:"Nunito",sans-serif;--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
+@import url(http://fonts.googleapis.com/css?family=Montserrat);@charset "UTF-8";@font-face{font-family:"Arvo";font-display:auto;src:local("Arvo"),url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");}:root{--blue:#3490dc;--indigo:#6574cd;--purple:#9561e2;--pink:#f66d9b;--red:#e3342f;--orange:#f6993f;--yellow:#ffed4a;--green:#38c172;--teal:#4dc0b5;--cyan:#6cb2eb;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#3490dc;--secondary:#6c757d;--success:#38c172;--info:#6cb2eb;--warning:#ffed4a;--danger:#e3342f;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:"Nunito",sans-serif;--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
 
 *,*::before,*::after{box-sizing:border-box;}
 
@@ -3766,7 +3765,7 @@ body{overflow-x:hidden;}
 
 #stepuno,#stepdue,#steptre,#stepquattro,#stepcinque{position:absolute;background-color:#F8D714;width:600px;height:300px;opacity:1;z-index:996;border-radius:25px;box-shadow:10px 4px 28px -9px rgba(0,0,0,0.4);}
 
-#workflow h3{font-size:50px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;text-align:center;position:absolute;z-index:995;margin:0;background-color:white;}
+#workflow h3{font-size:50px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;text-align:center;position:absolute;z-index:990;margin:0;background-color:white;}
 
 [id*=img-]{z-index:994;background-color:white;}
 
@@ -3872,6 +3871,8 @@ body{overflow-x:hidden;}
 .cta-btn:hover{transform:scale(1.2);transition:300ms;}
 .cta-btn a{color:white;}
 
+.ondine{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");background-position:0 50%;background-size:auto 20px;background-repeat:repeat-x;}
+
 .portfolio2{margin-top:150px;}
 
 /*--------------------------------------------------------------
@@ -3913,7 +3914,7 @@ body{overflow-x:hidden;}
 
  #under-claim{font-size:28px;font-weight:600;}
 
- #workflow h1{font-size:30px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;z-index:993;margin:0;background-color:white;}
+ #workflow h3{font-size:30px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;z-index:990;margin:0;}
 
  #cosa-facciamo,#metodo{font-size:120px;}
 
@@ -3939,7 +3940,7 @@ body{overflow-x:hidden;}
 
  [id*=img-]{z-index:995;width:100%;}
 
- #workflow h1{font-size:28px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;z-index:993;margin:0;background-color:white;}
+ #workflow h3{font-size:28px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;z-index:993;margin:0;}
 }
 /*
  ##Device = Ipad pro 10.5
@@ -3986,7 +3987,7 @@ body{overflow-x:hidden;}
 
  [id*=img-]{z-index:994;}
 
- #workflow h1{font-size:20px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;text-align:center;position:absolute;z-index:995;margin:0;}
+ #workflow h3{font-size:20px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;text-align:center;position:absolute;z-index:995;margin:0;}
 
  #social-bar{display:none !important;}
 }

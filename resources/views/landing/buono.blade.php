@@ -18,7 +18,7 @@
             <div class="row d-flex justify-content-center">
               <div class="text-center col-lg-8 col-md-12">
                 <h1 id="under-claim">Tu produci, noi pensiamo alla tua crescita.</h1>
-                <h3 class="align-text-center">Analizziamo a fondo il tuo business ed elaboriamo una strategia di <strong>innovazione e crescita digitale su misura.</strong></h3>
+                <h3 class="align-text-center">Analizziamo a fondo il tuo business ed elaboriamo una strategia di <strong>crescita digitale su misura.</strong></h3>
                 <h3></h3>
               </div>
             </div>
@@ -76,7 +76,7 @@
                 </div>
               </div>
               <div class="col-md-8 col-lg-8">
-                <h1 class="font-weight-bold">Brand Analysis</h1>
+                <h1 class="font-weight-bold">Brand & Business Analysis</h1>
                 <p>Nella prima fase <b>analizziamo a fondo il tuo business.</b> La comprensione profonda della tua azienda è la base da cui partiamo per progettare la strategia. L'analisi del brand è fondamentale per capire come differenziare il tuo prodotto e la tua azienda nella mente del cliente.</p>
                 <h4 class="font-weight-bold">1. Analizziamo il contesto</h4>
                 <p>Scendiamo in profondità per analizzare il contesto in cui opera la tua azienda identificando cosa è davvero importante per i clienti del tuo mercato.</p>
@@ -203,7 +203,7 @@
                   <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
                   <div class="media-body">
                     <h3 class="mt-0"><b>Tu produci, noi pensiamo alla tua crescita!</b></h3>
-                    <p>Un team di agronomi ed esperti digitali a tua disposizione per la crescita della tua azienda: digital marketing, food marketing, strategia digitale, analisi dei dati, graphic design e web design.</p>
+                    <p>Un team di esperti digitali a tua disposizione per la crescita della tua azienda: digital marketing, food marketing, strategia digitale, analisi dei dati, graphic design e web design.</p>
                   </div>
                 </div>
               </div>
@@ -213,7 +213,7 @@
                 <div class="media">
                   <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
                   <div class="media-body">
-                    <h3 class="mt-0"><b>Il tuo team Digital Agroalimentare dedicato</b></h3>
+                    <h3 class="mt-0"><b>Il tuo team di crescita digitale dedicato</b></h3>
                     <p>Stai cercando un Digital Manager per la tua azienda? Analizziamo a fondo il tuo business e definiamo una strategia di crescita digitale su misura per te. </p>
                   </div>
                 </div>
@@ -227,7 +227,7 @@
                   <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
                   <div class="media-body">
                     <h3 class="mt-0"><b>Un obiettivo alla volta</b></h3>
-                    <p>Avrai sempre tutto sotto controllo grazie al nostro piano d'azione chiaro ed esaustivo. Definiamo sempre i tempi e le modalità di esecuzione per raggiungere i tuoi obiettivi.</p>
+                    <p>Avrai sempre tutto sotto controllo grazie al nostro piano strategico chiaro ed esaustivo. Definiamo insieme i tempi e le modalità di azione per raggiungere i tuoi obiettivi.</p>
                   </div>
                 </div>
               </div>
