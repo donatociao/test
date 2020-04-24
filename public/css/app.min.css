@@ -3942,7 +3942,7 @@ body{overflow-x:hidden;}
 
  #cosa-facciamo,#metodo{font-size:80px;}
 
- #wave1,#wave2,#wave4,#wave5{display:none !important;}
+ #wave2,#wave3,#wave4,#wave5,#wave6{display:none !important;}
 
  [id*=img-]{z-index:995;width:100%;}
 
