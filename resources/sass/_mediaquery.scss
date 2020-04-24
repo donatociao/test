@@ -152,7 +152,7 @@ only screen and (min-resolution: 1.25dppx) {
   #wave4,
   #wave5,
   #wave6 {
-    display: none;
+    display: none !important;
   }
 
   [id*='img-'] {
