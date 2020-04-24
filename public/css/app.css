@@ -11148,6 +11148,12 @@ body {
     font-size: 80px;
   }
 
+  #wave1,
+#wave2,
+#wave3 {
+    display: none;
+  }
+
   [id*=img-] {
     z-index: 995;
     width: 100%;
