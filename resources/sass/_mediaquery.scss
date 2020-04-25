@@ -3,16 +3,22 @@
 --------------------------------------------------------------*/
 /*
   ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+  ##Screen = Imac 27
 */
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 2560px) {
   .container {
     width: 1870px;
   }
 
-  #wave1,
-  #wave2,
-  #wave3,
+  #about {
+    padding-bottom: 300px;
+    background-color: #FCE66D;
+  }
+
+  #under-claim {
+    font-size: 40px;
+  }
+
   #imgflow {
     display: none;
   }
@@ -20,6 +26,43 @@
   #metodo {
     right: 20px;
   }
+
+  #wave1,
+  #wave2,
+  #wave3,
+ {
+    display: none !important;
+  }
+
+
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
+  }
+
+
+  #imgflow {
+    display: none;
+  }
+
+  #metodo {
+    right: 20px;
+  }
+
+  #wave1,
+  #wave2,
+  #wave3 {
+    display: none !important;
+  }
+
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
@@ -35,8 +78,16 @@ only screen and (min-resolution: 1.25dppx) {
   body {
     width: 100%;
   }
-}
 
+}
+@media (min-width: 1366px) and (max-width: 1600px) {
+
+#wave4,
+#wave5,
+#wave6 {
+  display: none !important;
+}
+}
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -62,17 +113,17 @@ only screen and (min-resolution: 1.25dppx) {
     margin-bottom: 150px;
     font-family: "Montserrat", sans-serif;
   }
+
 }
 
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   html {
     width: 100vw;
   }
-
   #navbarSupportedContent {
     display: none !important;
   }
@@ -101,7 +152,20 @@ only screen and (min-resolution: 1.25dppx) {
   #wave3 {
     display: none !important;
   }
+
 }
+@media (min-width: 1024px) and (max-width: 1224px) {
+  #navbarSupportedContent {
+    display: none !important;
+  }
+
+  #wave1,
+  #wave2,
+  #wave3 {
+    display: none !important;
+  }
+}
+
 
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -115,6 +179,8 @@ only screen and (min-resolution: 1.25dppx) {
   body {
     width: 100%;
   }
+
+
 
   #intro .intro-info h2 {
     color: #413e66;
@@ -174,70 +240,22 @@ only screen and (min-resolution: 1.25dppx) {
   and (min-device-width: 834px)
   and (max-device-width: 1194px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    #wave1,
-    #wave2,
     #wave4,
     #wave5,
     #wave6 {
       display: none !important;
     }
-}
-/*
-  ##Device = Ipad pro 10.5
-  /* Portrait */
-@media only screen
-and (min-device-width: 834px)
-and (max-device-width: 834px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2)
-and (-webkit-min-device-pixel-ratio:0)
-{
-  #wave1,
-  #wave2,
-  #wave4,
-  #wave5,
-  #wave6 {
-    display: none !important;
-  }
 }
 
 @media only screen
   and (min-device-width: 1024px)
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (-webkit-min-device-pixel-ratio:0) {
+  and (max-device-width: 1366px) {
 
   #wave1,
   #wave2,
-<<<<<<< HEAD
-  #wave4,
-  #wave5,
-  #wave6 {
+  #wave3 {
     display: none !important;
   }
-}
-
-@media
-  only screen and (-webkit-min-device-pixel-ratio:0),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (   min--moz-device-pixel-ratio: 2),
-  only screen and (     -o-min-device-pixel-ratio: 2/1),
-  only screen and (        min-device-pixel-ratio: 2),
-  only screen and (                min-resolution: 264dpi),
-  only screen and (                min-resolution: 2dppx) {
-
-    #wave1,
-    #wave2,
-    #wave4,
-    #wave5,
-    #wave6 {
-      display: none !important;
-    }
-=======
-  #wave3 {
-    display: none;
-  }
->>>>>>> parent of 54f951d... mediaquety
 }
 
 /*
@@ -288,9 +306,7 @@ and (-webkit-min-device-pixel-ratio:0)
     font-size: 60px;
   }
 
-  #wave1,
-  #wave2,
-  #wave3,
+
   #wave4,
   #wave5,
   #wave6 {
@@ -451,7 +467,7 @@ and (-webkit-min-device-pixel-ratio:0)
   }
 
   #under-claim {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
   }
 

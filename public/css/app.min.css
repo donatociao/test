@@ -3715,7 +3715,7 @@ body{overflow-x:hidden;}
 
 /* chi siamo
 --------------------------------*/
-#about{padding:120px 0;height:320px;background-color:#FCE66D;}
+#about{padding:100px 0;height:320px;background-color:#FCE66D;}
 
 #under-claim{color:#413e66;font-family:"Montserrat",sans-serif;font-weight:700;font-size:32px;}
 
@@ -3890,7 +3890,7 @@ body{overflow-x:hidden;}
 */
 @media screen and (min-width:1900px){.container{width:1870px;}
 
- #imgflow{display:none;}
+ #wave1,#wave2,#wave3,#imgflow{display:none;}
 
  #metodo{right:20px;}
 }
@@ -3960,7 +3960,7 @@ body{overflow-x:hidden;}
 }
 @media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:2) and (-webkit-min-device-pixel-ratio:0){#wave1,#wave2,#wave4,#wave5,#wave6{display:none !important;}
 }
-@media only screen and (-webkit-min-device-pixel-ratio:0),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (-webkit-min-device-pixel-ratio:2.75),only screen and (min-resolution:264dpi),only screen and (min-resolution:2dppx){#wave1,#wave2,#wave4,#wave5,#wave6{display:none !important;}
+@media only screen and (-webkit-min-device-pixel-ratio:0),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (-webkit-min-device-pixel-ratio:2.75),only screen and (min-resolution:264dpi),only screen and (min-resolution:2dppx){#wave1,#wave2,#wave3,#wave4,#wave5,#wave6{display:none !important;}
 }
 /*
  ##Device = Tablets,Ipads (landscape)

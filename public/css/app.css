@@ -11014,6 +11014,38 @@ body {
 --------------------------------------------------------------*/
 /*
   ##Device = Desktops
+  ##Screen = Imac 27
+*/
+@media screen and (min-width: 2560px) {
+  .container {
+    width: 1870px;
+  }
+
+  #about {
+    padding-bottom: 300px;
+    background-color: #FCE66D;
+  }
+
+  #under-claim {
+    font-size: 40px;
+  }
+
+  #imgflow {
+    display: none;
+  }
+
+  #metodo {
+    right: 20px;
+  }
+
+  #wave1,
+#wave2,
+#wave3 {
+    display: none !important;
+  }
+}
+/*
+  ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 @media screen and (min-width: 1900px) {
@@ -11021,15 +11053,18 @@ body {
     width: 1870px;
   }
 
-  #wave1,
-#wave2,
-#wave3,
-#imgflow {
+  #imgflow {
     display: none;
   }
 
   #metodo {
     right: 20px;
+  }
+
+  #wave1,
+#wave2,
+#wave3 {
+    display: none !important;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (-webkit-min-device-pixel-ratio: 2.0833333333333335), only screen and (min-resolution: 200dpi), only screen and (min-resolution: 1.25dppx) {
@@ -11039,6 +11074,13 @@ body {
 
   body {
     width: 100%;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1600px) {
+  #wave4,
+#wave5,
+#wave6 {
+    display: none !important;
   }
 }
 /*
@@ -11071,7 +11113,7 @@ body {
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   html {
     width: 100vw;
   }
@@ -11097,6 +11139,17 @@ body {
   #cosa-facciamo,
 #metodo {
     font-size: 120px;
+  }
+
+  #wave1,
+#wave2,
+#wave3 {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1224px) {
+  #navbarSupportedContent {
+    display: none !important;
   }
 
   #wave1,
@@ -11172,50 +11225,17 @@ body {
   ##Device = Ipad pro 11
   /* Portrait */
 @media only screen and (min-device-width: 834px) and (max-device-width: 1194px) and (-webkit-min-device-pixel-ratio: 2) {
-  #wave1,
-#wave2,
-#wave4,
+  #wave4,
 #wave5,
 #wave6 {
     display: none !important;
   }
 }
-/*
-  ##Device = Ipad pro 10.5
-  /* Portrait */
-<<<<<<< HEAD
-@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 0) {
-  #wave1,
-#wave2,
-#wave4,
-#wave5,
-#wave6 {
-    display: none !important;
-  }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 0) {
-  #wave1,
-#wave2,
-#wave4,
-#wave5,
-#wave6 {
-    display: none !important;
-  }
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 0), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2.75), only screen and (min-resolution: 264dpi), only screen and (min-resolution: 2dppx) {
-  #wave1,
-#wave2,
-#wave4,
-#wave5,
-#wave6 {
-    display: none !important;
-=======
-@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   #wave1,
 #wave2,
 #wave3 {
-    display: none;
->>>>>>> parent of 54f951d... mediaquety
+    display: none !important;
   }
 }
 /*
@@ -11266,10 +11286,7 @@ body {
     font-size: 60px;
   }
 
-  #wave1,
-#wave2,
-#wave3,
-#wave4,
+  #wave4,
 #wave5,
 #wave6 {
     display: none !important;
@@ -11426,7 +11443,7 @@ body {
   }
 
   #under-claim {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
   }
 

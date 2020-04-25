@@ -35,6 +35,6 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
-// Route::get('/metodo-buono', function () {
-//     return view('landing.buono');
-// })->name('buono');
+Route::get('/metodo-buono', function () {
+    return view('landing.buono');
+})->name('buono');

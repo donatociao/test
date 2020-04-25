@@ -63,7 +63,7 @@
     });
 
     var wave4 = $('#wave4').wavify({
-        height: 930,
+        height: 740,
         bones: 2,
         amplitude: 200,
         color: 'rgba(251, 227, 75, 0.3)',
@@ -76,7 +76,7 @@
     });
 
     var wave5 = $('#wave5').wavify({
-        height: 890,
+        height: 800,
         bones: 5,
         amplitude: 120,
         color: 'rgba(251, 227, 75, 0.4)',
@@ -89,7 +89,7 @@
     });
 
     var wave6 = $('#wave6').wavify({
-        height: 990,
+        height: 840,
         bones: 3,
         amplitude: 70,
         color: 'rgba(253, 231, 109, 1)',
@@ -206,8 +206,8 @@
 
     //clicca qui stop
     $('#uno').on('click', function() {
-      $('#img-uno').removeClass('blob');
-      $('#clicca-qui').addClass('d-none');
+        $('#img-uno').removeClass('blob');
+        $('#clicca-qui').addClass('d-none');
     });
 
 

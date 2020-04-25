@@ -3,7 +3,7 @@
 @section('content')
 @include('partials.header')
 
-  <div class="container">
+  <div class="container mt-5 h-50">
     <div class="row">
       <div class="col-lg-12" id="cont-sx">
         <h1>Ci stiamo lavorando.</h1>

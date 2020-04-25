@@ -18,8 +18,7 @@
             <div class="row d-flex justify-content-center">
               <div class="text-center col-lg-8 col-md-12">
                 <h1 id="under-claim">Tu produci, noi pensiamo alla tua crescita.</h1>
-                <h3 class="align-text-center">Analizziamo a fondo il tuo business ed elaboriamo una strategia di <strong>crescita digitale su misura.</strong></h3>
-                <h3></h3>
+                <h3 class="align-text-center">Siamo un'agenzia specializzata in <b>food marketing</b>. <br>A differenza delle altre agenzie lavoriamo esclusivamente con le aziende del settore agroalimentare per creare strategie di <strong>crescita digitale su misura.</strong></h3>
               </div>
             </div>
           </div>
@@ -76,8 +75,8 @@
                 </div>
               </div>
               <div class="col-md-8 col-lg-8">
-                <h1 class="font-weight-bold">Brand & Business Analysis</h1>
-                <p>Nella prima fase <b>analizziamo a fondo il tuo business.</b> La comprensione profonda della tua azienda è la base da cui partiamo per progettare la strategia. L'analisi del brand è fondamentale per capire come differenziare il tuo prodotto e la tua azienda nella mente del cliente.</p>
+                <h1 class="font-weight-bold">Brand & Business</h1>
+                <p>Nella prima fase <b>analizziamo a fondo il tuo business.</b> La comprensione profonda della tua azienda è la base da cui partiamo per progettare la strategia. L'analisi del brand e del business è fondamentale per differenziare il tuo prodotto e la tua azienda nella mente del cliente.</p>
                 <h4 class="font-weight-bold">1. Analizziamo il contesto</h4>
                 <p>Scendiamo in profondità per analizzare il contesto in cui opera la tua azienda identificando cosa è davvero importante per i clienti del tuo mercato.</p>
                 <h4 class="font-weight-bold">2. Analizziamo i concorrenti</h4>
@@ -94,13 +93,13 @@
                 </div>
               </div>
               <div class="col-md-8 col-lg-8">
-                <h1 class="font-weight-bold">Unique Selling Proposition</h1>
-                <p>In questa fase <b>miglioriamo la tua comunicazione aziendale</b> per rendere evidenti i vantaggi per cui il cliente dovrebbe acquistare il tuo prodotto</>. Definiamo con chiarezza la promessa di valore giusta per rappresentare l'unicità della tua offerta commerciale.</p>
+                <h1 class="font-weight-bold">Unicità</h1>
+                <p>In questa fase <b>miglioriamo la tua comunicazione aziendale</b> per rappresentare l'unicità della tua offerta commerciale. Rendiamo evidenti i vantaggi per cui il cliente dovrebbe acquistare il tuo prodotto a discapito dei tuoi concorrenti.</p>
                 <h4 class="font-weight-bold">1. Analizziamo la tua offerta</h4>
                 <p>Analizziamo in modo approfondito il tuo prodotto definendo le sue caratteristiche oggettive, i vantaggi e gli svantaggi che apporta ai tuoi clienti.</p>
                 <h4 class="font-weight-bold">2. Definiamo accuratamente il target</h4>
                 <p>Tenendo conto di quanto abbiamo appreso definiamo accuratamente le buyer personas a cui rivolgere la comunicazione commerciale.</p>
-                <h4 class="font-weight-bold">3. Definiamo la promessa di valore</h4>
+                <h4 class="font-weight-bold">3. Comunichiamo il tuo valore</h4>
                 <p>Definiamo la promessa di valore che utilizzeremo per convincere i tuoi clienti a scegliere il tuo prodotto a discapito dei tuoi concorrenti.</p>
               </div>
             </div>

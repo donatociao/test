@@ -149,7 +149,7 @@
     speed: .25
   });
   var wave4 = $('#wave4').wavify({
-    height: 930,
+    height: 740,
     bones: 2,
     amplitude: 200,
     color: 'rgba(251, 227, 75, 0.3)',
@@ -160,7 +160,7 @@
     timing: 8
   });
   var wave5 = $('#wave5').wavify({
-    height: 890,
+    height: 800,
     bones: 5,
     amplitude: 120,
     color: 'rgba(251, 227, 75, 0.4)',
@@ -171,7 +171,7 @@
     timing: 8
   });
   var wave6 = $('#wave6').wavify({
-    height: 990,
+    height: 840,
     bones: 3,
     amplitude: 70,
     color: 'rgba(253, 231, 109, 1)',
@@ -384,7 +384,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n>>>>>>> parent of 54f951d... mediaquety\n                                      ^\n      Expected \"{\".\n    ╷\n240 │ >>>>>>> parent of 54f951d... mediaquety\n    │                                        ^\n    ╵\n  resources/sass/_mediaquery.scss 240:40  @import\n  stdin 31:9                              root stylesheet\n      in /Users/donato/Desktop/Prelibato/Laraprelibato/resources/sass/_mediaquery.scss (line 240, column 40)\n    at /Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass-loader/dist/index.js:89:7\n    at Function.call$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:87203:16)\n    at _render_closure1.call$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:76994:12)\n    at _RootZone.runBinary$3$3 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:25521:18)\n    at _RootZone.runBinary$3 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:25525:19)\n    at _FutureListener.handleError$1 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23975:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:24271:40)\n    at Object._Future__propagateToListeners (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3500:88)\n    at _Future._completeError$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:24099:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23491:12)\n    at Object._asyncRethrow (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3256:17)\n    at /Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:13326:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3279:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23512:12)\n    at _awaitOnObject_closure0.call$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23504:25)\n    at _RootZone.runBinary$3$3 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:25521:18)\n    at _RootZone.runBinary$3 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:25525:19)\n    at _FutureListener.handleError$1 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23975:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:24271:40)\n    at Object._Future__propagateToListeners (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3500:88)\n    at _Future._completeError$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:24099:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23491:12)\n    at Object._asyncRethrow (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3256:17)\n    at /Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:15981:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3279:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23512:12)\n    at _awaitOnObject_closure0.call$2 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23504:25)\n    at _RootZone.runBinary$3$3 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:25521:18)\n    at _RootZone.runBinary$3 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:25525:19)\n    at _FutureListener.handleError$1 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:23975:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:24271:40)\n    at Object._Future__propagateToListeners (/Users/donato/Desktop/Prelibato/Laraprelibato/node_modules/sass/sass.dart.js:3500:88)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
