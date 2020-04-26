@@ -12,8 +12,8 @@
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li id="contact-land" class="nav-item blob">
-            <a class="nav-link prenota-nav font-weight-bold" title="Prenota una videoconferenza"  title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA CONSULENZA</a>
+          <li id="contact-land" class="nav-item blob cta-btn">
+            <a class="nav-link font-weight-bold" title="Prenota una videoconferenza"  title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA CONSULENZA</a>
           </li>
         </ul>
       </div>

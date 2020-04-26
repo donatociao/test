@@ -3595,7 +3595,7 @@ a:hover,a:active,a:focus{color:#fbd800;outline:none;text-decoration:none;}
 
 p{padding:0;margin:0 0 30px 0;}
 
-h1,h2,h3,h4,h5,h6{font-family:"Poppins",sans-serif;font-weight:400;margin:0 0 20px 0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-family:"Montserrat",sans-serif;font-weight:400;margin:0 0 20px 0;padding:0;}
 
 /* Back to top button */
 .back-to-top{position:fixed;display:none;background:#fbd800;color:#fff;width:44px;height:44px;text-align:center;line-height:1;font-size:16px;border-radius:50%;right:15px;bottom:15px;transition:background 0.5s;z-index:11;}
@@ -3715,7 +3715,7 @@ body{overflow-x:hidden;}
 
 /* chi siamo
 --------------------------------*/
-#about{padding:100px 0;height:320px;background-color:#FCE66D;}
+#about{padding:80px 80px;background-color:#FCE66D;}
 
 #under-claim{color:#413e66;font-family:"Montserrat",sans-serif;font-weight:700;font-size:32px;}
 
@@ -3750,8 +3750,6 @@ body{overflow-x:hidden;}
 
 #services .description{font-size:14px;/* line-height:28px;*/
  margin-bottom:0;text-align:left;}
-
-.iniziale{font-size:120px;font-weight:bold;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");background-position:0 50%;background-size:auto 20px;background-repeat:repeat-x;}
 
 /* Come lavoriamo
 --------------------------------*/
@@ -3877,8 +3875,50 @@ body{overflow-x:hidden;}
 .cta-btn:hover{transform:scale(1.2);transition:300ms;}
 .cta-btn a{color:white;}
 
+.prenota-nav,.nav-item:hover > .prenota-nav{color:white;text-decoration:none;font-weight:600;}
+
+#contact-land{border-radius:40px;margin-left:30px;--c:#FF7A59;color:var(--c);font-size:18px;width:12em;text-transform:uppercase;font-weight:bold;font-family:sans-serif;letter-spacing:0.1em;text-align:center;position:relative;overflow:hidden;z-index:1;transition:0.5s;background-color:var(--c);}
+
 .ondine{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");background-position:0 50%;background-size:auto 20px;background-repeat:repeat-x;}
 
+.iniziale{font-size:120px;font-weight:bold;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");background-position:0 50%;background-size:auto 20px;background-repeat:repeat-x;}
+
+p{font-size:22px;}
+
+@media (min-width:320px) and (max-width:370px){#migliorare{display:none;}
+
+ #intro .intro-info h3{font-size:22px;}
+}
+/*
+ ##Device = Most of the Smartphones Mobiles (Portrait)
+ ##Screen = B/w 320px to 479px
+*/
+@media (min-width:320px) and (max-width:480px){#intro .intro-info h1{color:#413e66;margin-bottom:40px;font-size:37px;font-weight:700;line-height:40px;font-family:"Montserrat",sans-serif;}
+
+ p{font-size:16px;}
+
+ #buono-intro{height:100vh;}
+
+ #freccia-intro{display:none;}
+
+ #about h3{display:none;}
+
+ .cta-btn,.cta-btn-2{background-color:#FF7A59;color:white !important;font-weight:bold;padding:8px;font-size:10px;border-radius:50px;}
+
+ #logonav{width:120px;}
+
+ .cta-btn:hover{transform:scale(1.1);transition:300ms;}
+}
+@media (min-width:768px){.cta-btn,.cta-btn-2{background-color:#FF7A59;color:white !important;font-weight:bold;padding:15px;font-size:15px;border-radius:50px;}
+
+ #intro .intro-info h1{color:#413e66;margin-bottom:40px;font-size:50px;font-weight:700;line-height:50px;font-family:"Montserrat",sans-serif;}
+
+ #cosa-facciamo{font-size:120px;}
+}
+@media (min-width:1024px){.cta-btn-2{display:none;}
+
+ .cta-btn{background-color:#FF7A59;color:white !important;font-weight:bold;padding:15px;font-size:20px;border-radius:50px;}
+}
 .portfolio2{margin-top:150px;}
 
 /*--------------------------------------------------------------
@@ -3886,17 +3926,37 @@ body{overflow-x:hidden;}
 --------------------------------------------------------------*/
 /*
  ##Device = Desktops
+ ##Screen = Imac 27
+*/
+@media screen and (min-width:2560px){.container{width:1870px;}
+
+ #about{padding-bottom:300px;}
+
+ #under-claim{font-size:40px;}
+
+ #imgflow{display:none;}
+
+ #metodo{right:20px;}
+
+ #wave1,#wave2,#wave3{display:none !important;}
+}
+/*
+ ##Device = Desktops
  ##Screen = 1281px to higher resolution desktops
 */
 @media screen and (min-width:1900px){.container{width:1870px;}
 
- #wave1,#wave2,#wave3,#imgflow{display:none;}
+ #imgflow{display:none;}
 
  #metodo{right:20px;}
+
+ #wave1,#wave2,#wave3{display:none !important;}
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.25),only screen and (min-device-pixel-ratio:1.25),only screen and (-webkit-min-device-pixel-ratio:2.0833333333333335),only screen and (min-resolution:200dpi),only screen and (min-resolution:1.25dppx){html{width:100vw;}
 
  body{width:100%;}
+}
+@media (min-width:1366px) and (max-width:1600px){#wave4,#wave5,#wave6{display:none !important;}
 }
 /*
  ##Device = Desktops
@@ -3914,7 +3974,7 @@ body{overflow-x:hidden;}
  ##Device = Laptops,Desktops
  ##Screen = B/w 1025px to 1280px
 */
-@media (min-width:1024px) and (max-width:1280px){html{width:100vw;}
+@media (min-width:1025px) and (max-width:1280px){html{width:100vw;}
 
  #navbarSupportedContent{display:none !important;}
 
@@ -3923,6 +3983,10 @@ body{overflow-x:hidden;}
  #workflow h3{font-size:30px;font-family:"Montserrat",sans-serif;color:#edecef;font-weight:600;z-index:990;margin:0;}
 
  #cosa-facciamo,#metodo{font-size:120px;}
+
+ #wave1,#wave2,#wave3{display:none !important;}
+}
+@media (min-width:1024px) and (max-width:1224px){#navbarSupportedContent{display:none !important;}
 
  #wave1,#wave2,#wave3{display:none !important;}
 }
@@ -3951,16 +4015,9 @@ body{overflow-x:hidden;}
 /*
  ##Device = Ipad pro 11
  /* Portrait */
-@media only screen and (min-device-width:834px) and (max-device-width:1194px) and (-webkit-min-device-pixel-ratio:2){#wave1,#wave2,#wave4,#wave5,#wave6{display:none !important;}
+@media only screen and (min-device-width:834px) and (max-device-width:1194px) and (-webkit-min-device-pixel-ratio:2){#wave4,#wave5,#wave6{display:none !important;}
 }
-/*
- ##Device = Ipad pro 10.5
- /* Portrait */
-@media only screen and (min-device-width:834px) and (max-device-width:834px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:2) and (-webkit-min-device-pixel-ratio:0){#wave1,#wave2,#wave4,#wave5,#wave6{display:none !important;}
-}
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:2) and (-webkit-min-device-pixel-ratio:0){#wave1,#wave2,#wave4,#wave5,#wave6{display:none !important;}
-}
-@media only screen and (-webkit-min-device-pixel-ratio:0),only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (-webkit-min-device-pixel-ratio:2.75),only screen and (min-resolution:264dpi),only screen and (min-resolution:2dppx){#wave1,#wave2,#wave3,#wave4,#wave5,#wave6{display:none !important;}
+@media only screen and (min-device-width:1024px) and (max-device-width:1366px){#wave1,#wave2,#wave3{display:none !important;}
 }
 /*
  ##Device = Tablets,Ipads (landscape)
@@ -3980,7 +4037,7 @@ body{overflow-x:hidden;}
 
  #cosa-facciamo,#metodo{font-size:60px;}
 
- #wave1,#wave2,#wave3,#wave4,#wave5,#wave6{display:none !important;}
+ #wave4,#wave5,#wave6{display:none !important;}
 }
 /*
  ##Device = Low Resolution Tablets,Mobiles (Landscape)
@@ -4040,7 +4097,7 @@ body{overflow-x:hidden;}
 
  #intro .intro-info h2{color:#413e66;font-size:40px;font-weight:700;line-height:40px;margin-top:40px;font-family:"Montserrat",sans-serif;}
 
- #under-claim{font-size:18px;font-weight:600;}
+ #under-claim{font-size:22px;font-weight:600;}
 
  #social-bar{display:none !important;}
 
