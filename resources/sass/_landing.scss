@@ -21,3 +21,18 @@
   background-size:auto 20px;
   background-repeat:repeat-x;
 }
+
+.iniziale {
+  font-size: 120px;
+  font-weight: bold;
+  @include svg((viewBox: 0 0 20 4)){
+    @include svg('path',(fill: none, stroke: #fbd800, stroke-width: 1, class: squiggle, d: 'M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3',));
+    @include svg('style',(type: text/css, content: '.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}'));}
+    background-position: 0 50%;
+    background-size: auto 20px;
+    background-repeat: repeat-x;
+}
+
+p {
+  font-size: 22px;
+}

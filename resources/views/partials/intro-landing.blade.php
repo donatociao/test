@@ -3,15 +3,15 @@
   <div class="container d-flex h-100">
     <div class="row align-self-center w-100">
       <div class="offset-md-1 col-md-6 intro-info">
-        <h3>Vuoi <b>migliorare la comunicazione online</b> della tua azienda agroalimentare?</h3>
+        <h3>Vuoi <b>migliorare la comunicazione online</b> della tua azienda?</h3>
         <h1 id="buono-intro" class="wow FadeInLeft">Il metodo Buono.</h1>
         <h3 class="ondine">EFFICACIA GARANTITA AL 100%</h3>
         {{-- ctA --}}
-          <p class="paragrafo-landing">Un <b>team di esperti</b> dedicato per la crescita della tua azienda<strong></strong></p>
+          <p class="paragrafo-landing">Un team di<b> esperti in food marketing</b> dedicato alla crescita del tuo business<strong></strong></p>
           <!-- Calendly link widget begin -->
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-          <button type="button" class="btn cta-btn"><a title="Prenota subito, senza impegno!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CALL!</a></button>
+          <button type="button" class="btn cta-btn"><a title="Prenota subito, senza impegno!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA</a></button>
           <!-- Calendly link widget end -->
         {{-- ctA --}}
      </div>

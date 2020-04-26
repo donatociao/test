@@ -10097,7 +10097,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -10456,7 +10456,7 @@ body {
 /* chi siamo
 --------------------------------*/
 #about {
-  padding: 120px 0;
+  padding: 80px 0;
   height: 320px;
   background-color: #FCE66D;
 }
@@ -10566,15 +10566,6 @@ body {
   /* line-height: 28px; */
   margin-bottom: 0;
   text-align: left;
-}
-
-.iniziale {
-  font-size: 120px;
-  font-weight: bold;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
-  background-position: 0 50%;
-  background-size: auto 20px;
-  background-repeat: repeat-x;
 }
 
 /* Come lavoriamo
@@ -11005,6 +10996,19 @@ body {
   background-repeat: repeat-x;
 }
 
+.iniziale {
+  font-size: 120px;
+  font-weight: bold;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");
+  background-position: 0 50%;
+  background-size: auto 20px;
+  background-repeat: repeat-x;
+}
+
+p {
+  font-size: 22px;
+}
+
 .portfolio2 {
   margin-top: 150px;
 }
@@ -11023,7 +11027,6 @@ body {
 
   #about {
     padding-bottom: 300px;
-    background-color: #FCE66D;
   }
 
   #under-claim {
