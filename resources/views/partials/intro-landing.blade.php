@@ -11,7 +11,7 @@
           <!-- Calendly link widget begin -->
           <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-          <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="2.5s" data-wow-iteration="2"><a title="Prenota subito, senza impegno!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA</a></button>
+          <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="2.5s" data-wow-iteration="2"><a class="click" title="Prenota subito, senza impegno!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA</a></button>
           <!-- Calendly link widget end -->
           <!-- Calendly link widget begin -->
         {{-- ctA --}}

@@ -56,7 +56,7 @@
                     <p>Prenota una <b>prima consulenza gratuita in videoconferenza.</b> </p>
                     <p>Un nostro esperto sarà a tua disposizione per fornirti tutte le informazioni di cui hai bisogno senza alcun impegno da parte tua</p>
                     <!-- Calendly link widget begin -->
-                    <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+                    <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
                     <!-- Calendly link widget end -->
                   {{-- ctA --}}
                 </div>
@@ -99,7 +99,7 @@
                       <h2>Abbiamo un unico obiettivo! <b><br>La crescita della tua azienda.</b> <br><br> Prenota subito la tua <strong>prima consulenza gratuita</strong></h2>
                     {{-- ctA --}}
                       <!-- Calendly link widget begin -->
-                      <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+                      <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
                       <!-- Calendly link widget end -->
                     {{-- ctA --}}
                     </div>
@@ -315,7 +315,7 @@
         {{-- ctA --}}
           <p class="paragrafo-landing"><b>Inizia subito a far crescere la tua azienda!</b></p>
           <!-- Calendly link widget begin -->
-          <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+          <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a class="click" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
           <!-- Calendly link widget end -->
         {{-- ctA --}}
         </div>
@@ -362,7 +362,7 @@
             <p>Prenota una <b>prima consulenza gratuita in videoconferenza.</b> </p>
             <p>Un nostro esperto sarà a tua disposizione per fornirti tutte le informazioni di cui hai bisogno senza alcun impegno da parte tua</p>
             <!-- Calendly link widget begin -->
-            <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+            <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
             <!-- Calendly link widget end -->
           {{-- ctA --}}
         </div>
