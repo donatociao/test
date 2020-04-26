@@ -11092,7 +11092,7 @@ p {
     transition: 300ms;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .cta-btn,
 .cta-btn-2 {
     background-color: #FF7A59;
@@ -11125,9 +11125,25 @@ p {
     background-color: #FF7A59;
     color: white !important;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px;
     font-size: 20px;
     border-radius: 50px;
+    line-height: 18px;
+  }
+
+  .cta-btn:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+    color: white !important;
+  }
+
+  #intro .intro-info h1 {
+    color: #413e66;
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: "Montserrat", sans-serif;
   }
 }
 .portfolio2 {
