@@ -1,10 +1,10 @@
 <!-- Intro -->
 <section id="intro" class="clearfix">
-  <div class="container d-flex h-100">
+  <div id="buono-intro" class="container d-flex h-100">
     <div class="row align-self-center w-100">
       <div class="offset-md-1 col-md-6 intro-info">
-        <h3>Vuoi <b>migliorare la comunicazione online</b> della tua azienda?</h3>
-        <h1 id="buono-intro" class="wow FadeInLeft">Il metodo Buono.</h1>
+        <h3 id="migliorare">Vuoi <b>migliorare la comunicazione online</b> della tua azienda?</h3>
+        <h1 class="wow FadeInLeft">Il metodo Buono.</h1>
         <h3 class="ondine">EFFICACIA GARANTITA AL 100%</h3>
         {{-- ctA --}}
           <p class="paragrafo-landing">Un team di<b> esperti in food marketing</b> dedicato alla crescita del tuo business<strong></strong></p>
@@ -13,9 +13,10 @@
           <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
           <button type="button" class="btn cta-btn"><a title="Prenota subito, senza impegno!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA</a></button>
           <!-- Calendly link widget end -->
+          <!-- Calendly link widget begin -->
         {{-- ctA --}}
      </div>
-     <div class="col-md-4">
+     <div id="freccia-intro" class="col-md-4">
        <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
        	 viewBox="0 0 144.66 199.85" style="enable-background:new 0 0 144.66 199.85;" xml:space="preserve">
        <style type="text/css">

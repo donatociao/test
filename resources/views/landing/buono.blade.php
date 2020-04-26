@@ -13,17 +13,16 @@
         @include('partials.intro-landing')
 
         <main id="main">
+
           <!-- Come funziona -->
-          <section id="about">
-            <div class="container">
+            <div id="about" class="container-fluid">
               <div class="row d-flex justify-content-center">
-                <div class="text-center col-lg-8 col-md-12">
+                <div class="text-center col-lg-10 col-md-12">
                   <h2 id="under-claim">Tu produci, noi pensiamo alla tua crescita.</h1>
-                  <h3 class="align-text-center">Siamo una società specializzata in <b>food marketing</b>. <br>Lavoriamo solo con aziende del settore food & beverage. <br><br>Il nostro unico obiettivo è la <strong>crescita della tua azienda.</strong></h3>
+                  <h3 id="under-claim2" class="align-text-center">Siamo una società specializzata in <b>food marketing</b>. <br>Lavoriamo con aziende del settore food & beverage. <br><br>Il nostro unico obiettivo è la <strong>crescita della tua azienda.</strong></h3>
                 </div>
               </div>
-            </div>
-          </section><!-- Come funziona -->
+            </div><!-- Come funziona -->
 
           <!--  Cosa facciamo -->
           <section id="services" class="section-bg">
@@ -41,23 +40,23 @@
                   <h2><b>Non continuare</b> a leggere se:</h2>
                   <h5><i class="far fa-times-circle text-danger"></i> Credi di poter far sempre tutto da solo</h5>
                   <h5><i class="far fa-times-circle text-danger"></i> Non vuoi migliorare la tua immagine aziendale</h5>
-                  <h5><i class="far fa-times-circle text-danger"></i> Credi che sia inutile avere una strategia digitale</h5>
+                  <h5><i class="far fa-times-circle text-danger"></i> Credi che sia inutile avere una strategia</h5>
                   <h5><i class="far fa-times-circle text-danger"></i> Non vuoi affidarti ad un team di esperti</h5>
                 </div>
                 <div class="col-md-6 col-lg-6">
                   <h2><b>Continua</b> a leggere se:</h2>
-                  <h5><i class="far fa-check-circle text-success"></i> Vuoi migliorare la tua comunicazione online</h5>
+                  <h5><i class="far fa-check-circle text-success"></i> Vuoi migliorare la tua comunicazione</h5>
                   <h5><i class="far fa-check-circle text-success"></i> Hai bisogno di far crescere il tuo brand</h5>
                   <h5><i class="far fa-check-circle text-success"></i> Stai pensando di iniziare a vendere online</h5>
                   <h5><i class="far fa-check-circle text-success"></i> Hai un budget da investire in marketing</h5>
                 </div>
                 <div class="col-lg-12 text-center mt-4">
                   {{-- ctA --}}
-                    <p class="paragrafo-landing">Vuoi iniziare subito?</p>
+                    <p class="paragrafo-landing font-weight-bolder">Vuoi ricevere subito altre informazioni?</p>
+                    <p>Prenota una <b>prima consulenza gratuita in videoconferenza.</b> </p>
+                    <p>Un nostro esperto sarà a tua disposizione per fornirti tutte le informazioni di cui hai bisogno senza alcun impegno da parte tua</p>
                     <!-- Calendly link widget begin -->
-                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                    <button type="button" class="btn cta-btn"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA!</a></button>
+                    <button type="button" class="btn cta-btn"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
                     <!-- Calendly link widget end -->
                   {{-- ctA --}}
                 </div>
@@ -85,7 +84,7 @@
               <div class="container">
                 <div class="row mt-5">
                   <div class="offset-lg-2 offset-md-2 offset-sm-1 col-lg-8">
-                    <p>Il <b>metodo Buono&trade;</b> è il sistema di consulenza su misura per le aziende del mondo food & beverage.</p>
+                    <p>Il <b>Metodo Buono&trade;</b> è il sistema di consulenza su misura per le aziende del mondo food & beverage.</p>
                     <p>Il tuo settore è sempre più competitivo e non puoi permetterti di improvvisare. <b>Cosa stai facendo per competere online?</b></p>
                     <p>Siamo un team di consulenti <b>esperti in food marketing e comunicazione</b> per il settore food & beverage.</p>
                     <h3><b>Perchè scegliere noi?</b></h3>
@@ -97,12 +96,10 @@
 
                   <div class="row">
                     <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
-                      <h2>Abbiamo un unico obiettivo! <b><br>La crescita della tua azienda.</b> <br><br> <strong>Prenota subito la tua consulenza</strong></h2>
+                      <h2>Abbiamo un unico obiettivo! <b><br>La crescita della tua azienda.</b> <br><br> Prenota subito la tua <strong>prima consulenza gratuita</strong></h2>
                     {{-- ctA --}}
                       <!-- Calendly link widget begin -->
-                      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                      <button type="button" class="btn cta-btn"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA</a></button>
+                      <button type="button" class="btn cta-btn"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
                       <!-- Calendly link widget end -->
                     {{-- ctA --}}
                     </div>
@@ -238,7 +235,7 @@
           <div class="container">
             <h1 id="cosa-facciamo" class="ml1">
               <span class="text-wrapper">
-                 <span class="letters">il metodo Buono</span>
+                 <span class="letters">il metodo</span>
               </span>
             </h1>
             <header class="section-header">
@@ -247,29 +244,11 @@
             </header>
             <div class="row st-row">
               <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
-                <h1>Il <b>metodo Buono</b> è la soluzione su misura per la <strong>crescita</strong> della tua azienda</h1>
-                <h2>Un <b>team di esperti</b> dedicato ti seguirà passo passo per:</h2>
-                <ul class="list-group">
-                  <li class="list-group-item">migliorare la comunicazione online</li>
-                  <li class="list-group-item">migliorare il tuo processo di vendita </li>
-                  <li class="list-group-item">progettare un sito web memorabile</li>
-                  <li class="list-group-item">ottimizzare la tua presenza sui social</li>
-                  <li class="list-group-item">migliorare la tua immagine aziendale</li>
-                </ul>
-              </div>
-              <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
-              {{-- ctA --}}
-                <p class="paragrafo-landing"><b>Inizia subito con noi!</b></p>
-                <!-- Calendly link widget begin -->
-                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                <button type="button" class="btn cta-btn"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CALL!</a></button>
-                <!-- Calendly link widget end -->
-              {{-- ctA --}}
+                <h1>Il <b>Metodo Buono&trade;</b> è la soluzione su misura per la <strong>crescita</strong> della tua azienda.</h1>
+                <h3>Il nostro team di<b> esperti in food marketing e strategia digitale</b> ti seguirà passo dopo passo!</h3>
               </div>
             </div>
-
-            <div class="row st-row">
+            <div class="row">
               <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
                 <div class="box" id="boxuno">
                   <div class="media">
@@ -286,8 +265,8 @@
                   <div class="media">
                     <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="...">
                     <div class="media-body">
-                      <h3 class="mt-0"><b>Il tuo team di crescita digitale dedicato</b></h3>
-                      <p>Stai cercando un Digital Manager per la tua azienda? Analizziamo a fondo il tuo business e definiamo una strategia di crescita digitale su misura per te. </p>
+                      <h3 class="mt-0"><b>Il tuo Digital Manager dedicato</b></h3>
+                      <p>Stai cercando un Digital Manager per la tua azienda? Ti seguiamo passo passo e analizziamo a fondo il tuo business per definire una strategia di crescita digitale su misura per la tua azienda. </p>
                     </div>
                   </div>
                 </div>
@@ -320,11 +299,78 @@
           </div>
         </section><!-- fine Cosa facciamo -->
 
+        <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 text-center">
+          <h2>Con il <b>Metodo Buono&trade;</b> finalmente potrai:</h2>
+          <div class="text-center">
+            <h5><i class="far fa-check-circle text-success"></i> migliorare e ottimizzare la tua comunicazione </h5>
+            <h5><i class="far fa-check-circle text-success"></i> definire un chiaro posizionamento per la tua azienda</h5>
+            <h5><i class="far fa-check-circle text-success"></i> migliorare la tua immagine e quella dei tuoi prodotti</h5>
+            <h5><i class="far fa-check-circle text-success"></i> migliorare il tuo processo di vendita online e offline</h5>
+            <h5><i class="far fa-check-circle text-success"></i> definire una strategia per trovare subito nuovi clienti</h5>
+            <h5><i class="far fa-check-circle text-success"></i> ottimizzare la tua presenza online</h5>
+          </div>
+        </div>
 
-          @include('partials.comelavoriamo')
+        <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
+        {{-- ctA --}}
+          <p class="paragrafo-landing"><b>Inizia subito a far crescere la tua azienda!</b></p>
+          <!-- Calendly link widget begin -->
+          <button type="button" class="btn cta-btn"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+          <!-- Calendly link widget end -->
+        {{-- ctA --}}
+        </div>
+        <h3 id="metodo" class="ml2 mt-3">
+          <span class="text-wrapper d-flex justify-content-end">
+             <span class="letters">hai dubbi?</span>
+          </span>
+        </h3>
+        <div class="mt-5 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn">
+          <div class="card">
+            <div class="card-header">
+              A chi si rivolge il <b>metodo Buono&trade;?</b>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Il <b>metodo Buono&trade;</b> è il nostro sistema di consulenza dedicato alla crescita digitale delle aziende che operano nel <b>settore food & beverage e agroalimentare.</b></p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card mt-5">
+            <div class="card-header">
+              Come funziona il <b>metodo Buono&trade;?</b>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Il <b>metodo Buono&trade;</b> consiste in una fase analitica e una fase operativa. Durante la fase analitica il nostro team di consulenti <b>esperti in food marketing e comunicazione</b> ti affiancherà nella comprensione profonda della tua azienda e del tuo business. La fase operativa consiste nella definizione della strategia di crescita e nella progettazione di tutto quello di cui hai bisogno per dare valore al tuo progetto </p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card mt-5">
+            <div class="card-header">
+              Di cosa vi occupate nello specifico?</b>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p><b>Prelibato è una società specializzata in food marketing e comunicazione.</b> Lavoriamo con le aziende del settore food & beverage e il nostro team di <b>esperti in food marketing e comunicazione</b> è pronto a seguirti passo passo nella crescita della tua azienda. Ci occupiamo di marketing strategico, branding & logo design, web design e sviluppo siti web, ecommerce, digital marketing, social media marketing e gestione di campagne pubblicitarie.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="offset-lg-2 offset-md-2 offset-sm-2 col-md-8 col-lg-8 text-center mt-5 mb-5">
+          {{-- ctA --}}
+            <p class="paragrafo-landing font-weight-bolder">Vuoi ricevere subito altre informazioni?</p>
+            <p>Prenota una <b>prima consulenza gratuita in videoconferenza.</b> </p>
+            <p>Un nostro esperto sarà a tua disposizione per fornirti tutte le informazioni di cui hai bisogno senza alcun impegno da parte tua</p>
+            <!-- Calendly link widget begin -->
+            <button type="button" class="btn cta-btn"><a title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+            <!-- Calendly link widget end -->
+          {{-- ctA --}}
+        </div>
+
+
         </main>
 
-        @include('partials.form')
+        @include('partials.form-landing')
 
         @include('partials.scripts')
       </body>
