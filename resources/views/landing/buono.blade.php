@@ -1,3 +1,4 @@
+<!DOCTYPE html>
   <html lang="it">
       <head>
         @include('partials.head-landing')
