@@ -15,8 +15,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Prelibato - Scopri il Metodo Buono™">
-<meta property="og:image" content="https://www.prelibato.eu/img/buono.jpg">
-<meta property="og:url" content="https://www.prelibato.eu/metodo-buono">
+<meta property="og:image" content="https://prelibato.eu/img/buono.jpg">
+<meta property="og:url" content="https://prelibato.eu/metodo-buono">
 <meta property="og:description" content="Un team di esperti in food marketing dedicato alla crescita del tuo business">
 <meta property="og:locale" content="it_IT">
 
