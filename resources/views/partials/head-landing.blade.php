@@ -7,17 +7,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <meta charset="utf-8">
-<title>Prelibato | Food Marketing e Comunicazione Agroalimentare a Eboli</title>
+<title>Prelibato | Esperti in Food Marketing e Comunicazione per la tua azienda</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta lang=”it” content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
-<meta name="description" lang=”it” content="Prelibato è un'agenzia di marketing e comunicazione a Eboli. Grafica, siti web, marketing digitale e comunicazione per aziende agricole, agroalimentari e ristoranti.">
+<meta name="description" lang=”it” content="Prelibato è una società specializzata in food marketing e comunicazione nel settore food & beverage.  Il nostro team di esperti in food marketing e comunicazione è pronto a seguirti passo passo nella crescita della tua azienda. Ci occupiamo di marketing strategico, branding & logo design, web design e sviluppo siti web, ecommerce, digital marketing, social media marketing e gestione di campagne pubblicitarie.">
 <meta http-equiv=”content-language” content=”it”>
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Prelibato - Coltiviamo idee.">
-<meta property="og:image" content="https://www.prelibato.eu/img/share.png">
-<meta property="og:url" content="https://www.prelibato.eu/">
-<meta property="og:description" content="Agenzia di marketing e comunicazione a misura d'uomo.">
+<meta property="og:title" content="Prelibato - Scopri il Metodo Buono™">
+<meta property="og:image" content="https://www.prelibato.eu/img/buono.jpg">
+<meta property="og:url" content="https://www.prelibato.eu/metodo-buono">
+<meta property="og:description" content="Un team di esperti in food marketing dedicato alla crescita del tuo business">
 <meta property="og:locale" content="it_IT">
 
 <!-- Favicons -->
