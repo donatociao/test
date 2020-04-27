@@ -99,11 +99,20 @@
                       <h2>Abbiamo un unico obiettivo! <b><br>La crescita della tua azienda.</b> <br><br> Prenota subito la tua <strong>prima consulenza gratuita</strong></h2>
                     {{-- ctA --}}
                       <!-- Calendly link widget begin -->
-                      <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+                      <button type="button" class="btn cta-btn wow heartBeat mb-5" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
                       <!-- Calendly link widget end -->
                     {{-- ctA --}}
                     </div>
                   </div>
+                  <h1 id="cosa-facciamo" class="ml1">
+                    <span class="text-wrapper">
+                       <span class="letters">il metodo</span>
+                    </span>
+                  </h1>
+                  <header class="section-header">
+                    <h3></h3>
+                    <p></p>
+                  </header>
 
                 <div id="workflow" class="row st-row">
                   <div class="offset-lg-1 offset-md-1 offset-sm-1 col-lg-2 col-md-2 col-sm-2 uno wow zoomIn">
@@ -235,7 +244,7 @@
           <div class="container">
             <h1 id="cosa-facciamo" class="ml1">
               <span class="text-wrapper">
-                 <span class="letters">il metodo</span>
+                 <span class="letters">vantaggi</span>
               </span>
             </h1>
             <header class="section-header">
