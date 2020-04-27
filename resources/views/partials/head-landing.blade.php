@@ -57,16 +57,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {
   "@context": "http://www.schema.org",
   "@type": "LocalBusiness",
-  "name": "Prelibato - Agenzia di marketing e comunicazione",
-  "description": "Grafica, siti web, marketing e comunicazione a Eboli",
+  "name": "PRELIBATO - Agenzia di Food Marketing e Comunicazione a Eboli | Salerno",
+  "description": "Prelibato è un'agenzia di food marketing e comunicazione a Eboli Salerno. Ci occupiamo di graphic design, siti web, food marketing e comunicazione per food brand, aziende agroalimentari e ristoranti.",
   "url": "https://prelibato.eu",
   "sameAs": [
     "https://www.facebook.com/prelibato1/",
-    "https://www.linkedin.com/company/29363632/admin/",
+    "https://www.linkedin.com/company/29363632/",
     "https://www.instagram.com/_prelibato_/"
   ],
+  "hasMap": "https://maps.google.com/maps?cid=14817292774368009385",
   "logo": "https://www.prelibato.eu/logo.png",
   "image": "https://www.prelibato.eu/logo.png",
+  "priceRange" : "$$ - $$$",
   "telephone": "+393270151051",
   "address": {
     "@type": "PostalAddress",
@@ -86,6 +88,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "@type": "ContactPoint",
     "email": "info@prelibato.eu",
     "telephone": "+393270151051"
+  },
+  "aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "5",
+  "reviewCount": "20"
   }
 }
 </script>
