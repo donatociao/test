@@ -11,7 +11,6 @@
       </div>
     </div>
   </div>
-
   {{-- @include('partials.lavori') --}}
   <div id="social-bar" class="social-bar d-flex flex-column">
     <a target="_blank" title="Seguici su Facebook!" rel="noopener noreferrer" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
