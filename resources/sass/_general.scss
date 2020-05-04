@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #413E66;
   transition: 0.5s;
 }
 
@@ -93,6 +93,35 @@ h6 {
 
 .btn  {
   color: #413E66 !important;
+}
+
+
+.onda-bianca {
+  @include svg((viewBox: 0 0 20 4)){
+    @include svg('path',(fill: none, stroke: white, stroke-width: 1, class: squiggle, d: 'M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3',));
+    @include svg('style',(type: text/css, content: '.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}'));}
+    background-position: 0 50%;
+    background-size: auto 20px;
+    background-repeat: repeat-x;
+}
+
+.onda-gialla {
+  @include svg((viewBox: 0 0 20 4)){
+    @include svg('path',(fill: none, stroke: #fbd800, stroke-width: 1, class: squiggle, d: 'M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3',));
+    @include svg('style',(type: text/css, content: '.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}'));}
+    background-position: 0 50%;
+    background-size: auto 20px;
+    background-repeat: repeat-x;
+}
+
+.giallo {
+  color: #fbd800;
+}
+/* CTA
+--------------------------------*/
+
+.blu {
+  color: #413E66;
 }
 
 

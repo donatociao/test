@@ -7,23 +7,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <meta charset="utf-8">
-@if(Route::current()->getName() == 'home')
-  <title>Prelibato | Agenzia di Food Marketing e Comunicazione a Eboli Salerno</title>
-  <meta name="description" lang=”it” content="Agenzia di marketing e comunicazione a Eboli specializzata in food marketing. Grafica, comunicazione, siti web e digital marketing per food brands, aziende agroalimentari e ristoranti">
-  <link rel="canonical" href="https://prelibato.eu/" />
-@elseif (Route::current()->getName() == 'portfolio')
-  <title>Prelibato | Portfolio - Food Marketing e Comunicazione a Eboli Salerno</title>
-  <meta name="description" lang=”it” content="Food marketing e comunicazione a agroalimentare. Etichette vino, etichette olio, siti web, ecommerce ristoranti, digital marketing per food brands, aziende agroalimentari e ristoranti">
-  <link rel="canonical" href="https://prelibato.eu/portfolio" />
-@elseif (Route::current()->getName() == 'contatti')
-  <title>Prelibato | Contatti - Food Marketing e Comunicazione a Eboli Salerno</title>
-  <meta name="description" lang=”it” content="Agenzia di Food marketing e Comunicazione a agroalimentare. Sito web azienda agricola, ecommerce ristoranti, digital marketing per food brands, aziende agroalimentari e ristoranti">
-  <link rel="canonical" href="https://prelibato.eu/contattaci" />
-@elseif (Route::current()->getName() == 'privacy')
-  <title>Prelibato | Privacy - Food Marketing e Comunicazione a Eboli Salerno</title>
-  <meta name="description" lang=”it” content="Agenzia di marketing e comunicazione a Eboli, Salerno. Food marketing e comunicazione per food brands, aziende agroalimentari e ristoranti">
-  <link rel="canonical" href="https://prelibato.eu/" />
-@endif
+<title>@yield('title')</title>
+<meta name="description" lang=”it” content="@yield('description')">
+<link rel="canonical" href="@yield('canonical')"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta lang=”it” content="food marketing campania, food marketing, agenzia marketing salerno, agenzia marketing eboli, logo azienda agricola, logo ristorante, ecommerce per ristoranti, ecommerce prodotti agricoli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
 <meta http-equiv=”content-language” content=”it”>
@@ -56,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="theme-color" content="#ffffff">
 
 <!-- Google Fonts -->
-<link defer href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+<link defer href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 
 <!-- Librerie CSS  -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" rel="stylesheet">
@@ -65,7 +51,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 
 <!-- Stile -->
-<link href="{{asset('css/app.css')}}" rel="stylesheet">
+<link href="{{asset('css/app.min.css')}}" rel="stylesheet">
 
 <!-- DATI STRUTTURATI -->
 <script type='application/ld+json'>
@@ -78,7 +64,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "sameAs": [
     "https://www.facebook.com/prelibato1/",
     "https://www.linkedin.com/company/29363632/",
-    "https://www.instagram.com/_prelibato_/"
+    "https://www.instagram.com/_prelibato_/",
+    "https://www.behance.net/prelibato",
+    "https://twitter.com/Prelibato1"
   ],
   "hasMap": "https://maps.google.com/maps?cid=14817292774368009385",
   "logo": "https://www.prelibato.eu/logo.png",

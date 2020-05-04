@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html lang="it">
       <head>
-        @include('partials.head-landing')
+        @include('partials.buono.head-landing')
         <!-- Hotjar Tracking Code for https://prelibato.eu/metodo-buono -->
         <script>
           (function(h,o,t,j,a,r){
@@ -21,8 +21,8 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 
-        @include('partials.header-landing')
-        @include('partials.intro-landing')
+        @include('partials.buono.header-landing')
+        @include('partials.buono.intro-landing')
 
         <main id="main">
 
@@ -391,7 +391,7 @@
 
         </main>
 
-        @include('partials.form-landing')
+        @include('partials.buono.form-landing')
 
         @include('partials.scripts')
       </body>

@@ -3589,7 +3589,7 @@ button#gdpr-cookie-accept{margin-left:5px;}
 --------------------------------------------------------------*/
 body{background:#fff;color:#413E66;font-family:"Montserrat",sans-serif;-webkit-animation:animate 2s infinite ease-in-out;animation:animate 2s infinite ease-in-out;}
 
-a{color:#1bb1dc;transition:0.5s;}
+a{color:#413E66;transition:0.5s;}
 
 a:hover,a:active,a:focus{color:#fbd800;outline:none;text-decoration:none;}
 
@@ -3610,6 +3610,16 @@ h1,h2,h3,h4,h5,h6{font-family:"Montserrat",sans-serif;font-weight:400;margin:0 0
 #preloader:before{content:"";position:fixed;left:calc(100vw - 85%);border:400px solid white;border-top:400px solid white;border-radius:50%;width:80px;height:80px;-webkit-animation:animate-preloader 1.2s linear infinite;animation:animate-preloader 1.2s linear infinite;}
 
 .btn{color:#413E66 !important;}
+
+.onda-bianca{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");background-position:0 50%;background-size:auto 20px;background-repeat:repeat-x;}
+
+.onda-gialla{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%2020%204%22%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23fbd800%22%20stroke%2Dwidth%3D%221%22%20class%3D%22squiggle%22%20d%3D%22M0%2C3%2E5%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s5%2C3%2C10%2C3%20c%205%2C0%2C5%2C%2D3%2C10%2C%2D3%20s%205%2C3%2C10%2C3%22%2F%3E%3Cstyle%20type%3D%22text%2Fcss%22%20content%3D%22%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%22%3E%2Esquiggle%7Banimation%3Ashift%20%2E3s%20linear%20infinite%3B%7D%40keyframes%20shift%20%7Bfrom%20%7Btransform%3AtranslateX%280%29%3B%7Dto%20%7Btransform%3AtranslateX%28%2D20px%29%3B%7D%7D%3C%2Fstyle%3E%3C%2Fsvg%3E");background-position:0 50%;background-size:auto 20px;background-repeat:repeat-x;}
+
+.giallo{color:#fbd800;}
+
+/* CTA
+--------------------------------*/
+.blu{color:#413E66;}
 
 @-webkit-keyframes animate-preloader{0%{transform:rotate(0deg);}
  100%{transform:rotate(360deg);}
@@ -3722,6 +3732,8 @@ body{overflow-x:hidden;}
 /* Cosa Facciamo
 --------------------------------*/
 #cosa-facciamo{position:absolute;font-size:135px;left:0px;color:#edecef;font-weight:800;z-index:996;font-family:"Montserrat",sans-serif;padding-top:100px;margin-top:-100px;}
+
+.titolo-sezione{position:absolute;font-size:135px;left:0px;color:#edecef;font-weight:800;z-index:996;font-family:"Montserrat",sans-serif;padding-top:100px;margin-top:-100px;}
 
 #services{padding:20px 0 0;}
 
@@ -4088,6 +4100,12 @@ p{font-size:22px;}
  #gdpr-cookie-message{right:0px;}
 
  button#gdpr-cookie-advanced{margin-top:10px;}
+
+ .titolo-sezione{font-size:55px;}
+
+ .titolo-lavoro{font-size:40px;}
+
+ .sezione-lavoro{margin-top:0 !important;}
 
  #cosa-facciamo,#metodo{font-size:60px;line-height:60px;padding-top:100px;margin-top:-100px;}
 

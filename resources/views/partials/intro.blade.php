@@ -9,6 +9,7 @@
         <a target="_blank" title="Seguici su Facebook!" rel="noopener noreferrer" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
         <a target="_blank" title="Seguici su Instagram!" rel="noopener noreferrer" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
         <a target="_blank" title="Seguici su LinkedIn!" rel="noopener noreferrer" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" title="Seguici su Behance!" rel="noopener noreferrer" href="https://www.behance.net/prelibato" class="linkedin"><i class="fa fa-behance"></i></a>
         <a target="_blank" title="Hai bisogno di aiuto? Scrivici una mail!" rel="noopener noreferrer" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
       </div>
     </div>

@@ -4,7 +4,7 @@
       @include('partials.head')
       <!-- Hotjar Tracking Code for https://prelibato.eu -->
       <script>
-      (function(h,o,t,j,a,r){
+        (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:1789761,hjsv:6};
         a=o.getElementsByTagName('head')[0];

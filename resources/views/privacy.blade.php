@@ -1,5 +1,10 @@
 @extends('app')
 
+@section('title')Prelibato | Privacy - Food Marketing e Comunicazione a Eboli Salerno @endsection
+@section('description')Prelibato è un'agenzia di marketing e comunicazione a Eboli, Salerno. Food marketing e comunicazione per food brands, aziende agroalimentari e ristoranti @endsection
+@section('canonical')https://prelibato.eu/privacy @endsection
+
+
 @section('content')
   @include('partials.header')
   <div class="container">

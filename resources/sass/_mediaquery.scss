@@ -424,6 +424,17 @@ only screen and (min-resolution: 1.25dppx) {
       margin-top: 10px;
   }
 
+.titolo-sezione {
+  font-size: 55px;
+}
+
+.titolo-lavoro {
+  font-size: 40px;
+}
+
+.sezione-lavoro {
+  margin-top: 0 !important;
+}
 
   #cosa-facciamo,
   #metodo {
@@ -492,6 +503,7 @@ only screen and (min-resolution: 1.25dppx) {
   .cta-title {
     padding-top: 30px;
   }
+
 
   #footerwave {
     display: none;

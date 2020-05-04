@@ -1,4 +1,8 @@
 @extends('app')
+@section('title')Prelibato | Contatti - Food Marketing e Comunicazione a Eboli Salerno @endsection
+@section('description')Agenzia di Food marketing e Comunicazione a agroalimentare. Sito web azienda agricola, ecommerce ristoranti, digital marketing per food brands, aziende agroalimentari e ristoranti @endsection
+@section('canonical')https://prelibato.eu/contattaci @endsection
+
 
 @section('content')
   @include('partials.header')

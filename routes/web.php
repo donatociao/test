@@ -11,6 +11,8 @@
 |
 */
 
+//HOME
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
@@ -35,6 +37,26 @@ Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
 
+//Metodo BUONO
+
 Route::get('/metodo-buono', function () {
     return view('landing.buono');
 })->name('buono');
+
+//SERVIZI
+
+Route::get('/servizi/digital', function () {
+    return view('servizi');
+})->name('digital');
+
+Route::get('/servizi/visual', function () {
+    return view('servizi');
+})->name('visual');
+
+
+
+//PORTFOLIO
+
+Route::get('/portfolio/settefrese', function () {
+    return view('lavoro');
+})->name('settefrese');

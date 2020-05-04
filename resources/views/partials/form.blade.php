@@ -61,7 +61,7 @@
 
 <div class="bg-prelibato text-center">
   <div class="copyright pb-3">
-    &copy; Copyright {{ now()->year }} <strong>Prelibato srl - P.IVA 05699060652</strong>. Tutti i diritti riservati. Leggi la nostra <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy policy.</a>
+    <strong>Prelibato è un'agenzia di food marketing e comunicazione | Prelibato srl - P.IVA 05699060652</strong>. &copy; Copyright {{ now()->year }}. Tutti i diritti riservati. Leggi la nostra <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy policy.</a>
   </div>
 </div>
 </footer><!-- fine footer -->
