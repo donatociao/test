@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')Prelibato | Food Marketing e Comunicazione in Campania a Eboli Salerno @endsection
-@section('description')Agenzia di marketing e comunicazione in Campania specializzata in food marketing. Grafica, comunicazione, siti web e digital marketing per aziende agroalimentari e ristoranti @endsection
+@section('description')Agenzia di food marketing e comunicazione in Campania. Grafica, comunicazione, siti web e digital marketing per aziende agroalimentari e ristoranti @endsection
 @section('canonical')https://prelibato.eu/ @endsection
 
 @section('content')
