@@ -33,7 +33,7 @@
             <li>Applicazioni Web</li>
             <li>e-Commerce</li>
             <li>Landing Pages</li>
-            <li>CMS</li>
+            <li>Blog</li>
           </ul>
         </div>
       </div>
