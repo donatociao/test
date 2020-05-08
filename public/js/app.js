@@ -373,6 +373,9 @@
   $('.close').on('click', function () {
     $('#navbarSupportedContent').toggle();
   });
+  $('.frew').on('click', function () {
+    console.log('donato');
+  });
 })(jQuery);
 
 /***/ }),

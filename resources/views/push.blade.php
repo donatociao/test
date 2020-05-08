@@ -5,7 +5,7 @@
 
 
 @section('content')
-  @include('partials.header')
+
   <div class="container">
     <h3 id="cosa-facciamo" class="ml1">
       <span class="text-wrapper">
@@ -44,4 +44,5 @@
     </div>
 
   @include('partials.form')
+
 @endsection

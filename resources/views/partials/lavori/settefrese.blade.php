@@ -42,7 +42,7 @@
       <div class="box">
         <div class="media">
           <div class="media-body">
-            <img class="img-fluid" src="{{asset('img/portfolio/settefrese/1.jpg')}}" alt="settefrese-logo">
+            <img class="img-fluid frew" src="{{asset('img/portfolio/settefrese/1.jpg')}}" alt="settefrese-logo">
           </div>
         </div>
       </div>

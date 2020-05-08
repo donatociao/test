@@ -1,10 +1,11 @@
 @extends('app')
 @section('content')
-@include('partials.header')
 
+{{-- Aggiungere if a ogni lavoro --}}
 @if(Route::current()->getName() == 'settefrese')
   @include('partials.lavori.settefrese')
 @endif
 
 @include('partials.form')
+
 @endsection

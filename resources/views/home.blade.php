@@ -5,7 +5,7 @@
 @section('canonical')https://prelibato.eu/ @endsection
 
 @section('content')
-  @include('partials.header')
+
   @include('partials.intro')
 
   <main id="main">

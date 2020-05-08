@@ -1,12 +1,10 @@
 @extends('app')
 
 @section('title')Prelibato | Portfolio - Food Marketing e Comunicazione in Campania a Eboli Salerno @endsection
-@section('description')Food marketing e comunicazione a agroalimentare in Campania. Etichette vino, etichette olio, siti web, ecommerce ristoranti, digital marketing per aziende agroalimentari e ristoranti @endsection
+@section('description') Food marketing e comunicazione a agroalimentare in Campania. Etichette vino, etichette olio, siti web, ecommerce ristoranti, digital marketing per aziende agroalimentari e ristoranti @endsection
 @section('canonical')https://prelibato.eu/portfolio @endsection
 
 @section('content')
-@include('partials.header')
-
   {{-- <div class="container mt-5 h-50">
     <div class="row">
       <div class="col-lg-12" id="cont-sx">
@@ -24,4 +22,5 @@
     <a target="_blank" title="Hai bisogno di aiuto? Scrivici una mail!" rel="noopener noreferrer" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
   </div>
   @include('partials.form')
+
 @endsection
