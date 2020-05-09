@@ -9,9 +9,9 @@
         <span class="navbar-toggler-icon d-flex justify-content-center"><i class="align-self-center fa fa-ellipsis-h"></i></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse wow fadeInRight" id="navbarSupportedContent" data-wow-duration="1s">
         <ul class="navbar-nav ml-auto">
-          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="close"><img class="w-50" src="{{asset('img/logo-burger.png')}}" alt="close"> </button>
           <li class="nav-item">
             <a class="nav-link" title="COSA FACCIAMO - Prelibato | Food Marketing e Comunicazione agroalimentare" href="{{route('home')."#cosa-facciamo"}}">cosa facciamo</a>
           </li>

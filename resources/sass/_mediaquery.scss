@@ -271,6 +271,12 @@ only screen and (min-resolution: 1.25dppx) {
     width: 100%;
   }
 
+  #navbarSupportedContent .nav-link {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+  }
+
   #intro .intro-info h2 {
     color: #413e66;
     font-size: 65px;
@@ -325,6 +331,12 @@ only screen and (min-resolution: 1.25dppx) {
 
   body {
     width: 100%;
+  }
+
+  #navbarSupportedContent .nav-link {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
   }
 
   #intro .intro-info h2 {

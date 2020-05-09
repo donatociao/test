@@ -38,7 +38,7 @@
 
 <div class="container mt-5 mb-5">
   <div class="row mt-5">
-    <div class="col-md-12 col-lg-12 wow zoomIn" data-wow-duration="1.4s">
+    <div class="col-md-12 col-lg-12" >
       <div class="box">
         <div class="media">
           <div class="media-body">

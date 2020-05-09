@@ -4043,6 +4043,8 @@ p{font-size:22px;}
 
  body{width:100%;}
 
+ #navbarSupportedContent .nav-link{font-size:28px;font-weight:700;color:white;}
+
  #intro .intro-info h2{color:#413e66;font-size:65px;font-weight:700;line-height:60px;margin-top:60px;font-family:"Montserrat",sans-serif;}
 
  #navbarSupportedContent{position:absolute;opacity:1;top:0;left:0;background-color:#fbd800;width:100vw;height:100vh;}
@@ -4062,6 +4064,8 @@ p{font-size:22px;}
 @media (min-width:481px) and (max-width:767px) and (orientation:landscape){html{width:100%;}
 
  body{width:100%;}
+
+ #navbarSupportedContent .nav-link{font-size:28px;font-weight:700;color:white;}
 
  #intro .intro-info h2{color:#413e66;font-size:65px;font-weight:700;line-height:60px;margin-top:60px;font-family:"Montserrat",sans-serif;}
 

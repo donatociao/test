@@ -254,6 +254,15 @@
   }).mouseout(function () {
     $('#img-cinque').removeClass('d-none');
     $('#img-dieci').addClass('d-none');
+  }); //footer
+
+  $('#footer').hover(function () {
+    $('#social-bar').addClass('remove-bar');
+  });
+  $('#footer').mouseover(function () {
+    $('#social-bar').addClass('remove-bar');
+  }).mouseout(function () {
+    $('#social-bar').removeClass('remove-bar');
   }); //animazione empatizziamo
 
   TweenLite.set(stepuno, {
@@ -354,27 +363,6 @@
       ease: Power1.easeInOut
     });
     $('#stepcinque').addClass('d-none');
-  }); //footer
-
-  $('#footer').hover(function () {
-    $('#social-bar').addClass('remove-bar');
-  });
-  $('#footer').mouseover(function () {
-    $('#social-bar').addClass('remove-bar');
-  }).mouseout(function () {
-    $('#social-bar').removeClass('remove-bar');
-  });
-  $('.nav-link').on('click', function () {
-    $('#navbarSupportedContent').toggle();
-  });
-  $('.navbar-toggler').on('click', function () {
-    $('#navbarSupportedContent').toggle();
-  });
-  $('.close').on('click', function () {
-    $('#navbarSupportedContent').toggle();
-  });
-  $('.frew').on('click', function () {
-    console.log('donato');
   });
 })(jQuery);
 
