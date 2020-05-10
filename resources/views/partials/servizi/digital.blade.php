@@ -7,7 +7,6 @@
     </h3>
   </div>
   <header class="section-header">
-    <h3></h3>
     <p></p>
   </header>
 <svg id="svganime" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.06 18.1">
@@ -21,7 +20,7 @@
         <div class="col-lg-6 mt-5">
           <h3 class="cta-title mt-3 onda-bianca"><br>Food Marketing <br>a misura d'uomo.</h3>
           <p><b>Una combinazione unica di strategia e design.</b></p>
-          <p>Siamo un'agenzia di food marketing e comunicazione a Eboli.</p>
+          <p>Siamo un'agenzia di food marketing e comunicazione in Campania, a Eboli.</p>
           <p>Il nostro approccio è basato su ricerca, analisi e creatività per generare soluzioni semplici, potenti e innovative. </p>
         </div>
         <div class="offset-lg-2 col-lg-4 mt-5">

@@ -87,7 +87,7 @@
             <button class="position-absolute close-icon"><i class="fa fa-times fa-2x " aria-hidden="true"></i></button>
             <div id="flow-content">
               <h4>Diamo forma alle idee.</h4>
-              <p>Trasformiamo le idee in realtà e continuiamo a coinvolgere gli utenti nell'evoluzione del progetto. Testiamo e intanto osserviamo, ascoltiamo e prendiamo appunti per generare un miglioramento continuo per aziende agricole, azienge agroalimentari, food brands e ristoranti.</p>
+              <p>Trasformiamo le idee in realtà e continuiamo a coinvolgere gli utenti nell'evoluzione del progetto. Testiamo e intanto osserviamo, ascoltiamo e prendiamo appunti per generare un miglioramento continuo per aziende agricole, aziende agroalimentari, food brands e ristoranti.</p>
             </div>
           </div>
         </div>
