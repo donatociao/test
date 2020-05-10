@@ -6,6 +6,11 @@
   @include('partials.lavori.settefrese')
 @endif
 
+{{-- Aggiungere if a ogni lavoro --}}
+@if(Route::current()->getName() == 'percorsi')
+  @include('partials.lavori.percorsi')
+@endif
+
 @include('partials.form')
 
 @endsection

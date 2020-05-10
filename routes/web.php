@@ -60,3 +60,7 @@ Route::get('/servizi/visual', function () {
 Route::get('/portfolio/settefrese', function () {
     return view('lavoro');
 })->name('settefrese');
+
+Route::get('/portfolio/percorsi', function () {
+    return view('lavoro');
+})->name('percorsi');
