@@ -10364,7 +10364,7 @@ nav ul li span:nth-child(4) {
 .social-bar {
   position: fixed;
   right: 20px;
-  top: 55%;
+  top: 50%;
   z-index: 9999;
   display: none;
 }
