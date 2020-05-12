@@ -37,7 +37,7 @@
         <a title="Clicca e scopri di più!" id="quattro" ><img class="img-fluid" id="img-quattro" src='img/9.png' alt="prototype"><img class="img-fluid d-none" id="img-nove" src='img/4.png' alt="prototype2"></a>
         <div class="spiego col-sm-12 d-lg-none d-md-none">
           <h4>Diamo forma alle idee.</h4>
-          <p>Trasformiamo le idee in realtà e continuiamo a coinvolgere gli utenti nell'evoluzione del progetto. Testiamo e intanto osserviamo, ascoltiamo e prendiamo appunti per generare un miglioramento continuo per aziende agricole, azienge agroalimentari, food brands e ristoranti.</p>
+          <p>Trasformiamo le idee in realtà e continuiamo a coinvolgere gli utenti nell'evoluzione del progetto. Testiamo e intanto osserviamo, ascoltiamo e prendiamo appunti per generare un miglioramento continuo per aziende agricole, aziende agroalimentari, food brands e ristoranti.</p>
         </div>
       </div>
       <div class="col-lg-2 col-md-2 col-sm-2 cinque wow zoomIn">
