@@ -21,8 +21,7 @@
         <div class="col-lg-6 mt-5">
           <h3 class="cta-title mt-3 onda-bianca"><br>Diamo forma alle idee.</h3>
           <p><b>Progettiamo visual unici e riconoscibili.</b></p>
-          <p>Ci occupiamo di graphic design a 360°.</p>
-          <p>Un'identità visiva memorabile è fondamentale per distinguerti dalla concorrenza. Con noi puoi!</p>
+          <p>Ci occupiamo di graphic design a 360° e creiamo progetti visivi memorabili per distinguerti dalla concorrenza. Con noi puoi!</p>
         </div>
         <div class="offset-lg-2 col-lg-4 mt-5">
           <div class="footer-links">

@@ -21,7 +21,8 @@
               <a target="_blank" rel="noopener noreferrer" title="Visita la pagina Facebook" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
               <a target="_blank" rel="noopener noreferrer" title="Seguici su Instagram" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
               <a target="_blank" rel="noopener noreferrer" title="Seguici su LinkedIn" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
-              <a target="_blank" rel="noopener noreferrer" title="Scrivici una mail" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
+              <a target="_blank" title="Seguici su Behance!" rel="noopener noreferrer" href="https://www.behance.net/prelibato" class="linkedin"><i class="fa fa-behance"></i></a>
+              <a target="_blank" title="Hai bisogno di aiuto? Scrivici una mail!" rel="noopener noreferrer" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
             </div>
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v6.0&appId=671623543590916&autoLogAppEvents=1"></script>

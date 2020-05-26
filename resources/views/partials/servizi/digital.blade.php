@@ -41,8 +41,14 @@
 
 <div class="container mt-5">
   <h3 class="cta-title mt-3 onda-bianca"><br>Tu produci, noi pensiamo alla tua<br>crescita.</h3>
+  <h4>Sviluppiamo <b>strategie di marketing e comunicazione</b> orientate alla crescita per aziende agricole, consorzi agroalimentari e operatori del settore food.
+Valorizziamo i punti di forza dei nostri clienti e progettiamo esperienze uniche e di valore.</h4>
   <div class="row mt-5">
-    <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
+    <div class="mt-5 col-lg-12">
+      <h2><b>Vuoi migliorare la tua comunicazione online?</b></h2>
+      <p>Siamo un team di consulenti <b>esperti in food marketing e comunicazione</b> e ti guidiamo nella crescita del tuo business e nella pianificazione strategica della tua presenza online.</p>
+    </div>
+    <div class="mt-5 col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
       <div class="box">
         <div class="media">
           <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="icona">
@@ -53,13 +59,13 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
+    <div class="mt-5 col-md-6 col-lg-6 wow zoomIn" data-wow-duration="1.4s">
       <div class="box">
         <div class="media">
           <img src="{{asset('/img/favicon/apple-icon-76x76.png')}}" class="mr-3" alt="icona">
           <div class="media-body">
             <h3 class="mt-0"><b>Social media management</b></h3>
-            <p>Ci prendiamo cura dei tuoi social e raccontiamo la tua azienda alle persone giuste, in modo efficacie e persuasivo.</p>
+            <p>Ci prendiamo cura dei tuoi social e raccontiamo la tua azienda alle persone giuste, in modo efficace e persuasivo.</p>
           </div>
         </div>
       </div>
@@ -111,6 +117,11 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="mt-5 col-lg-12 text-center">
+      <h2><b>Cerchi una soluzione su misura per la tua azienda?</b></h2>
+      <p>Il <b>Metodo Buono&trade;</b> è il sistema di consulenza dedicato alla crescita delle aziende del settore food & beverage. Un processo in <b>5 step per migliorare la tua comunicazione online</b> e costruire relazioni positive tra gli utenti e il tuo brand.</p>
+      <button type="button" class="btn cta-btn wow heartBeat mb-5" data-wow-delay="1.5s"><a class="click" title="Scopri il Metodo Buono!" href="{{route('buono')}}">SCOPRI IL METODO BUONO&trade;</a></button>
     </div>
   </div>
 </div>
