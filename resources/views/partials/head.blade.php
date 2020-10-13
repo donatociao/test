@@ -72,7 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "logo": "https://www.prelibato.eu/logo.png",
   "image": "https://www.prelibato.eu/logo.png",
   "priceRange" : "$$ - $$$",
-  "telephone": "+393270151051",
+  "telephone": "+3908281953233",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Via XXIV Maggio 9",
@@ -90,7 +90,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "contactPoint": {
     "@type": "ContactPoint",
     "email": "info@prelibato.eu",
-    "telephone": "+393270151051"
+    "telephone": "+3908281953233"
   },
   "aggregateRating": {
   "@type": "AggregateRating",
