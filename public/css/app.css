@@ -11008,6 +11008,10 @@ body {
   font-size: 24px;
 }
 
+.hubspot-link__container.sproket {
+  display: none;
+}
+
 .cta-btn {
   background-color: #FF7A59;
   color: white !important;

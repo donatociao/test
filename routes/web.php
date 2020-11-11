@@ -43,6 +43,11 @@ Route::get('/metodo-buono', function () {
     return view('landing.buono');
 })->name('buono');
 
+
+Route::get('/food-marketing', function () {
+  return view('landing.google');
+})->name('landing');
+
 //SERVIZI
 
 Route::get('/servizi/digital', function () {
