@@ -31,7 +31,7 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
-              <form>
+              {{-- <form>
                 <div class="form-group">
                   <input type="name" class="form-control" id="name" placeholder="Nome e cognome">
                 </div>
@@ -50,7 +50,14 @@
                   <label class="form-check-label" for="exampleCheck1">Accetto l'informativa sulla <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy.</a></label>
                 </div>
                 <button type="submit" class="btn text-blu bg-white">Invia</button>
-              </form>
+              </form> --}}
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              <script>
+                hbspt.forms.create({
+              	portalId: "7355049",
+              	formId: "aec6882c-cdd7-472d-b250-7b1a89ae8cca"
+              });
+              </script>
             </div>
           </div>
         </div>
