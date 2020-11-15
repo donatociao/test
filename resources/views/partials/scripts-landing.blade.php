@@ -29,11 +29,6 @@
 <script src="{{asset('lib/jquery/jquery-migrate.min.js')}}"></script>
 <script src="{{asset('js/jquery-ui.min.js')}}"></script>
 <script src="{{asset('lib/wow/wow.min.js')}}"></script>
-<script src="{{asset('js/wavify.min.js')}}"></script>
-<script src="{{asset('js/jquery.wavify.js')}}"></script>
-<script src="{{asset('js/anime.min.js')}}"></script>
-<script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
-<script src="{{asset('js/tweenmax.min.js')}}"></script>
 
 <!-- main js -->
 <script src="{{asset('js/menu.js')}}"></script>
