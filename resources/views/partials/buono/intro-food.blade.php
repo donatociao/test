@@ -5,14 +5,9 @@
       <div class="offset-md-1 col-md-7 intro-info">
         <h3 class="wow tada" data-wow-delay="1.5s" id="migliorare"><b>Prelibato è un'agenzia di food marketing</b> e comunicazione a Salerno</h3>
         <h1 class="wow FadeInLeft">Agenzia di food marketing</h1>
-        {{-- ctA --}}
           <p class="paragrafo-landing">Un team di<b> esperti in food marketing</b> dedicato alla tua crescita.<strong></strong></p>
-          <!-- Calendly link widget begin -->
-          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-          <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="2.5s" data-wow-iteration="2"><a class="click" title="Contattaci subito, senza impegno!" href="callto:+3908281953233">CHIAMACI ORA!</a></button>
-          <!-- Calendly link widget end -->
-          <!-- Calendly link widget begin -->
+        {{-- ctA --}}
+          <button type="button" class="btn cta-btn wow heartBeat mb-5" data-wow-delay="2.5s" data-wow-iteration="2"><a class="click" title="Contattaci subito, senza impegno!" href="callto:+3908281953233">CHIAMACI ORA!</a></button>
         {{-- ctA --}}
      </div>
      <div id="freccia-intro" class="col-md-4">

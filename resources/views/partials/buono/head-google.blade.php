@@ -7,17 +7,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <meta charset="utf-8">
-<title>Prelibato | Esperti in Food Marketing e Comunicazione in Campania</title>
+<title>Prelibato | Agenzia di Food Marketing e Comunicazione in Campania</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta lang=”it” content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
-<meta name="description" lang=”it” content="Prelibato è un'agenzia di comunicazione specializzata in food marketing e nel settore food & beverage. Ci occupiamo di food marketing, branding & logo design, web design e sviluppo siti web, ecommerce, digital marketing, social media marketing e gestione di campagne pubblicitarie.">
+<meta name="description" lang=”it” content="Prelibato è un'agenzia di food marketing e comunicazione in Campania. Ci occupiamo di marketing strategico, branding & logo design, web design e sviluppo siti web, ecommerce, digital marketing, social media marketing e gestione di campagne pubblicitarie.">
 <meta http-equiv=”content-language” content=”it”>
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Prelibato - Scopri il Metodo Buono™">
+<meta property="og:title" content="Prelibato - Agenzia di Food Marketing in Campania">
 <meta property="og:image" content="https://prelibato.eu/img/buono.jpg">
-<meta property="og:url" content="https://prelibato.eu/metodo-buono">
-<meta property="og:description" content="Un team di esperti in food marketing dedicato alla crescita del tuo business">
+<meta property="og:url" content="https://prelibato.eu/food-marketing">
+<meta property="og:description" content="Agenzia specializzata in Food Marketing e comunicazione in Campania">
 <meta property="og:locale" content="it_IT">
 
 <!-- Favicons -->
@@ -57,8 +57,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 {
   "@context": "http://www.schema.org",
   "@type": "LocalBusiness",
-  "name": "PRELIBATO - Agenzia di Food Marketing e Comunicazione a Eboli | Salerno",
-  "description": "Prelibato è un'agenzia di food marketing e comunicazione a Eboli Salerno. Ci occupiamo di graphic design, siti web, food marketing e comunicazione per food brand, aziende agroalimentari e ristoranti.",
+  "name": "PRELIBATO - Agenzia di Food Marketing e Comunicazione in Campania",
+  "description": "Prelibato è un'agenzia di food marketing e comunicazione in Campania. Ci occupiamo di graphic design, siti web, food marketing e comunicazione per food brand, aziende agroalimentari e ristoranti.",
   "url": "https://prelibato.eu",
   "sameAs": [
     "https://www.facebook.com/prelibato1/",

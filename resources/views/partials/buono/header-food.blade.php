@@ -2,7 +2,7 @@
 <header id="header">
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg bg-white fixed-top">
-      <a href="" title="Prelibato | Agenzia di Food Marketing e Comunicazione agroalimentare" class="navbar-brand scrollto">
+      <a href="" title="Prelibato | Agenzia di Food Marketing e Comunicazione in Campania" class="navbar-brand scrollto">
         <img id="logonav" src="{{ asset('img/logo-prelibato.png') }}" width="150" alt="logo navbar" class="img-fluid">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

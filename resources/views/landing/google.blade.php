@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html lang="it">
       <head>
-        @include('partials.buono.head-landing')
+        @include('partials.buono.head-google')
         <!-- Hotjar Tracking Code for https://prelibato.eu/metodo-buono -->
         <script>
           (function(h,o,t,j,a,r){
@@ -23,11 +23,12 @@
 
         @include('partials.buono.header-food')
         @include('partials.buono.intro-food')
+        @include('partials.buono.value-food')
 
         <main id="main">
             @include('partials.buono.form-google')
         </main>
-        
-        @include('partials.scripts')
+
+        @include('partials.scripts-landing')
       </body>
   </html>
