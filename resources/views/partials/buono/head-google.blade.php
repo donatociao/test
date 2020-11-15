@@ -9,7 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta charset="utf-8">
 <title>Prelibato | Agenzia di Food Marketing e Comunicazione in Campania</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta lang=”it” content="grafico, programmatore, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
+<meta lang=”it” content="agenzia marketing, agenzia food marketing, food marketing campania, grafico, grafica eboli, designer eboli, agenzia creativa eboli, agenzia di comunicazione eboli, marketing azienda agricola, etichette eboli, food marketing eboli, food design eboli, innovazione salerno, innovazione eboli, design thinking salerno, sito web eboli, sito web azienda agricola, gestione social eboli" name="keywords">
 <meta name="description" lang=”it” content="Prelibato è un'agenzia di food marketing e comunicazione in Campania. Ci occupiamo di marketing strategico, branding & logo design, web design e sviluppo siti web, ecommerce, digital marketing, social media marketing e gestione di campagne pubblicitarie.">
 <meta http-equiv=”content-language” content=”it”>
 <!-- Open Graph -->
@@ -43,7 +43,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link defer href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
 <!-- Librerie CSS  -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" rel="stylesheet">
 <link defer href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
