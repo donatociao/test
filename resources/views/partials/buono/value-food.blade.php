@@ -40,7 +40,7 @@
       </div>
       <div class="col-lg-6">
           <h3><b>Contattaci</b> subito per:</h3>
-          <h5><i class="far fa-check-circle text-success"></i> Acquisire nuovi clienti soddisfatti</h5>
+          <h5><i class="far fa-check-circle text-success"></i> Acquisire nuovi clienti nella tua zona</h5>
           <h5><i class="far fa-check-circle text-success"></i> Migliorare la tua comunicazione aziendale</h5>
           <h5><i class="far fa-check-circle text-success"></i> Sviluppare il tuo sito web con menù digitale</h5>
           <h5><i class="far fa-check-circle text-success"></i> Progettare un sistema di prenotazione online</h5>
