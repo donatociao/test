@@ -2,7 +2,7 @@
   <html lang="it">
       <head>
         @include('partials.buono.head-landing')
-        <!-- Hotjar Tracking Code for https://prelibato.eu/metodo-buono -->
+        {{-- <!-- Hotjar Tracking Code for https://prelibato.eu/metodo-buono -->
         <script>
           (function(h,o,t,j,a,r){
           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -12,7 +12,7 @@
           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
           a.appendChild(r);
           })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
+        </script> --}}
         <script src="https://kit.fontawesome.com/1b1dda8dd0.js" crossorigin="anonymous"></script>
       </head>
       <body>
@@ -61,16 +61,6 @@
                   <h5><i class="far fa-check-circle text-success"></i> Hai bisogno di far crescere il tuo brand</h5>
                   <h5><i class="far fa-check-circle text-success"></i> Stai pensando di iniziare a vendere online</h5>
                   <h5><i class="far fa-check-circle text-success"></i> Hai un budget da investire in marketing</h5>
-                </div>
-                <div class="col-lg-12 text-center mt-4">
-                  {{-- ctA --}}
-                    <p class="paragrafo-landing font-weight-bolder">Vuoi ricevere subito altre informazioni?</p>
-                    <p>Prenota una <b>prima consulenza gratuita in videoconferenza.</b> </p>
-                    <p>Un nostro esperto sarà a tua disposizione per fornirti tutte le informazioni di cui hai bisogno senza alcun impegno da parte tua</p>
-                    <!-- Calendly link widget begin -->
-                    <button type="button" class="btn cta-btn wow heartBeat" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
-                    <!-- Calendly link widget end -->
-                  {{-- ctA --}}
                 </div>
               </div>
             </div>
@@ -168,7 +158,7 @@
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-8">
-                  <h1 class="font-weight-bold">Brand & Business</h1>
+                  <h1 class="font-weight-bold">Business</h1>
                   <p>Nella prima fase <b>analizziamo a fondo il tuo business.</b> La comprensione profonda della tua azienda è la base da cui partiamo per progettare la strategia. L'obiettivo è differenziare il tuo prodotto e la tua azienda nella mente del cliente.</p>
                   <h4 class="font-weight-bold">1. Analizziamo il contesto</h4>
                   <p>Scendiamo in profondità analizzando il contesto per capire cosa è davvero importante per i clienti del tuo mercato.</p>
@@ -186,7 +176,7 @@
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-8">
-                  <h1 class="font-weight-bold">Unique Selling Proposition</h1>
+                  <h1 class="font-weight-bold">Unicità</h1>
                   <p>In questa fase <b>miglioriamo la tua comunicazione aziendale</b> per rappresentare l'unicità della tua offerta commerciale. Rendiamo evidenti i vantaggi per cui il cliente dovrebbe acquistare il tuo prodotto a discapito dei tuoi concorrenti.</p>
                   <h4 class="font-weight-bold">1. Analizziamo la tua offerta</h4>
                   <p>Analizziamo il tuo prodotto e definiamo le sue caratteristiche oggettive, i vantaggi e gli svantaggi che apporta ai tuoi clienti.</p>
@@ -204,7 +194,7 @@
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-8">
-                  <h1 class="font-weight-bold">Online Presence Analysis</h1>
+                  <h1 class="font-weight-bold">Online</h1>
                   <p>In questa fase <b>analizziamo la presenza online della tua azienda</b> in modo molto dettagliato. Il nostro scopo è individuare i migliori punti di contatto con i tuoi potenziali clienti e rendere piacevole il loro percorso verso l'acquisto dei tuoi prodotti.</p>
                   <h4 class="font-weight-bold">1. Analizziamo il posizionamento SERP</h4>
                   <p>Analizziamo la tua posizione sui motori di ricerca e individuiamo le criticità legate alla geolocalizzazione della tua azienda.</p>
@@ -222,7 +212,7 @@
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-8">
-                  <h1 class="font-weight-bold">Network Analysis</h1>
+                  <h1 class="font-weight-bold">Network</h1>
                   <p>In questa <b>analizziamo i fattori strategici del tuo business.</b> La creazione di partnership e alleanze strategiche permette di aumentare le possibilità di successo nel mercato.</p>
                   <h4 class="font-weight-bold">1. Analizziamo i fattori esterni</h4>
                   <p>Analizziamo i fattori esterni del ciclo produttivo e le caratteristiche dei tuoi fornitori chiave per identificare le opportunità di miglioramento del tuo prodotto.</p>
@@ -238,7 +228,7 @@
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-8">
-                  <h1 class="font-weight-bold">Obiettivi & Strategia</h1>
+                  <h1 class="font-weight-bold">Obiettivi</h1>
                   <p>In questa fase <b>definiamo la strategia operativa</b> per far crescere la tua azienda. Ti forniamo un'indicazione chiara e trasparente di tutto quello che faremo per la crescita della tua azienda.</p>
                   <h4 class="font-weight-bold">1. Fissiamo gli obiettivi da raggiungere</h4>
                   <p>Definiamo gli obiettivi e identifichiamo tutte le operazioni necessarie per raggiungerli (esempio: restyling del marchio, realizzazione sito web, realizzazione ecommerce, progettazione del packaging, lancio campagne promozionali online etc.)</p>

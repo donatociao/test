@@ -312,6 +312,4 @@
         });
         $('#stepcinque').addClass('d-none');
     });
-
-
 })(jQuery);

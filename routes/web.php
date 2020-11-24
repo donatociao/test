@@ -50,7 +50,7 @@ Route::get('/food-marketing', function () {
 
 //SERVIZI
 
-Route::get('/servizi/digital', function () {
+Route::get('/agenzia-food-marketing-campania', function () {
     return view('servizi');
 })->name('digital');
 
