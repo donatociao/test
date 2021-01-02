@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);@charset "UTF-8";@font-face{font-family:"Arvo";font-display:auto;src:local("Arvo"),url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");}
+@import url(http://fonts.googleapis.com/css?family=Montserrat);@charset "UTF-8";@font-face{font-family:"Arvo";font-display:auto;src:local("Arvo"),url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");font-display:swap;}
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -4092,6 +4092,8 @@ p{font-size:22px;}
 @media (min-width:320px) and (max-width:480px){html{width:100vw;}
 
  body{width:100%;}
+
+ #clicca-qui{display:none !important;}
 
  #header{width:100vw;}
 

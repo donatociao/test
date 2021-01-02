@@ -3,6 +3,7 @@
   font-family: "Arvo";
   font-display: auto;
   src: local("Arvo"), url("https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2") format("woff2");
+  font-display: swap;
 }
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -11008,10 +11009,6 @@ body {
   font-size: 24px;
 }
 
-.hubspot-link__container.sproket {
-  display: none;
-}
-
 .cta-btn {
   background-color: #FF7A59;
   color: white !important;
@@ -11566,6 +11563,10 @@ p {
 
   body {
     width: 100%;
+  }
+
+  #clicca-qui {
+    display: none !important;
   }
 
   #header {
