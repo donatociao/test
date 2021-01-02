@@ -25,7 +25,7 @@
             </div>
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v6.0&appId=671623543590916&autoLogAppEvents=1"></script>
-            <div class="fb-like mt-5" data-href="https://facebook.com/prelibato1" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>          </div>
+            <div class="fb-like mt-5" data-href="https://www.facebook.com/prelibatoFoodMarketing" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>          </div>
         </div>
         <div class="offset-lg-1 col-lg-6">
           <div class="footer-links">
