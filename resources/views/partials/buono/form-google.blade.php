@@ -32,7 +32,7 @@
               <b><i class="fa fa-envelope-o"></i></b> info@prelibato.eu<br>
             </p>
             <div class="social-links">
-              <a target="_blank" rel="noopener noreferrer" title="Visita la pagina Facebook" href="http://www.facebook.com/prelibato1" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" rel="noopener noreferrer" title="Visita la pagina Facebook" href="http://www.facebook.com/prelibatoFoodMarketing" class="facebook"><i class="fa fa-facebook"></i></a>
               <a target="_blank" rel="noopener noreferrer" title="Seguici su Instagram" href="https://www.instagram.com/_prelibato_/" class="instagram"><i class="fa fa-instagram"></i></a>
               <a target="_blank" rel="noopener noreferrer" title="Seguici su LinkedIn" href="https://www.linkedin.com/company/prelibatosrl " class="linkedin"><i class="fa fa-linkedin"></i></a>
               <a target="_blank" rel="noopener noreferrer" title="Scrivici una mail" href="mailto:info@prelibato.eu" class="linkedin"><i class="fa fa-envelope-o"></i></a>
