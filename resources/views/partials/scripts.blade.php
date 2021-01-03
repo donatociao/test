@@ -42,3 +42,12 @@
 <!-- main js -->
 <script src="{{asset('js/menu.js')}}"></script>
 <script src="{{asset('js/app.js')}}"></script>
+<script type='text/javascript'>
+var _hoid = _hoid || []; _hoid.push('ho_NzpZa6vjVxe4YkSAgR1P5MtmWyJUdfXT7sDFqQ8bcC0wE2n');
+var heyopath = (('https:' == document.location.protocol) ? 'https://www.heyoliver.com/webroot/ho-ui/v2/' :
+'http://www.heyoliver.com/webroot/ho-ui/v2/');
+var heyop = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+var heyospt = document.createElement('script'); heyospt.type = 'text/javascript';
+heyospt.async = true; heyospt.src = heyopath + 'ho2.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(heyospt, s);
+</script>
