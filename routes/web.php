@@ -43,10 +43,14 @@ Route::get('/metodo-buono', function () {
     return view('landing.buono');
 })->name('buono');
 
-
+//LANDING
 Route::get('/food-marketing', function () {
   return view('landing.google');
 })->name('landing');
+
+Route::get('/consulenza-gratuita', function () {
+  return view('landing.futuro');
+})->name('futuro');
 
 //SERVIZI
 
