@@ -13,7 +13,8 @@ Allow: /portfolio/
 Allow: /blog/
 Allow: /blog/aprire-un-ecommmerce/
 Allow: /blog/come-gestire-la-comunicazione-aziendale-ai-tempi-del-coronavirus/
-
+Allow: /blog/agenzia-food-marketing-guida-per-imprenditori/
+Allow: /agenzia-food-marketing-campania
 Sitemap: https://prelibato.eu/sitemap.xml
 
 # prelibato.eu - Coltiviamo idee.
