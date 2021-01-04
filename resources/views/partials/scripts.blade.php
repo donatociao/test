@@ -1,5 +1,5 @@
 <!-- Back-to-top & Preloader -->
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<a href="#" class="back-to-top d-none"><i class="fa fa-chevron-up"></i></a>
 <div id="preloader"></div>
 
 <script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
