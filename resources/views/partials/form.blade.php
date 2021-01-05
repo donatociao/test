@@ -9,7 +9,7 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="footer-links mb-5">
-            <h3 class="contattaci">Prendiamo un caffè?</h3>
+            <h3 class="contattaci">Parliamo di futuro.</h3>
             <p class="form-contact">
               <b>Prelibato srl</b><br>Via XXIV Maggio, 9<br>
               <span>84025 Eboli, SA - Italia<span><br><br>
