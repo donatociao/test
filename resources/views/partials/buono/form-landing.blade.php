@@ -30,13 +30,16 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
-              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              {{-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
               <script>
               hbspt.forms.create({
         	       portalId: "7355049",
         	        formId: "15b1228d-bccc-41ba-8c6e-2cf57fe65e7c"
                 });
-              </script>
+              </script> --}}
+
+              <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script>
+
             </div>
           </div>
         </div>
