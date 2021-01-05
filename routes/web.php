@@ -52,6 +52,10 @@ Route::get('/consulenza-gratuita', function () {
   return view('landing.futuro');
 })->name('futuro');
 
+Route::get('/grazie', function () {
+  return view('landing.thankyou');
+})->name('grazie');
+
 //SERVIZI
 
 Route::get('/agenzia-food-marketing-campania', function () {
