@@ -12,19 +12,20 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 col-sm-12 mb-5">
-              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+              {{-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
               <script>
                 hbspt.forms.create({
               	portalId: "7355049",
               	formId: "aec6882c-cdd7-472d-b250-7b1a89ae8cca"
               });
-              </script>
+              </script> --}}
+              <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script>
             </div>
           </div>
         </div>
         <div class="offset-lg-1 col-lg-5">
           <div class="footer-links mb-5">
-            <h3 class="contattaci">Prendiamo un caffè?</h3>
+            <h3 class="contattaci">Parliamo di futuro.</h3>
             <p class="form-contact">
               <b>Prelibato srl</b><br>Via XXIV Maggio, 9<br>
               <span>84025 Eboli, SA - Italia<span><br><br>
