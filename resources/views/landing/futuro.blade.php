@@ -136,7 +136,7 @@
           <div id="buono-intro" class="container d-flex h-100">
             <div class="row align-self-center w-100">
               <div class="offset-md-1 col-md-6 intro-info">
-                <h3 class="wow tada" data-wow-delay="1.5s" id="migliorare">Vuoi <b>iniziare a vendere online</b> e digitalizzare tua azienda?</h3>
+                <h3 class="wow tada" data-wow-delay="1.5s" id="migliorare">Vuoi <b>iniziare a vendere online</b> e digitalizzare la tua azienda?</h3>
                 <h1 class="wow FadeInLeft">Parliamo di futuro.</h1>
                 <h3 class="ondine">1 ORA DI CONSULENZA GRATUITA</h3>
                 {{-- ctA --}}
@@ -223,7 +223,7 @@
                   <div class="row">
                     <div class="col-lg-5">
                       <div class="footer-links mb-5">
-                        <h3 class="contattaci">Prendiamo un caffè?</h3>
+                        <h3 class="contattaci">Parliamo di futuro.</h3>
                         <p class="form-contact">
                           <b>Prelibato srl</b><br>Via XXIV Maggio, 9<br>
                           <span>84025 Eboli, SA - Italia<span><br><br>
