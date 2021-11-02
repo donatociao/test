@@ -11,7 +11,7 @@
           <div class="footer-links mb-5">
             <h3 class="contattaci">Parliamo di futuro.</h3>
             <p class="form-contact">
-              <b>Prelibato srl</b><br>Via XXIV Maggio, 9<br>
+              <b>Prelibato srl</b><br>Via S. Giovanni, 66<br>
               <span>84025 Eboli, SA - Italia<span><br><br>
               <b><i class="fa fa-phone"></i></b> <a href="callto:+3908281953233">+39 0828 19 53 233</a><br>
               <b><i class="fa fa-envelope-o"></i></b> info@prelibato.eu<br>

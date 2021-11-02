@@ -68,14 +68,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "https://www.behance.net/prelibato",
     "https://twitter.com/Prelibato1"
   ],
-  "hasMap": "https://maps.google.com/maps?cid=14817292774368009385",
+  "hasMap": "https://g.page/prelibato_foodmarketing?share",
   "logo": "https://www.prelibato.eu/logo.png",
   "image": "https://www.prelibato.eu/logo.png",
   "priceRange" : "$$ - $$$",
   "telephone": "+3908281953233",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Via XXIV Maggio 9",
+    "streetAddress": "Via S. Giovanni 66",
     "addressLocality": "Eboli",
     "addressRegion": "Salerno",
     "postalCode": "84025",
@@ -83,8 +83,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "40.6158294295374",
-    "longitude": "15.055656931257"
+    "latitude": "40.61325166396066",
+    "longitude": "15.050680153570243"
   },
   "openingHours": "Mo, Tu, We, Th, Fr 09:00-19:00",
   "contactPoint": {

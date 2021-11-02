@@ -77,7 +77,7 @@
           "telephone": "+3908281953233",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Via XXIV Maggio 9",
+            "streetAddress": "Via S. Giovanni 66",
             "addressLocality": "Eboli",
             "addressRegion": "Salerno",
             "postalCode": "84025",
