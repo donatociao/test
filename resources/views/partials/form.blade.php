@@ -31,7 +31,116 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
-              <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script>
+              {{-- <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script> --}}
+              <form name="VTEForm_19358d0a5f33950e215e2c13c7a7763a" action="http://62.171.164.61/vte2180/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+                  <p>
+                      <input type="hidden" name="publicid" value="19358d0a5f33950e215e2c13c7a7763a" />
+                      <input type="hidden" name="name" value="Landing Page food-marketing" />
+                  </p>
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Nome</label>
+                      <input type="text" value="" name="firstname" class="form-control" id="formGroupExampleInput"  required="true">
+                  </div>
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Cognome</label>
+                      <input type="text" value="" name="lastname" class="form-control" id="formGroupExampleInput"  required="true">
+                  </div>
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Email</label>
+                      <input type="text" value="" name="email" class="form-control" id="formGroupExampleInput"  required="true">
+                  </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Telefono</label>
+                            <input type="text" value="" name="phone" class="form-control" id="formGroupExampleInput"  required="true">
+                        </div>
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Azienda</label>
+                      <input type="text" value="" name="company" class="form-control" id="formGroupExampleInput"  required="true">
+                  </div>
+
+                  <input type="hidden" value="Web Site" name="leadsource" />
+                  <div class="form-group">
+                      <label for="formGroupExampleInput">Come possiamo aiutarti?</label>
+                      <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="6"></textarea>
+                  </div>
+                  <p>
+                      <select class="d-none" name="gdpr_privacypolicy" required="true">
+                          <option value="">--Prego Selezionare--</option>
+                          <option value="off">No</option>
+                          <option value="on" selected>Si`</option>
+                      </select>
+                  </p>
+                  <p>
+                      <select class="d-none" name="gdpr_personal_data" required="true">
+                          <option value="">--Prego Selezionare--</option>
+                          <option value="off">No</option>
+                          <option value="on" selected>Si`</option>
+                      </select>
+                  </p>
+                  <p>
+                      <input type="checkbox" class="d-none" name="gdpr_marketing">
+                  </p>
+                  <p>
+                      <select class="d-none" name="gdpr_profiling" required="true">
+                          <option value="">--Prego Selezionare--</option>
+                          <option value="off">No</option>
+                          <option value="on" selected>Si`</option>
+                      </select>
+                  </p>
+                  <p>
+                      <input style="color: white;" class="btn btn-orange" type="submit" value="Invia richiesta" />
+                  </p>
+              </form>
+
+              <script type="text/javascript">
+                  (function() {
+                      var M = navigator.userAgent.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+
+                      if (M[1] == 'Safari') {
+                          var vte_key = document.getElementsByName('publicid');
+                          if (!vte_key) return;
+
+                          var forms = document.getElementsByName('VTEForm_' + vte_key[0].value);
+
+                          for (var i = 0; i < forms.length; i++) {
+                              forms[i].noValidate = true;
+                              forms[i].addEventListener('submit', function(event) {
+                                  //Prevent submission if checkValidity on the form returns false.
+                                  if (!event.target.checkValidity()) {
+                                      event.preventDefault();
+                                      var inputs = event.target.getElementsByTagName('input');
+
+                                      for (var j = 0; j < inputs.length; ++j) {
+                                          if (inputs[j].validity && !inputs[j].validity.valid) {
+                                              var label = inputs[j].previousElementSibling.innerHTML;
+                                              alert('Non valido ' + label);
+                                              return false;
+                                          }
+                                      }
+                                      var selects = event.target.getElementsByTagName('select');
+                                      for (var j = 0; j < selects.length; ++j) {
+                                          if (selects[j].validity && !selects[j].validity.valid) {
+                                              var label = selects[j].previousElementSibling.innerHTML;
+                                              alert('Non valido ' + label);
+                                              return false;
+                                          }
+                                      }
+                                      var tarea = event.target.getElementsByTagName('textarea');
+                                      for (var j = 0; j < tarea.length; ++j) {
+                                          if (tarea[j].validity && !tarea[j].validity.valid) {
+                                              var label = tarea[j].previousElementSibling.innerHTML;
+                                              alert('Non valido ' + label);
+                                              return false;
+                                          }
+                                      }
+                                  }
+                              }, false);
+                          }
+                      }
+                  })();
+              </script>
+
+
 
               {{-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
               <script>
@@ -40,17 +149,18 @@
               	formId: "aec6882c-cdd7-472d-b250-7b1a89ae8cca"
               });
               </script> --}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
 
-<div class="bg-prelibato text-center">
-  <div class="copyright pb-3">
-    <strong>Prelibato è un'agenzia di food marketing e comunicazione | Prelibato srl - P.IVA 05699060652</strong>. &copy; Copyright {{ now()->year }}. Tutti i diritti riservati. Leggi la nostra <a title="Privacy & Cookie Policy" href="{{route('privacy')}}">Privacy policy.</a>
-  </div>
-</div>
-</footer><!-- fine footer -->
+              <div class="bg-prelibato text-center">
+                  <div class="copyright pb-3">
+                      <strong>Prelibato è un'agenzia di food marketing e comunicazione | Prelibato srl - P.IVA 05699060652</strong>. &copy; Copyright {{ now()->year }}. Tutti i diritti riservati. Leggi la nostra <a title="Privacy & Cookie Policy"
+                        href="{{route('privacy')}}">Privacy policy.</a>
+                  </div>
+              </div>
+              </footer><!-- fine footer -->

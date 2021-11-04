@@ -148,3 +148,7 @@ h6 {
     transform: rotate(360deg) scale(2);
   }
 }
+
+.descr::placeholder {
+  margin-top: 0;
+}

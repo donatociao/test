@@ -1,6 +1,6 @@
 <!-- Back-to-top & Preloader -->
 <a href="#" class="back-to-top d-none"><i class="fa fa-chevron-up"></i></a>
-<div id="preloader"></div>
+{{-- <div id="preloader"></div> --}}
 
 <script src="{{asset('lib/jquery/jquery.min.js')}}"></script>
 <script defer type="text/javascript" src="{{asset('lib/jquery.ihavecookies.min.js')}}"></script>

@@ -10200,6 +10200,22 @@ h6 {
     transform: rotate(360deg) scale(2);
   }
 }
+.descr::-webkit-input-placeholder {
+  margin-top: 0;
+}
+.descr::-moz-placeholder {
+  margin-top: 0;
+}
+.descr:-ms-input-placeholder {
+  margin-top: 0;
+}
+.descr::-ms-input-placeholder {
+  margin-top: 0;
+}
+.descr::placeholder {
+  margin-top: 0;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -10959,11 +10975,11 @@ body {
 }
 
 .form-control {
-  background-color: transparent;
   border-left: none;
   border-right: none;
   border-top: none;
-  border-bottom: 1px solid #413E66;
+  border-bottom: 2px solid #413E66;
+  border-radius: 0;
 }
 
 #form {
@@ -10977,6 +10993,11 @@ body {
 
 .form-check-label {
   color: #413E66 !important;
+}
+
+.btn-orange {
+  background-color: #FD7A59;
+  color: white !important;
 }
 
 #cont-sx h1,

@@ -3627,6 +3627,12 @@ h1,h2,h3,h4,h5,h6{font-family:"Montserrat",sans-serif;font-weight:400;margin:0 0
 @keyframes animate-preloader{0%{transform:rotate(0deg) scale(0);}
  100%{transform:rotate(360deg) scale(2);}
 }
+.descr::-webkit-input-placeholder{margin-top:0;}
+.descr::-moz-placeholder{margin-top:0;}
+.descr:-ms-input-placeholder{margin-top:0;}
+.descr::-ms-input-placeholder{margin-top:0;}
+.descr::placeholder{margin-top:0;}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -3865,13 +3871,15 @@ body{overflow-x:hidden;}
 
 .form-contact{font-size:20px;color:#413E66;}
 
-.form-control{background-color:transparent;border-left:none;border-right:none;border-top:none;border-bottom:1px solid #413E66;}
+.form-control{border-left:none;border-right:none;border-top:none;border-bottom:2px solid #413E66;border-radius:0;}
 
 #form{background-color:white;margin-top:100px;}
 
 .bg-prelibato{background-color:#FCE66D;}
 
 .form-check-label{color:#413E66 !important;}
+
+.btn-orange{background-color:#FD7A59;color:white !important;}
 
 #cont-sx h1,#cont-dx h1{font-size:32px;color:#413E66;font-weight:600;font-family:Montserrat;}
 
