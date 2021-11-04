@@ -19,8 +19,8 @@
               	formId: "aec6882c-cdd7-472d-b250-7b1a89ae8cca"
               });
               </script> --}}
-              {{-- <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script> --}}
-              <form name="VTEForm_19358d0a5f33950e215e2c13c7a7763a" action="http://62.171.164.61/vte2180/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+              <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script>
+              {{-- <form name="VTEForm_19358d0a5f33950e215e2c13c7a7763a" action="http://62.171.164.61/vte2180/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
                   <p>
                       <input type="hidden" name="publicid" value="19358d0a5f33950e215e2c13c7a7763a" />
                       <input type="hidden" name="name" value="Landing Page food-marketing" />
@@ -126,7 +126,7 @@
                           }
                       }
                   })();
-              </script>
+              </script> --}}
             </div>
           </div>
         </div>
