@@ -37,7 +37,7 @@
                     <input type="hidden" name="publicid" value="fc0e3c9012d35ad0950111cf52e3fc7c" />
                     <input type="hidden" name="name" value="Form sito web " />
                 </p> --}}
-<form name="VTEForm_7b8d990ddedc783eadf08260c0428a9c" action="http://crm.prelibato.eu/vte2344/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+<form name="VTEForm_7b8d990ddedc783eadf08260c0428a9c" action="https://crm.prelibato.eu/vte2344/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
     <p>
         <input type="hidden" name="publicid" value="7b8d990ddedc783eadf08260c0428a9c" />
         <input type="hidden" name="name" value="Form Landing /food-marketing" />
