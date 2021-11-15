@@ -37,11 +37,11 @@
                     <input type="hidden" name="publicid" value="fc0e3c9012d35ad0950111cf52e3fc7c" />
                     <input type="hidden" name="name" value="Form sito web " />
                 </p> --}}
-<form name="VTEForm_7b8d990ddedc783eadf08260c0428a9c" action="http://62.171.164.61/vte2344/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
-    <p>
-        <input type="hidden" name="publicid" value="7b8d990ddedc783eadf08260c0428a9c" />
-        <input type="hidden" name="name" value="Form Landing /food-marketing" />
-    </p>
+                <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+                	<p>
+                		<input type="hidden" name="publicid" value="e9ee4b983b4c1e17ca62d8d52c35099b" />
+                		<input type="hidden" name="name" value="Form web /food-marketing" />
+                	</p>
                 <div class="form-group">
                     <label for="formGroupExampleInput">Nome</label>
                     <input type="text" value="" name="firstname" class="form-control" id="formGroupExampleInput" required="true">
