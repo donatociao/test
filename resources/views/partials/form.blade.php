@@ -1,6 +1,6 @@
   <!-- Footer -->
 <svg id="svganime" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.06 18.1">
-  <style>.cls-1{fill:#fce76d;}</style>
+  <style>.cls-1{fill:#fce76d;} .form-group.required .control-label:after{content:"*";color:red;}</style>
   <path id="footerwave" class="cls-1" d="M391.06,0c-48.88,0-48.88,11.34-97.77,11.34S244.41,0,195.52,0,146.64,11.34,97.76,11.34,48.88,0,0,0V18.1H391.06Z"/>
 </svg>
 <footer id="footer" class="section-bg">
@@ -42,30 +42,30 @@
                 		<input type="hidden" name="publicid" value="e9ee4b983b4c1e17ca62d8d52c35099b" />
                 		<input type="hidden" name="name" value="Form web /food-marketing" />
                 	</p>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Nome</label>
+                <div class="form-group required">
+                    <label class="control-label" for="firstname">Nome</label>
                     <input type="text" value="" name="firstname" class="form-control" id="formGroupExampleInput" required="true">
                 </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Cognome</label>
+                <div class="form-group required">
+                    <label class="control-label" for="lastname">Cognome</label>
                     <input type="text" value="" name="lastname" class="form-control" id="formGroupExampleInput" required="true">
                 </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Email</label>
+                <div class="form-group required">
+                    <label class="control-label" for="email">Email</label>
                     <input type="text" value="" name="email" class="form-control" id="formGroupExampleInput" required="true">
                 </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Telefono</label>
+                <div class="form-group required">
+                    <label class="control-label" for="phone">Telefono</label>
                     <input type="text" value="" name="phone" class="form-control" id="formGroupExampleInput" required="true">
                 </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Azienda</label>
+                <div class="form-group required">
+                    <label class="control-label" for="company">Azienda</label>
                     <input type="text" value="" name="company" class="form-control" id="formGroupExampleInput" required="true">
                 </div>
 
                 <input type="hidden" value="Web Site" name="leadsource" />
                 <div class="form-group">
-                    <label for="formGroupExampleInput">Come possiamo aiutarti?</label>
+                    <label for="description">Come possiamo aiutarti?</label>
                     <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="6"></textarea>
                 </div>
                 <p>
