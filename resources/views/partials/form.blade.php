@@ -91,6 +91,7 @@
                         <option value="off">No</option>
                         <option value="on" selected>Si`</option>
                     </select>
+                     <div class="g-recaptcha" data-sitekey="6Ld0fmkdAAAAALQJMGdKM-rkCV50O2doR-O6E8T8"></div>
                 </p>
                 <p>
                     <input style="color: white;" class="btn btn-orange" type="submit" value="Invia richiesta" />

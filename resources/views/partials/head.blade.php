@@ -48,6 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" rel="stylesheet">
 <link defer href="{{asset('lib/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 
 <!-- Stile -->
@@ -99,3 +100,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+
+{{-- ReCaptcha --}}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
