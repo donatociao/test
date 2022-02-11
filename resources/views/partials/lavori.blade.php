@@ -14,6 +14,16 @@
     {{-- RIGA TEMPLATE --}}
     <div class="row st-row">
       <div class="col-md-5 col-lg-5 wow fadeInUp" data-wow-duration="1.5s">
+        <a title="Clicca e apri il progetto" href="{{route('cucu')}}">
+          <div class="box" id="boxuno">
+            <h1 class="title">CUCÙ</h1>
+            <span>branding | advertising | digital strategy</span>
+          </div>
+        </a>
+        <p>Due giovani imprenditori che hanno voluto fare del proprio locale un porto sicuro per gli amanti del gusto, con un'offerta che va dalla colazione, all’aperitivo, alla gastronomia take away.</p>
+        <a title="Clicca e apri il progetto" href="{{route('cucu')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/cucu/copertina.gif')}}" alt="Cucù Progetto"></a>
+      </div>
+      <div class="offset-lg-2 offset-md-2 offset-sm-2 col-md-5 col-lg-5 wow fadeInUp" data-wow-duration="1.5s">
         <a title="Clicca e apri il progetto" href="{{route('settefrese')}}">
           <div class="box" id="boxuno">
             <h1 class="title">SETTEFRESE</h1>
@@ -23,7 +33,7 @@
         <p>Una storia d'amore per la propria terra, in contrada Settefrese. Maichol è un giovane e ambizioso agricoltore e ci ha chiesto di progettare un nuovo brand per la sua azienda.</p>
         <a title="Clicca e apri il progetto" href="{{route('settefrese')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/settefrese/6.jpg')}}" alt="settefrese-bottiglia"></a>
       </div>
-      <div class="offset-lg-2 offset-md-2 offset-sm-2 col-md-5 col-lg-5 wow fadeInUp" data-wow-duration="1.5s">
+      <div class="mt-5 col-md-5 col-lg-5 wow fadeInUp" data-wow-duration="1.5s">
         <a title="Clicca e apri il progetto" href="{{route('percorsi')}}">
           <div class="box" id="boxuno">
             <h1 class="title">PERCORSI</h1>
@@ -35,6 +45,6 @@
       </div>
     </div>
     {{-- FINE RIGA TEMPLATE --}}
-    
+
   </div>
 </section><!-- fine portfolio -->

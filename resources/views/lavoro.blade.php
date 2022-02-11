@@ -11,6 +11,11 @@
   @include('partials.lavori.percorsi')
 @endif
 
+{{-- Aggiungere if a ogni lavoro --}}
+@if(Route::current()->getName() == 'cucu')
+  @include('partials.lavori.cucu')
+@endif
+
 @include('partials.form')
 
 @endsection

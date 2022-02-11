@@ -77,3 +77,7 @@ Route::get('/portfolio/settefrese', function () {
 Route::get('/portfolio/percorsi', function () {
     return view('lavoro');
 })->name('percorsi');
+
+Route::get('/portfolio/cucu', function () {
+    return view('lavoro');
+})->name('cucu');
