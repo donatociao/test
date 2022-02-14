@@ -1,5 +1,5 @@
-@section('title')Prelibato | Settefrese - Food Marketing e Comunicazione in Campania @endsection
-@section('description')Prelibato è un'agenzia di marketing e comunicazione a Eboli, Salerno. Food marketing e comunicazione per aziende agricole, agroalimentari e ristoranti @endsection
+@section('title')Prelibato | Cucù - Food Marketing e Comunicazione in Campania @endsection
+@section('description')Creare un locale in cui poter tornare bambini giocando col gusto e sentirsi in famiglia. @endsection
 @section('canonical')https://prelibato.eu/portfolio/cucu @endsection
 
 <!-- Settefrese -->
