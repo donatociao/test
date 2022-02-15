@@ -26,7 +26,7 @@
         @include('partials.buono.value-food')
 
         <main id="main">
-            @include('partials.buono.form-google')
+            @include('partials.form')
         </main>
 
         @include('partials.scripts-landing')
