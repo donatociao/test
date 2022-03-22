@@ -98,10 +98,10 @@
 
                   <div class="row">
                     <div class="mt-3 offset-lg-1 offset-md-1 offset-sm-1 col-md-10 col-lg-10 wow zoomIn text-center" data-wow-duration="1.4s">
-                      <h2>Abbiamo un unico obiettivo! <b><br>La crescita della tua azienda.</b> <br><br> Prenota subito la tua <strong>prima consulenza gratuita</strong></h2>
+                      <h2>Abbiamo un unico obiettivo! <b><br>La crescita della tua azienda.</b> <br><br><strong>Scopri subito tutte le fasi.</strong></h2>
                     {{-- ctA --}}
                       <!-- Calendly link widget begin -->
-                      <button type="button" class="btn cta-btn wow heartBeat mb-5" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button>
+                      {{-- <button type="button" class="btn cta-btn wow heartBeat mb-5" data-wow-delay="1.5s"><a class="click" title="Scegli subito la data più comoda per te!" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prelibatosrl/metodo-buono'});return false;">PRENOTA UNA CONSULENZA GRATUITA</a></button> --}}
                       <!-- Calendly link widget end -->
                     {{-- ctA --}}
                     </div>

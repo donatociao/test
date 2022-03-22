@@ -81,3 +81,7 @@ Route::get('/portfolio/percorsi', function () {
 Route::get('/portfolio/cucu', function () {
     return view('lavoro');
 })->name('cucu');
+
+Route::get('/portfolio/giannattasio', function () {
+    return view('lavoro');
+})->name('giannattasio');
