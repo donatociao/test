@@ -156,7 +156,7 @@
   <div class="row mt-5">
     <div class="col-lg-12">
       <p>Nel 2020, quando il mondo si è fermato a causa della pandemia, Sally e Gianfranco hanno deciso di andare avanti e di guardare lontano, senza mai perdere di vista le proprie radici. Noi li abbiamo seguiti, guidandoli su nuove strade.
-Così è nato GIÀ, il brand di Giannattasio Nocciole dedicato al mondo del cioccolato.</p>
+Così è nato <b>GIÀ, il brand di Giannattasio Nocciole dedicato al mondo del cioccolato.</b></p>
     </div>
   </div>
   <div class="row mt-5">
@@ -402,7 +402,7 @@ Così è nato GIÀ, il brand di Giannattasio Nocciole dedicato al mondo del cioc
   </div>
   <div class="row mt-5">
     <div class="col-lg-12">
-      <p>Ci siamo occupati della progettazione del nuovo sito web aziendale, integrando un sistema di vendita online. Diamo voce al brand grazie ai canali social, creando contenuti con l’obiettivo di consolidare i valori, aumentare la notorietà e stimolare l’acquisto dei prodotti.</p>
+      <p>Ci siamo occupati della progettazione del <b>nuovo sito web aziendale</b>, integrando un sistema di vendita online. Diamo voce al brand grazie ai canali social, creando contenuti con l’obiettivo di consolidare i valori, aumentare la notorietà e stimolare l’acquisto dei prodotti.</p>
     </div>
   </div>
   <div class="row mt-4">
