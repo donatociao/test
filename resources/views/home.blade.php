@@ -11,6 +11,8 @@
   <main id="main">
     @include('partials.chisiamo')
     @include('partials.cosafacciamo')
+    {{-- @include('partials.lavori') --}}
+    @include('partials.portfolio')
     @include('partials.comelavoriamo')
   </main>
 
