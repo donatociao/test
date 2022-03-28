@@ -33,7 +33,7 @@
         <p>Due giovani imprenditori che hanno voluto fare del proprio locale un porto sicuro per gli amanti del gusto, con un'offerta che va dalla colazione, all’aperitivo, alla gastronomia take away.</p>
         <a title="Clicca e apri il progetto" href="{{route('cucu')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/cucu/copertina.gif')}}" alt="Cucù Progetto"></a>
       </div>
-      <div class="col-md-5 col-lg-5 wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-md-5 col-lg-5 mt-5 wow fadeInUp" data-wow-duration="1.5s">
         <a title="Clicca e apri il progetto" href="{{route('settefrese')}}">
           <div class="box" id="boxuno">
             <h1 class="title">SETTEFRESE</h1>
