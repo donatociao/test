@@ -30,16 +30,6 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
-
-              {{-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-              <script>
-              hbspt.forms.create({
-        	       portalId: "7355049",
-        	        formId: "15b1228d-bccc-41ba-8c6e-2cf57fe65e7c"
-                });
-              </script> --}}
-
-              {{-- <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script> --}}
               <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
                 <p>
                   <input type="hidden" name="publicid" value="e9ee4b983b4c1e17ca62d8d52c35099b" />
@@ -94,11 +84,7 @@
                       <option value="off">No</option>
                       <option value="on" selected>Si`</option>
                   </select>
-                  {{-- <div class="form-group" required="true">
-<div class="g-recaptcha" data-sitekey="6Ld0fmkdAAAAALQJMGdKM-rkCV50O2doR-O6E8T8" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-<input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
-<div class="help-block with-errors"></div>
-</div> --}}
+
               </p>
               <p>
                   <input style="color: white;" class="btn btn-orange" type="submit" value="Invia richiesta" />

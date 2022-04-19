@@ -5,9 +5,9 @@
       <div class="offset-md-1 col-md-7 intro-info">
         <h3 class="wow tada" data-wow-delay="1.5s" id="migliorare"><b>Prelibato è un'agenzia di food marketing</b> e comunicazione a Salerno</h3>
         <h1 class="wow FadeInLeft">Agenzia di food marketing</h1>
-          <p class="paragrafo-landing">Un team di<b> esperti in food marketing</b> dedicato alla tua crescita.<strong></strong></p>
+          <p class="paragrafo-landing">Un team di <b>consulenti specializzati</b> in food marketing e comunicazione per portare la tua azienda al successo.<strong></strong></p>
         {{-- ctA --}}
-          <button type="button" class="btn cta-btn wow heartBeat mb-5" data-wow-delay="2.5s" data-wow-iteration="2"><a class="click" title="Contattaci subito, senza impegno!" href="callto:+3908281953233">CHIAMACI ORA!</a></button>
+          <button type="button" class="btn cta-btn wow heartBeat mb-5 float-right" data-wow-delay="2.5s" data-wow-iteration="2"><a class="click" title="Contattaci subito, senza impegno!" href="callto:+3908281953233">CHIAMA ORA!</a></button>
         {{-- ctA --}}
      </div>
      <div id="freccia-intro" class="col-md-4">
