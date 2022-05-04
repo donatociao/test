@@ -13,19 +13,28 @@
   </div>
     <div class="row st-row g-0">
 
-      <div class="col-md-4 col-lg-4 wow fadeInUp " data-wow-duration="1.5s">
+      <div class="col-md-3 col-lg-3 wow fadeInUp " data-wow-duration="1.5s">
         <a title="Clicca e apri il progetto" href="{{route('giannattasio')}}">
           <img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/giannattasio/copertina.gif')}}" alt="Giannattasio Progetto">
         </a>
       </div>
 
-      <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="1.5s">
+        <a title="Clicca e apri il progetto" href="{{route('colella')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/colella/copertina.gif')}}" alt="Colella Pizzeria Contemporanea"></a>
+      </div>
+
+      <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="1.5s">
         <a title="Clicca e apri il progetto" href="{{route('cucu')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/cucu/copertina.gif')}}" alt="Cucù Progetto"></a>
       </div>
 
-      <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="1.5s">
         <a title="Clicca e apri il progetto" href="{{route('percorsi')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/percorsi/2.gif')}}" alt="percorsi-visual"></a>
       </div>
+
+      {{-- <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-duration="1.5s">
+        <a title="Clicca e apri il progetto" href="{{route('percorsi')}}"><img class="img-fluid" data-wow-duration="1.5s" src="{{asset('img/portfolio/percorsi/2.gif')}}" alt="percorsi-visual"></a>
+      </div> --}}
+
     </div>
 
 </div>
