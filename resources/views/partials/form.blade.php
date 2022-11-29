@@ -95,12 +95,12 @@
 <div class="g-recaptcha" data-sitekey="6Ld0fmkdAAAAALQJMGdKM-rkCV50O2doR-O6E8T8" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
 <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
 <div class="help-block with-errors"></div>
-</div>
+</div> --}}
                 </p>
                 <p>
                     <input style="color: white;" class="btn btn-orange" type="submit" value="Invia richiesta" />
                 </p>
-            </form> --}}
+            </form>
 
             {{-- <script type="text/javascript">
                 (function() {
