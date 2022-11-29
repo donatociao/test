@@ -30,7 +30,7 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
-              <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+              {{-- <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
                 <p>
                   <input type="hidden" name="publicid" value="e9ee4b983b4c1e17ca62d8d52c35099b" />
                   <input type="hidden" name="name" value="Form web /food-marketing" />
@@ -89,9 +89,11 @@
               <p>
                   <input style="color: white;" class="btn btn-orange" type="submit" value="Invia richiesta" />
               </p>
-          </form>
+          </form> --}}
+          <script src="https://crm.prelibato.eu/js/embed.js"></script>
+<div id="agiled-embed" data-path="form/embed/56926-TMAMTyAcPETefABz2avI"></div>
 
-          <script type="text/javascript">
+          {{-- <script type="text/javascript">
               (function() {
                   var M = navigator.userAgent.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
 
@@ -137,7 +139,7 @@
                       }
                   }
               })();
-          </script>
+          </script> --}}
 
             </div>
           </div>

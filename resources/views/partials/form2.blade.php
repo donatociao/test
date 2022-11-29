@@ -32,11 +32,16 @@
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
               {{-- <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script> --}}
-              <form name="VTEForm_5fd61d7a1907b23c3f4eb6233b7cd6f4" action="http://62.171.164.61/test/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+              {{-- <form name="VTEForm_5fd61d7a1907b23c3f4eb6233b7cd6f4" action="http://62.171.164.61/test/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
               	<p>
               		<input type="hidden" name="publicid" value="5fd61d7a1907b23c3f4eb6233b7cd6f4" />
               		<input type="hidden" name="name" value="test" />
-              	</p>
+              	</p> --}}
+                <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+	<p>
+		<input type="hidden" name="publicid" value="e9ee4b983b4c1e17ca62d8d52c35099b" />
+		<input type="hidden" name="name" value="Form web /food-marketing" />
+	</p>
               									<p>
               				<label>First Name</label>
               															<input type="text" value="" name="firstname"  />
