@@ -16,6 +16,6 @@
     @include('partials.comelavoriamo')
   </main>
 
-  @include('partials.form')
+  @include('partials.form2')
 
 @endsection
