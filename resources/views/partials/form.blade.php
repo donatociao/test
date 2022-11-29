@@ -31,13 +31,13 @@
           <div class="footer-links">
             <h3 class="contattaci">Contattaci</h3>
             <div class="col-lg-12 mb-5">
-              {{-- <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script> --}}
-              {{-- <form name="VTEForm_fc0e3c9012d35ad0950111cf52e3fc7c" action="http://crm.prelibato.eu/prod/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+              {{--   <script src="https://clienti.prelibato.eu/frm/S6QKWauiUGY5kTM.js"></script>
+            <form name="VTEForm_fc0e3c9012d35ad0950111cf52e3fc7c" action="http://crm.prelibato.eu/prod/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
                 <p>
                     <input type="hidden" name="publicid" value="fc0e3c9012d35ad0950111cf52e3fc7c" />
                     <input type="hidden" name="name" value="Form sito web " />
                 </p> --}}
-                {{-- <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
+                 <form name="VTEForm_e9ee4b983b4c1e17ca62d8d52c35099b" action="https://foodmarketingacademy.it/vte/modules/Webforms/capture.php" method="post" accept-charset="utf-8">
                 	<p>
                 		<input type="hidden" name="publicid" value="e9ee4b983b4c1e17ca62d8d52c35099b" />
                 		<input type="hidden" name="name" value="Form web /food-marketing" />
@@ -95,7 +95,7 @@
 <div class="g-recaptcha" data-sitekey="6Ld0fmkdAAAAALQJMGdKM-rkCV50O2doR-O6E8T8" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
 <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
 <div class="help-block with-errors"></div>
-</div> 
+</div>
                 </p>
                 <p>
                     <input style="color: white;" class="btn btn-orange" type="submit" value="Invia richiesta" />
@@ -148,9 +148,11 @@
                         }
                     }
                 })();
-            </script> --}}
-            <script src="https://crm.prelibato.eu/js/embed.js"></script>
-            <div id="agiled-embed" data-path="form/embed/56926-TMAMTyAcPETefABz2avI"></div>
+            </script>
+
+            {{-- FORM AGILED --}}
+            {{-- <script src="https://crm.prelibato.eu/js/embed.js"></script>
+            <div id="agiled-embed" data-path="form/embed/56926-TMAMTyAcPETefABz2avI"></div> --}}
 
 
             {{-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
@@ -160,6 +162,8 @@
               	formId: "aec6882c-cdd7-472d-b250-7b1a89ae8cca"
               });
               </script> --}}
+
+
             </div>
             </div>
             </div>
